@@ -12,7 +12,7 @@ Tracks: SDE, Python, Java, DevOps, AI/ML.
 
 ## Run it
 
-- **GitHub Pages:** Settings → Pages → Deploy from branch → `master` / root. The site will be at `https://venkynani1.github.io/Jobs-Dashboard-/`.
+- **GitHub Pages:** Settings → Pages → Deploy from branch → `main` / root. The site will be at `https://venkynani1.github.io/Jobs-Dashboard-/`.
 - **Locally:** `python3 -m http.server` in this folder, then open http://localhost:8000 (opening the file directly blocks loading `jobs.json`).
 
 ## Job record format
