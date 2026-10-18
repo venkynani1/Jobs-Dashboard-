@@ -104,7 +104,7 @@ function enrich(j) {
 
 // ======================================================================
 // state
-const state = { board: null, builtin: null, q: "", cat: "all", track: "All", ctype: "all", sal: 0, city: "all", sort: "company", newOnly: false, hideApplied: false, tab: "jobs", trkFilter: "all" };
+const state = { board: null, appCfg: {}, q: "", cat: "all", track: "All", ctype: "all", sal: 0, city: "all", sort: "company", newOnly: false, hideApplied: false, tab: "jobs", trkFilter: "all" };
 const TRK = "jobRadarTracker", PROF = "jobRadarProfile";
 let tracker = LS.get(TRK, null);
 if (!tracker) { // migrate old "applied" ticks
@@ -118,7 +118,8 @@ const ST_COLOR = { "Offer": ["--fresh-soft", "--fresh"], "Rejected": ["--warn-so
 const SOURCES = ["Job Radar", "LinkedIn", "Naukri", "Company site", "Referral", "Campus / Drive", "Other"];
 const saveTracker = () => { LS.set(TRK, tracker); renderTrackerCount(); };
 const trackedJob = id => tracker.find(t => t.jobId === id);
-const activeResume = () => LS.get(PROF, null) || state.builtin;
+const activeResume = () => LS.get(PROF, null);
+function needProfile() { const d = $("dlg"), b = $("dlgBody"); b.textContent = ""; b.append(el("h3", { text: "Set up your resume first" }), el("p", { text: "Tailored resumes are built from your own profile. Upload your LinkedIn PDF or fill the form once — it stays in your browser only." }), el("div", { class: "actions" }, el("button", { class: "btn primary", type: "button", text: "Go to Profile & resume", onclick: () => { d.close(); showTab("profile"); } }), el("button", { class: "btn", type: "button", text: "Cancel", onclick: () => d.close() }))); d.showModal(); }
 
 // ======================================================================
 // JOBS
@@ -269,10 +270,10 @@ function downloadWord(html, name) {
 }
 function openResume(j) {
   const d = $("dlg"), b = $("dlgBody"); b.textContent = "";
-  if (!activeResume() || !window.renderResume) { b.append(el("p", { text: "Resume data is still loading. Try again in a moment." })); d.showModal(); return; }
+  if (!activeResume()) { needProfile(); return; }
   const a = analyse(j);
   b.append(el("div", { class: "row", style: "justify-content:space-between" }, el("h3", { text: "Resume for " + j.company }), el("button", { class: "btn", type: "button", text: "✕", onclick: () => d.close() })));
-  b.append(el("div", { class: "note", text: j.role + " · using " + (LS.get(PROF, null) ? "your uploaded profile" : "the built-in resume") }));
+  b.append(el("div", { class: "note", text: j.role + " · built from your profile (" + (activeResume().name || "") + ")" }));
   b.append(el("div", {}, el("span", { class: "score", text: a.score + "% " }), el("span", { class: "note", text: "keyword match with your resume" })));
   const bar = el("div", { class: "bar" }); const i = el("i"); i.style.width = a.score + "%"; bar.append(i); b.append(bar);
   if (a.have.length) { b.append(el("b", { text: "Matched — moved to the top of your resume" })); const k = el("div", { class: "kw" }); a.have.forEach(s => k.append(el("span", { class: "ok", text: s }))); b.append(k); }
@@ -379,22 +380,26 @@ const GM_RULES = [
   ["Online Assessment", /assessment|online test|coding (test|challenge|round)|hackerrank|codility|hackerearth|mettl|amcat|test link|aptitude|codesignal/i],
   ["Application Received", /thank you for (applying|your application|your interest)|application (has been )?(received|submitted)|we have received your application|successfully applied|application confirmation|application was sent|applied (to|for)|received your application/i]
 ];
+function gmailClientId() { return LS.get(GM_KEY, "") || (state.appCfg && state.appCfg.gmailClientId) || ""; }
 function gmailUI(msg) {
   const box = $("gmailBox"); box.textContent = "";
-  const id = LS.get(GM_KEY, "");
+  const shared = state.appCfg && state.appCfg.gmailClientId;
   const card = el("div", { class: "card" });
   card.append(el("h2", { text: "Gmail updates" }));
   if (msg) card.append(msg);
-  const cid = el("input", { value: id, placeholder: "xxxxxxxx.apps.googleusercontent.com" });
-  card.append(el("div", { class: "form" }, el("label", { class: "wide" }, "Google OAuth Client ID (one-time setup)", cid)));
-  card.append(el("div", { class: "actions" }, el("button", { class: "btn primary", type: "button", text: "Connect & scan last 60 days", onclick: () => { LS.set(GM_KEY, cid.value.trim()); scanGmail(cid.value.trim()); } }), el("button", { class: "btn", type: "button", text: "Close", onclick: () => box.textContent = "" })));
-  card.append(el("details", {}, el("summary", { text: "One-time setup (about 10 minutes, free)" }), el("ol", {},
-    el("li", {}, "Open console.cloud.google.com → create a project (any name)."),
-    el("li", {}, "APIs & Services → Library → search \"Gmail API\" → Enable."),
-    el("li", {}, "OAuth consent screen → External → fill app name + your email → Scopes: add gmail.readonly → Test users: add venkateshragipati048@gmail.com (and anyone else who uses this app)."),
-    el("li", {}, "Credentials → Create credentials → OAuth client ID → Web application → Authorized JavaScript origins: " + location.origin + " → Create."),
-    el("li", {}, "Copy the Client ID into the box above and click Connect. Google will warn the app is unverified — that's expected for your own test app; continue."),
-    el("li", {}, "Access is read-only, the token stays in this browser tab, and no email leaves your browser."))));
+  card.append(el("p", { class: "note", text: "Sign in with the Gmail you apply from. Access is read-only, happens only in this browser tab, and nothing is stored on any server." }));
+  const cid = el("input", { value: LS.get(GM_KEY, ""), placeholder: "xxxxxxxx.apps.googleusercontent.com" });
+  card.append(el("div", { class: "actions" },
+    el("button", { class: "btn primary", type: "button", text: "Sign in with Google & scan last 60 days", onclick: () => { if (cid.value.trim() !== LS.get(GM_KEY, "")) LS.set(GM_KEY, cid.value.trim()); scanGmail(gmailClientId()); } }),
+    el("button", { class: "btn", type: "button", text: "Close", onclick: () => box.textContent = "" })));
+  if (shared) card.append(el("p", { class: "note", text: "If Google says \"access blocked\" or \"app not verified / not a test user\", ask the person who runs this app to add your Gmail address as a test user — it takes them a minute." }));
+  card.append(el("details", { open: shared ? null : "" }, el("summary", { text: shared ? "Advanced: use your own Google Client ID" : "One-time setup for the app owner (about 10 minutes, free)" }),
+    el("div", { class: "form" }, el("label", { class: "wide" }, "Google OAuth Client ID (leave empty to use this app's)", cid)),
+    el("ol", {},
+      el("li", {}, "console.cloud.google.com → create a project → APIs & Services → Library → enable \"Gmail API\"."),
+      el("li", {}, "Google Auth Platform → Branding (app name, your email) → Audience: External, add test users (every Gmail that will use the app, up to 100) → Data Access: add gmail.readonly."),
+      el("li", {}, "Clients → Create client → Web application → Authorized JavaScript origins: " + location.origin + " → Create, copy the Client ID."),
+      el("li", {}, "Owner: put it in config/app.json as {\"gmailClientId\": \"…\"} so every user just signs in. Or paste it in the box above for this browser only."))));
   box.append(card);
 }
 
@@ -418,11 +423,11 @@ function guessCompany(from, subj, snippet) {
 }
 function loadGis() { return new Promise((res, rej) => { if (window.google && google.accounts && google.accounts.oauth2) return res(); const s = el("script", { src: "https://accounts.google.com/gsi/client" }); s.onload = res; s.onerror = () => rej(new Error("Couldn't load Google sign-in")); document.head.append(s); }); }
 async function scanGmail(clientId) {
-  if (!/apps\.googleusercontent\.com$/.test(clientId)) { gmailUI(el("p", { class: "errmsg", text: "Paste a valid OAuth Client ID first (see setup below)." })); return; }
+  if (!/apps\.googleusercontent\.com$/.test(clientId || "")) { gmailUI(el("p", { class: "errmsg", text: "Gmail isn't set up for this app yet — see the setup steps below." })); return; }
   try {
     await loadGis();
     const token = await new Promise((res, rej) => {
-      const tc = google.accounts.oauth2.initTokenClient({ client_id: clientId, scope: "https://www.googleapis.com/auth/gmail.readonly", callback: r => r.error ? rej(new Error(r.error)) : res(r.access_token) });
+      const tc = google.accounts.oauth2.initTokenClient({ client_id: clientId, scope: "https://www.googleapis.com/auth/gmail.readonly", callback: r => r.error ? rej(new Error(r.error === "access_denied" ? "access denied — if Google said you're not a test user, ask the app owner to add your Gmail." : r.error)) : res(r.access_token), error_callback: e => rej(new Error(e && e.type === "popup_closed" ? "sign-in window was closed" : (e && e.message) || "sign-in failed")) });
       tc.requestAccessToken();
     });
     gmailUI(el("p", { class: "note", text: "Scanning your inbox…" }));
@@ -516,7 +521,9 @@ function showEditor(r, base) {
 function readEditor() { const f = {}; $("profForm").querySelectorAll("[data-k]").forEach(i => f[i.dataset.k] = i.value); return fromForm(f, editingBase); }
 function renderProfile() {
   const p = LS.get(PROF, null);
-  $("profWho").textContent = p ? `Using your uploaded profile: ${p.name || "(no name)"}. Every "Resume for this job" download is built from it.` : `Using the built-in resume${state.builtin ? " (" + state.builtin.name + ")" : ""}. Upload your own LinkedIn PDF to use yours instead — it stays in this browser only.`;
+  $("profWho").textContent = p ? `Profile saved in this browser: ${p.name || "(no name)"}. Every "Resume for this job" download is built from it.` : "No profile yet. Upload your LinkedIn PDF (or start from a blank form) to create your base resume. It is saved only in this browser — nothing is uploaded or stored anywhere else.";
+  $("profEditBuiltin").textContent = p ? "Edit my profile" : "Start from a blank form";
+  $("profReset").hidden = !p; $("profExport").hidden = !p;
 }
 async function handlePdf(file) {
   const msg = $("profMsg"); msg.textContent = "Reading your PDF…"; msg.className = "note";
@@ -545,21 +552,25 @@ $("newOnly").onchange = e => { state.newOnly = e.target.checked; renderJobs(); }
 $("hideApplied").onchange = e => { state.hideApplied = e.target.checked; renderJobs(); };
 $("resetF").onclick = resetFilters;
 $("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); renderJobs(); });
-$("baseResume").onclick = $("profDl").onclick = () => { const r = activeResume(); if (r) downloadPDF(renderResume(r, null), fileBase(null)); };
+$("baseResume").onclick = $("profDl").onclick = () => { const r = activeResume(); if (!r) { needProfile(); return; } downloadPDF(renderResume(r, null), fileBase(null)); };
 $("trkAdd").onclick = addManual; $("trkExport").onclick = exportExcel;
 $("trkImport").onchange = e => { if (e.target.files[0]) importExcel(e.target.files[0]); e.target.value = ""; };
 $("trkFilter").onchange = e => { state.trkFilter = e.target.value; renderTracker(); };
 $("gmailBtn").onclick = () => gmailUI(null);
 $("liPdf").onchange = e => { if (e.target.files[0]) handlePdf(e.target.files[0]); e.target.value = ""; };
-$("profEditBuiltin").onclick = () => { const src = LS.get(PROF, null) || state.builtin; if (src) showEditor(src, src); };
-$("profReset").onclick = () => { if (LS.get(PROF, null) && !confirm("Remove your uploaded profile from this browser and use the built-in resume?")) return; LS.del(PROF); $("profEditor").hidden = true; renderProfile(); };
+const BLANK = { name: "", title: "", contact: {}, summary: "", skills: [], experience: [], projects: [], achievements: [], certifications: [], education: [] };
+$("profEditBuiltin").onclick = () => { const src = LS.get(PROF, null) || BLANK; showEditor(src, src); };
+$("profReset").onclick = () => { if (!confirm("Delete your profile from this browser? Export it first if you want a backup.")) return; LS.del(PROF); $("profEditor").hidden = true; renderProfile(); };
+$("profExport").onclick = () => { const p = LS.get(PROF, null); if (!p) return; const a = el("a", { href: URL.createObjectURL(new Blob([JSON.stringify(p, null, 2)], { type: "application/json" })), download: (p.name || "my").replace(/\s+/g, "_") + "_profile.json" }); document.body.append(a); a.click(); a.remove(); };
+$("profImport").onchange = e => { const f = e.target.files[0]; e.target.value = ""; if (!f) return; f.text().then(t => { const r = JSON.parse(t); if (!r || !r.name) throw new Error("no name in file"); LS.set(PROF, r); renderProfile(); $("profMsg").className = "okmsg"; $("profMsg").textContent = "Profile loaded: " + r.name + "."; }).catch(err => { $("profMsg").className = "errmsg"; $("profMsg").textContent = "Couldn't load that file: " + err.message; }); };
 $("profSave").onclick = () => { const r = readEditor(); if (!r.name) { alert("Add your name first."); return; } LS.set(PROF, r); renderProfile(); $("profMsg").className = "okmsg"; $("profMsg").textContent = "Saved. All resume downloads now use this profile."; };
 $("profPreview").onclick = () => downloadPDF(renderResume(readEditor(), null), "Preview");
 BOARDS.forEach(([n, d, u]) => $("boards").append(el("a", { class: "lk", href: u, target: "_blank", rel: "noopener" }, el("strong", { text: n }), el("span", { text: d }))));
 PORTALS.forEach(([n, u]) => $("portals").append(el("a", { class: "lk", href: u, target: "_blank", rel: "noopener" }, el("strong", { text: n }), el("span", { text: new URL(u).hostname.replace(/^www\./, "") }))));
 renderControls(); renderTrackerCount();
 const nocache = { cache: "no-store" };
-fetch("resume/resume.json?t=" + Date.now(), nocache).then(r => r.json()).then(r => { state.builtin = r; renderProfile(); }).catch(() => { });
+fetch("config/app.json?t=" + Date.now(), nocache).then(r => r.ok ? r.json() : {}).then(c => { state.appCfg = c || {}; }).catch(() => { });
+renderProfile();
 Promise.all([
   fetch("config/companies.json?t=" + Date.now(), nocache).then(r => r.json()).catch(() => ({})),
   fetch("data/jobs.json?t=" + Date.now(), nocache).then(r => r.json())

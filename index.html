@@ -184,16 +184,18 @@ details ol{margin:6px 0;padding-left:20px;font-size:13.5px}
   <!-- PROFILE -->
   <section class="panel" id="tab-profile" hidden>
     <div class="card">
-      <h2>Whose resume is used?</h2>
+      <h2>Your resume profile</h2>
       <p class="sub" id="profWho"></p>
       <div class="row">
         <label class="btn primary" style="cursor:pointer">⬆ Upload LinkedIn profile PDF<input type="file" id="liPdf" accept="application/pdf" hidden></label>
-        <button class="btn" type="button" id="profEditBuiltin">Edit a copy of the built-in resume</button>
-        <button class="btn" type="button" id="profReset">Use built-in resume</button>
+        <button class="btn" type="button" id="profEditBuiltin">Start from a blank form</button>
+        <label class="btn" style="cursor:pointer">⬆ Load profile file (.json)<input type="file" id="profImport" accept=".json,application/json" hidden></label>
+        <button class="btn" type="button" id="profExport">⬇ Save profile file (backup)</button>
         <button class="btn plum" type="button" id="profDl">⬇ Download base resume</button>
+        <button class="btn" type="button" id="profReset">Delete my profile</button>
       </div>
       <details><summary>How to get your LinkedIn PDF</summary>
-        <ol><li>Open your LinkedIn profile on a computer (Me → View Profile).</li><li>Click <b>Resources</b> (or <b>More</b>) under your name → <b>Save to PDF</b>.</li><li>Upload that file here. It is read inside your browser and never uploaded anywhere.</li></ol>
+        <ol><li>Open your LinkedIn profile on a computer (Me → View Profile).</li><li>Click <b>Resources</b> (or <b>More</b>) under your name → <b>Save to PDF</b>.</li><li>Upload that file here. It is read inside your browser and never uploaded anywhere.</li><li>Use "Save profile file" to keep a backup or move your profile to another device/browser.</li></ol>
       </details>
       <div id="profMsg"></div>
     </div>
