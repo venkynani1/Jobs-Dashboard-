@@ -377,7 +377,7 @@ const GM_RULES = [
   ["Rejected", /unfortunately|regret to inform|not (be )?moving forward|move forward with other|other candidates|not been selected|not selected|will not be proceeding|position has been filled|decided not to proceed/i],
   ["Interview Scheduled", /interview|schedule (a|your) (call|discussion)|technical round|hr round|meet the team|invitation to (a )?discussion/i],
   ["Online Assessment", /assessment|online test|coding (test|challenge|round)|hackerrank|codility|hackerearth|mettl|amcat|test link|aptitude|codesignal/i],
-  ["Application Received", /thank you for (applying|your application|your interest)|application (has been )?(received|submitted)|we have received your application|successfully applied|application confirmation/i]
+  ["Application Received", /thank you for (applying|your application|your interest)|application (has been )?(received|submitted)|we have received your application|successfully applied|application confirmation|application was sent|applied (to|for)|received your application/i]
 ];
 function gmailUI(msg) {
   const box = $("gmailBox"); box.textContent = "";
@@ -397,10 +397,28 @@ function gmailUI(msg) {
     el("li", {}, "Access is read-only, the token stays in this browser tab, and no email leaves your browser."))));
   box.append(card);
 }
+
+const PLATFORMS = /^(linkedin|naukri|indeed|foundit|monster|instahyre|hackerrank|codility|hackerearth|mettl|glassdoor|internshala|wellfound|angellist|cutshort|superset|unstop|hirist|iimjobs|apna|shine|timesjobs|gmail|googlemail|outlook|yahoo|myworkday|myworkdayjobs|workday|greenhouse|lever|smartrecruiters|icims|successfactors|taleo|oraclecloud|ashbyhq|zohorecruit|keka|darwinbox|freshteam|naukrimail)$/i;
+function sourceOf(from) { const f = from.toLowerCase(); return /linkedin/.test(f) ? "LinkedIn" : /naukri/.test(f) ? "Naukri" : "Other"; }
+function roleOf(subj) { const r = subj.match(/application (?:received|submitted|confirmation)\s*[:\-–]\s*([^|]{3,60})/i); if (r) return r[1].trim(); const m = subj.match(/(?:for (?:the )?(?:role|position|post) of|for (?:the )?position|application for|applying for|applied for)\s*[:\-]?\s*(?:the\s+)?([A-Z][^|,;–\-]{2,60}?)(?:\s+(?:at|with|role|position)\b|[|,;–]|$)/i); return m ? m[1].trim() : ""; }
+function guessCompany(from, subj, snippet) {
+  const text = subj + " | " + (snippet || "");
+  const pats = [/^(?:\S+\s+)?([A-Z][\w&.]+(?:\s+[A-Z][\w&.]+){0,2}) invites you/, /\b(?:test|assessment|interview|challenge) (?:for|from|with)\s+([A-Z][\w&.]+(?:\s+[A-Z][\w&.]+){0,2})(?=\s*[!.,|–\-]|\s*$)/, /application (?:was )?sent to\s+([^,|–\-:]+)/i, /(?:thank you for (?:applying|your (?:application|interest)) (?:to|at|in|with))\s+([A-Z][\w&. ]{1,40}?)(?=[!.,|–\-]|\s+for\b|$)/i, /your application (?:to|with|at)\s+([A-Z][\w&. ]{1,40}?)(?=[!.,|–\-]|\s+for\b|$)/i, /\bat\s+([A-Z][\w&.]+(?:\s+[A-Z][\w&.]+){0,3})\s*(?:[!.,|–\-]|$)/];
+  for (const rx of pats) { const m = rx.source.includes("invites you") ? (snippet || "").match(rx) : /test\|assessment/.test(rx.source) ? subj.match(rx) : text.match(rx); if (m && m[1] && !PLATFORMS.test(m[1].trim())) return m[1].trim().slice(0, 40); }
+  const name = (from.match(/^\s*"?([^"<]+?)"?\s*</) || [, ""])[1]
+    .replace(/\b(careers?|recruit(ing|ment|er)?s?|talent( acquisition)?( team)?|hiring( team)?|hr( team)?|jobs?|team|no-?reply|do not reply|via workday|notifications?|people|campus|university|india|ta)\b/gi, "")
+    .replace(/[|@:\-–]+/g, " ").replace(/\s+/g, " ").trim();
+  if (name && name.length >= 2 && !PLATFORMS.test(name) && !/\s@|\d{3,}/.test(name)) return name.slice(0, 40);
+  const addr = (from.match(/([a-z0-9._%+-]+)@([a-z0-9.-]+)/i) || [, "", ""]);
+  if (/myworkday|workday|icims|taleo|successfactors/i.test(addr[2]) && addr[1] && !/no-?reply|notification|donotreply/i.test(addr[1])) return addr[1].length <= 4 ? addr[1].toUpperCase() : addr[1].charAt(0).toUpperCase() + addr[1].slice(1);
+  const dom = addr[2].toLowerCase().split(".");
+  const sld = dom.length >= 2 ? dom[dom.length - (/^(co|com|org|net)$/.test(dom[dom.length - 2]) ? 3 : 2)] : "";
+  if (sld && !PLATFORMS.test(sld)) return sld.charAt(0).toUpperCase() + sld.slice(1);
+  return null;
+}
 function loadGis() { return new Promise((res, rej) => { if (window.google && google.accounts && google.accounts.oauth2) return res(); const s = el("script", { src: "https://accounts.google.com/gsi/client" }); s.onload = res; s.onerror = () => rej(new Error("Couldn't load Google sign-in")); document.head.append(s); }); }
 async function scanGmail(clientId) {
   if (!/apps\.googleusercontent\.com$/.test(clientId)) { gmailUI(el("p", { class: "errmsg", text: "Paste a valid OAuth Client ID first (see setup below)." })); return; }
-  if (!tracker.length) { gmailUI(el("p", { class: "errmsg", text: "Add applications to the tracker first — Gmail updates are matched to them." })); return; }
   try {
     await loadGis();
     const token = await new Promise((res, rej) => {
@@ -412,16 +430,18 @@ async function scanGmail(clientId) {
     const q = 'newer_than:60d -in:sent (application OR applying OR applied OR interview OR assessment OR offer OR unfortunately OR shortlisted OR "next steps" OR hackerrank OR codility OR "test link" OR candidature)';
     const list = await api("messages?maxResults=100&q=" + encodeURIComponent(q));
     const msgs = await Promise.all((list.messages || []).map(m => api(`messages/${m.id}?format=metadata&metadataHeaders=Subject&metadataHeaders=From&metadataHeaders=Date`).catch(() => null)));
-    const props = [];
+    const props = [], found = new Map();
     msgs.filter(Boolean).forEach(m => {
       const h = n => ((m.payload.headers || []).find(x => x.name === n) || {}).value || "";
       const subj = h("Subject"), from = h("From"), date = new Date(Number(m.internalDate)).toISOString().slice(0, 10);
       const text = (subj + " " + m.snippet).replace(/&#39;/g, "'");
       const hay = (from + " " + text).toLowerCase();
       const rule = GM_RULES.find(([, rx]) => rx.test(text)); if (!rule) return;
+      let matched = false;
       tracker.forEach(t => {
         const words = (t.company || "").toLowerCase().replace(/\(.*?\)/g, "").split(/[^a-z0-9&]+/).filter(w => w.length >= 3 && !["the", "and", "india", "technologies", "technology", "global", "services", "solutions", "limited", "ltd", "pvt", "inc", "group", "tech", "corp", "corporation", "software", "labs", "consulting", "systems", "careers"].includes(w));
         if (!words.length || !words.some(w => new RegExp("(^|[^a-z0-9])" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "([^a-z0-9]|$)").test(hay))) return;
+        matched = true;
         const cur = t.status || "Applied", nxt = rule[0];
         const better = nxt === "Offer" || nxt === "Rejected" ? !["Offer", "Rejected", "Withdrawn"].includes(cur) : (RANK[nxt] > (RANK[cur] || 0));
         if (!better) return;
@@ -429,15 +449,31 @@ async function scanGmail(clientId) {
         if (!prev) props.push(cand);
         else if (RANK[nxt] > RANK[prev.status] || (RANK[nxt] === RANK[prev.status] && date > prev.date)) Object.assign(prev, cand);
       });
+      if (!matched) { // an application the tracker doesn't know about yet
+        const co = guessCompany(from, subj, m.snippet || ""); if (!co) return;
+        const k = co.toLowerCase(); if (tracker.some(t => (t.company || "").toLowerCase() === k)) return;
+        const f = found.get(k), cand = { company: co, status: rule[0], date, subj, from, source: sourceOf(from) };
+        if (!f) found.set(k, { ...cand, first: date });
+        else { if (date < f.first) f.first = date; if (RANK[rule[0]] > RANK[f.status] || (RANK[rule[0]] === RANK[f.status] && date > f.date)) Object.assign(f, cand); }
+      }
     });
-    const box = el("div");
-    if (!props.length) box.append(el("p", { class: "okmsg", text: `Scanned ${msgs.filter(Boolean).length} recent recruiting emails — no status changes for your tracked applications.` }));
-    else {
-      box.append(el("p", { class: "note", text: `Found ${props.length} possible update(s). Review and apply:` }));
-      const checks = [];
+    const box = el("div"); const checks = [], adds = [];
+    const scanned = msgs.filter(Boolean).length;
+    if (!props.length && !found.size) box.append(el("p", { class: "okmsg", text: `Scanned ${scanned} recent recruiting emails — nothing new for your tracker.` }));
+    if (props.length) {
+      box.append(el("b", { text: `Status updates for tracked applications (${props.length})` }));
       props.forEach(p => { const c = el("input", { type: "checkbox" }); c.checked = true; checks.push([c, p]); box.append(el("label", { class: "idea", style: "display:flex;gap:8px;align-items:flex-start" }, c, el("span", {}, el("b", { text: `${p.t.company}: ${p.t.status} → ${p.status}` }), `${p.date} · ${p.subj} · ${p.from.replace(/<.*?>/, "").trim()}`))); });
-      box.append(el("button", { class: "btn primary", type: "button", text: "Apply selected updates", onclick: () => { checks.forEach(([c, p]) => { if (c.checked) { p.t.status = p.status; p.t.lastUpdate = p.date; p.t.evidence = `${p.date}: ${p.subj}`; } }); saveTracker(); renderTracker(); gmailUI(el("p", { class: "okmsg", text: "Tracker updated." })); } }));
     }
+    if (found.size) {
+      box.append(el("b", { text: `Applications found in Gmail that aren't in your tracker (${found.size})` }));
+      [...found.values()].sort((a, b) => b.date.localeCompare(a.date)).forEach(f => { const c = el("input", { type: "checkbox" }); c.checked = true; adds.push([c, f]); box.append(el("label", { class: "idea", style: "display:flex;gap:8px;align-items:flex-start" }, c, el("span", {}, el("b", { text: `${f.company} — ${f.status}` }), `${f.date} · ${f.subj} · ${f.from.replace(/<.*?>/, "").trim()}`))); });
+      box.append(el("p", { class: "note", text: "Company names are guessed from the sender and subject — untick anything that isn't a job application, and fix names or roles in the table afterwards." }));
+    }
+    if (props.length || found.size) box.append(el("button", { class: "btn primary", type: "button", text: "Apply selected", onclick: () => {
+      checks.forEach(([c, p]) => { if (c.checked) { p.t.status = p.status; p.t.lastUpdate = p.date; p.t.evidence = `${p.date}: ${p.subj}`; } });
+      adds.forEach(([c, f]) => { if (c.checked) tracker.unshift({ uid: "t" + Math.random().toString(36).slice(2, 9), company: f.company, role: roleOf(f.subj), appliedOn: f.first, source: f.source, status: f.status, lastUpdate: f.date, followUp: ["Offer", "Rejected"].includes(f.status) ? "" : addDays(f.date, 7), notes: "", evidence: `${f.date}: ${f.subj}` }); });
+      saveTracker(); renderTracker(); gmailUI(el("p", { class: "okmsg", text: "Tracker updated." }));
+    } }));
     gmailUI(box);
   } catch (e) { gmailUI(el("p", { class: "errmsg", text: "Gmail check failed: " + e.message })); }
 }
