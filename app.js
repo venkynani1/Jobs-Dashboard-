@@ -118,7 +118,8 @@ const ST_COLOR = { "Offer": ["--fresh-soft", "--fresh"], "Rejected": ["--warn-so
 const SOURCES = ["Job Radar", "LinkedIn", "Naukri", "Company site", "Referral", "Campus / Drive", "Other"];
 const saveTracker = () => { LS.set(TRK, tracker); renderTrackerCount(); };
 const trackedJob = id => tracker.find(t => t.jobId === id);
-const activeResume = () => LS.get(PROF, null);
+let _ar = { raw: null, val: null };
+const activeResume = () => { let raw = ""; try { raw = localStorage.getItem(PROF) || ""; } catch (e) { } if (raw !== _ar.raw) { let v = null; try { v = raw ? JSON.parse(raw) : null; } catch (e) { } _ar = { raw, val: v }; } return _ar.val; };
 function needProfile() { const d = $("dlg"), b = $("dlgBody"); b.textContent = ""; b.append(el("h3", { text: "Set up your resume first" }), el("p", { text: "Tailored resumes are built from your own profile. Upload your LinkedIn PDF or fill the form once — it stays in your browser only." }), el("div", { class: "actions" }, el("button", { class: "btn primary", type: "button", text: "Go to Profile & resume", onclick: () => { d.close(); showTab("profile"); } }), el("button", { class: "btn", type: "button", text: "Cancel", onclick: () => d.close() }))); d.showModal(); }
 
 // ======================================================================
@@ -176,6 +177,11 @@ function renderJobs() {
   if (state.sort === "company") entries.sort((a, b) => a[0].localeCompare(b[0]));
   if (state.sort === "new") entries.sort((a, b) => (b[1].some(j => j.isNew) - a[1].some(j => j.isNew)) || a[0].localeCompare(b[0]));
   if (state.sort === "salary") entries.sort((a, b) => Math.max(...b[1].map(smax)) - Math.max(...a[1].map(smax)));
+  if (state.sort === "posted") { const pd = j => j.postedOn || ""; entries.forEach(e => e[1].sort((a, b) => pd(b).localeCompare(pd(a)))); entries.sort((a, b) => pd(b[1][0]).localeCompare(pd(a[1][0]))); }
+  if (state.sort === "best") {
+    if (!activeResume()) { box.append(el("div", { class: "empty" }, "Best-match sorting needs your resume profile. ", el("button", { class: "btn", type: "button", text: "Set up profile", onclick: () => showTab("profile") }))); }
+    else { const sc = j => matchScore(j); entries.forEach(e => e[1].sort((a, b) => sc(b) - sc(a))); entries.sort((a, b) => sc(b[1][0]) - sc(a[1][0])); }
+  }
   entries.forEach(([co, list]) => {
     const card = el("article", { class: "co" });
     const t = list[0].companyType;
@@ -192,7 +198,7 @@ function jobRow(j) {
   const row = el("div", { class: "job" + (tr ? " applied" : "") });
   row.append(el("div", { class: "role", text: j.role || "Role" }));
   const meta = el("div", { class: "meta" });
-  [j.location, j.experience, j.batch, j.foundOn ? "Found " + j.foundOn : null].filter(Boolean).forEach(t => meta.append(el("span", { text: t })));
+  [j.location, j.experience, j.batch, j.postedOn ? "Posted " + ago(j.postedOn) : (j.foundOn ? "Found " + j.foundOn : null)].filter(Boolean).forEach(t => meta.append(el("span", { text: t })));
   if (j.salary && j.salary.text) meta.append(el("span", { class: "sal" + (j.salary.estimated ? " est" : ""), text: j.salary.text }));
   row.append(meta);
   const tags = el("div", { class: "tags" });
@@ -201,11 +207,14 @@ function jobRow(j) {
   if (j.category === "non-technical") tags.append(el("span", { class: "tag nt", text: "NON-TECH" }));
   (j.tracks || []).filter(t => t !== "Non-tech").forEach(t => tags.append(el("span", { class: "tag", text: t })));
   if (tr) tags.append(el("span", { class: "tag", text: "TRACKED · " + tr.status }));
+  if (j.similar) tags.append(el("span", { class: "tag agg", title: "The same role is listed for other cities or on another site", text: "+" + j.similar + " SIMILAR" }));
+  if (activeResume()) { const m = matchScore(j); tags.prepend(el("span", { class: "tag match " + (m >= 70 ? "hi" : m >= 45 ? "mid" : "lo"), title: "Keyword match with your resume profile", text: m + "% MATCH" })); }
   row.append(tags);
   const act = el("div", { class: "actions" });
   const url = safeUrl(j.applyUrl);
   if (url) act.append(el("a", { class: "btn primary", href: url, target: "_blank", rel: "noopener", text: "Apply" }));
   act.append(el("button", { class: "btn plum", type: "button", text: "📄 Resume for this job", onclick: () => openResume(j) }));
+  act.append(el("button", { class: "btn", type: "button", text: "🎯 Prepare", onclick: () => openPrep(j) }));
   act.append(el("button", { class: "btn", type: "button", text: tr ? "Applied ✓" : "Mark applied", onclick: () => { toggleApplied(j); renderJobs(); } }));
   const q = encodeURIComponent(((j.role || "").replace(/\(.*?\)/g, "") + " " + j.company).trim());
   act.append(el("a", { class: "mini", href: "https://www.linkedin.com/jobs/search/?keywords=" + q + "&location=India", target: "_blank", rel: "noopener", text: "LinkedIn" }));
@@ -219,6 +228,7 @@ function toggleApplied(j) {
   else tracker.unshift({ uid: "t" + Date.now().toString(36), jobId: j.id, company: j.company, role: j.role, location: j.location, link: j.applyUrl, appliedOn: today(), source: "Job Radar", status: "Applied", lastUpdate: today(), nextStep: "", followUp: addDays(today(), 7), notes: "", evidence: "" });
   saveTracker();
 }
+function ago(d) { const n = Math.round((new Date(today()) - new Date(d)) / 864e5); return n <= 0 ? "today" : n === 1 ? "yesterday" : n < 30 ? n + "d ago" : d; }
 const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); };
 function resetFilters() {
   Object.assign(state, { q: "", cat: "all", track: "All", ctype: "all", sal: 0, city: "all", newOnly: false, hideApplied: false });
@@ -231,14 +241,18 @@ function resetFilters() {
 const TRACK_SKILLS = { SDE: ["Data Structures", "Algorithms", "OOP", "REST", "Git"], Java: ["Java", "Spring Boot", "Microservices", "JUnit"], Python: ["Python", "FastAPI", "pandas", "pytest"], DevOps: ["AWS", "Docker", "Kubernetes", "CI/CD", "Linux"], "AI/ML": ["Machine Learning", "scikit-learn", "LLM", "PyTorch"], "Non-tech": ["Communication", "Stakeholder management", "Excel"] };
 const ALIAS = { "rest": ["rest apis", "rest api", "restful"], "spring": ["spring boot"], "vue": ["vue.js", "vue 3"], "llm": ["llm prompt"], "genai": ["gen ai", "llm"], "prompt engineering": ["prompt"], "machine learning": ["scikit-learn", "machine-learning"], "oop": ["java"], "git": ["github"] };
 function hasSkill(txt, k) { const l = k.toLowerCase(); if (txt.includes(l)) return true; return (ALIAS[l] || []).some(a => txt.includes(a)); }
+let _rt = { src: null, txt: "" };
+function resumeTxt() { const r = activeResume(); if (r !== _rt.src) _rt = { src: r, txt: JSON.stringify(r || {}).toLowerCase() }; return _rt.txt; }  // activeResume() is cached, so this only re-stringifies after a profile change
+const _ms = new Map();
+function matchScore(j) { const k = j.id + "|" + resumeTxt().length; if (!_ms.has(k)) _ms.set(k, analyse(j).score); return _ms.get(k); }
 function analyse(j) {
-  const r = activeResume(); const txt = JSON.stringify(r).toLowerCase();
+  const txt = resumeTxt();
   let kws = (j.keywords || []).slice();
   (j.tracks || []).forEach(t => (TRACK_SKILLS[t] || []).forEach(s => { if (!kws.some(k => k.toLowerCase() === s.toLowerCase())) kws.push(s); }));
   if (j.category === "non-technical" && !kws.length) kws = TRACK_SKILLS["Non-tech"].slice();
   kws = [...new Set(kws)].slice(0, 18);
   const have = kws.filter(k => hasSkill(txt, k)), miss = kws.filter(k => !hasSkill(txt, k));
-  return { kws, have, miss, score: kws.length ? Math.round(100 * have.length / kws.length) : 100 };
+  return { kws, have, miss, score: Math.round(100 * (have.length + 1) / (kws.length + 2)) };
 }
 function headlineFor(j, have) {
   const role = (j.role || "").toLowerCase(); let t = "Software Engineer";
@@ -304,6 +318,7 @@ function renderTracker() {
   const overdue = tracker.filter(t => t.followUp && t.followUp < today() && !["Offer", "Rejected", "Withdrawn"].includes(t.status)).length;
   [["Tracked", tracker.length], ["Applied", sent], ["Interviews", count("Interview Scheduled") + count("Interviewed") + count("HR / Offer Discussion")], ["Offers", count("Offer")], ["Rejected", count("Rejected")], ["Response rate", sent ? Math.round(100 * responded / sent) + "%" : "—"], ["Follow-ups due", overdue]]
     .forEach(([k, v]) => st.append(el("div", { class: "stat" }, el("b", { text: String(v) }), el("span", { text: k }))));
+  renderProgress();
   const body = $("trkBody"); body.textContent = "";
   const rows = tracker.filter(t => state.trkFilter === "all" || t.status === state.trkFilter);
   if (!rows.length) { body.append(el("tr", {}, el("td", { colspan: "9", class: "note", text: tracker.length ? "No applications with this status." : "Nothing tracked yet. Click \"Mark applied\" on a job, or \"Add application\" for one you applied to elsewhere." }))); return; }
@@ -319,7 +334,7 @@ function renderTracker() {
       el("td", {}, srcSel),
       el("td", {}, stSel, el("div", { class: "note", text: t.lastUpdate ? "Updated " + t.lastUpdate : "" })),
       el("td", {}, el("input", { value: t.nextStep || "", placeholder: "e.g. Prepare DSA", onchange: e => upd("nextStep", e.target.value) })),
-      el("td", {}, el("input", { type: "date", value: t.followUp || "", onchange: e => upd("followUp", e.target.value), style: t.followUp && t.followUp < today() && !["Offer", "Rejected", "Withdrawn"].includes(t.status) ? "border-color:#c0392b" : null })),
+      el("td", {}, el("input", { type: "date", value: t.followUp || "", onchange: e => upd("followUp", e.target.value), style: t.followUp && t.followUp < today() && !["Offer", "Rejected", "Withdrawn"].includes(t.status) ? "border-color:#c0392b" : null }), t.followUp ? el("a", { class: "mini", href: gcalLink(t), target: "_blank", rel: "noopener", text: "📅 Add to Google Calendar" }) : null),
       el("td", {}, el("textarea", { onchange: e => upd("notes", e.target.value) }, t.notes || ""), t.evidence ? el("div", { class: "note", text: "✉ " + t.evidence }) : null),
       el("td", {}, el("button", { class: "btn", type: "button", title: "Delete", text: "🗑", onclick: () => { if (confirm("Delete " + (t.company || "this row") + "?")) { tracker = tracker.filter(x => x !== t); saveTracker(); renderTracker(); } } }))
     ));
@@ -553,7 +568,7 @@ $("hideApplied").onchange = e => { state.hideApplied = e.target.checked; renderJ
 $("resetF").onclick = resetFilters;
 $("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); renderJobs(); });
 $("baseResume").onclick = $("profDl").onclick = () => { const r = activeResume(); if (!r) { needProfile(); return; } downloadPDF(renderResume(r, null), fileBase(null)); };
-$("trkAdd").onclick = addManual; $("trkExport").onclick = exportExcel;
+$("trkAdd").onclick = addManual; $("trkIcs").onclick = exportIcs; $("trkExport").onclick = exportExcel;
 $("trkImport").onchange = e => { if (e.target.files[0]) importExcel(e.target.files[0]); e.target.value = ""; };
 $("trkFilter").onchange = e => { state.trkFilter = e.target.value; renderTracker(); };
 $("gmailBtn").onclick = () => gmailUI(null);
@@ -571,6 +586,7 @@ renderControls(); renderTrackerCount();
 const nocache = { cache: "no-store" };
 fetch("config/app.json?t=" + Date.now(), nocache).then(r => r.ok ? r.json() : {}).then(c => { state.appCfg = c || {}; }).catch(() => { });
 renderProfile();
+fetch("data/sources-status.json?t=" + Date.now(), nocache).then(r => r.ok ? r.json() : null).then(renderHealth).catch(() => renderHealth(null));
 Promise.all([
   fetch("config/companies.json?t=" + Date.now(), nocache).then(r => r.json()).catch(() => ({})),
   fetch("data/jobs.json?t=" + Date.now(), nocache).then(r => r.json())
@@ -598,3 +614,200 @@ $("installBtn").onclick = async () => {
 };
 // open a tab from the app shortcut (?tab=tracker / ?tab=profile)
 { const t = new URLSearchParams(location.search).get("tab"); if (["tracker", "profile", "jobs"].includes(t)) showTab(t); }
+
+// ======================================================================
+// PREPARE: interview prep, referral message, cover letter
+const PREP = {
+  SDE: ["Arrays, strings & hashing", "Two pointers & sliding window", "Linked lists, stacks, queues", "Trees, BST & recursion", "Graphs (BFS / DFS)", "Dynamic programming basics", "OOP & SOLID principles", "DBMS: normalisation, SQL joins, indexes", "OS: processes vs threads, deadlock", "Networking: HTTP, REST, TCP vs UDP", "Explain one project end to end (design, your part, trade-offs)"],
+  Java: ["OOP pillars with Java examples", "Collections: HashMap internals, List vs Set", "Exceptions: checked vs unchecked", "Multithreading basics, synchronized, ExecutorService", "Java 8: streams, lambdas, Optional", "Spring Boot: DI, @RestController, JPA, profiles", "Microservices: service discovery, API gateway"],
+  Python: ["Mutable vs immutable types", "List / dict comprehensions, generators", "Decorators & context managers", "OOP in Python, dunder methods", "FastAPI / Flask request lifecycle", "pandas: groupby, merge, apply", "pytest basics"],
+  DevOps: ["Linux commands, permissions, processes", "Networking: DNS, ports, load balancers", "Git branching & merge conflicts", "Docker: image vs container, Dockerfile layers", "CI/CD pipeline stages", "AWS: EC2, S3, IAM, VPC basics", "Kubernetes: pod, deployment, service", "Monitoring & logging basics"],
+  "AI/ML": ["Bias–variance, over/under-fitting", "Metrics: precision, recall, ROC-AUC", "Regularisation, cross-validation", "Trees, random forest, boosting", "Feature engineering & leakage", "Neural network basics", "LLMs: prompting, embeddings, RAG"],
+  "Non-tech": ["Tell me about yourself (60 seconds)", "Why this company / this role", "3 STAR stories: challenge, teamwork, conflict", "Excel: VLOOKUP / XLOOKUP, pivots", "Clear written communication sample"],
+  HR: ["Why are you looking for a change?", "Expected CTC and notice period — have numbers ready", "Strengths and one real weakness", "Questions to ask the interviewer"]
+};
+const PREPKEY = "jobRadarPrep";
+function profileFacts() {
+  const r = activeResume() || {};
+  const exp = (r.experience || [])[0] || {};
+  const years = [].concat(...(r.experience || []).map(e => (e.roles || []).map(x => x.dates || ""))).join(" ").match(/\b(19|20)\d{2}\b/g) || [];
+  const first = years.length ? Math.min(...years.map(Number)) : null;
+  const yrs = first ? Math.max(0, new Date().getFullYear() - first) : null;
+  const topProj = (r.projects || [])[0];
+  return { name: r.name || "[Your name]", first: (r.name || "").split(" ")[0] || "", role: ((exp.roles || [])[0] || {}).title || (r.title || "").split("|")[0].trim(), company: exp.company || "", yrs, email: (r.contact || {}).email || "", phone: (r.contact || {}).phone || "", linkedin: (r.contact || {}).linkedin || "", topProj, summary: typeof r.summary === "string" ? r.summary : (r.summary || {}).default || "" };
+}
+function referralText(j, a, long) {
+  const f = profileFacts(); const sk = a.have.slice(0, 3).join(", ") || "the skills in the posting";
+  const exp = f.company ? `${f.role || "an engineer"} at ${f.company}${f.yrs ? ` (${f.yrs}+ yr${f.yrs > 1 ? "s" : ""})` : ""}` : (f.role || "an early-career engineer");
+  if (!long) return `Hi [Name], I'm ${f.name}, ${exp}. I'm applying for ${j.role.replace(/\s*\(.*?\)/g, "")} at ${j.company} and my work in ${sk} matches it closely. Would you be open to referring me? Happy to share my resume. Thanks!`.slice(0, 300);
+  return `Hi [Name],
+
+I hope you're doing well. I'm ${f.name}, currently ${exp}. I came across the ${j.role} opening at ${j.company} and I'd love to be considered.
+
+A quick fit summary:
+• Hands-on with ${a.have.slice(0, 5).join(", ") || "the core skills in the role"}
+${f.topProj ? `• Built ${f.topProj.name}${f.topProj.bullets && f.topProj.bullets[0] ? " — " + f.topProj.bullets[0].replace(/\.$/, "") : ""}\n` : ""}• ${f.summary ? f.summary.split(/(?<=\.)\s/)[0] : "Strong fundamentals and quick to ramp up"}
+
+Job link: ${j.applyUrl}
+
+If you think I'm a good fit, would you be willing to refer me? I can send my resume and any details you need. Thank you for your time!
+
+Best regards,
+${f.name}${f.phone ? "\n" + f.phone : ""}${f.email ? "\n" + f.email : ""}`;
+}
+function coverLetter(j, a) {
+  const f = profileFacts(); const r = activeResume() || {}; const role = j.role.replace(/\s*\(.*?\)/g, "");
+  const lc = t => t ? t.charAt(0).toLowerCase() + t.slice(1) : t;
+  const bullets = [].concat(...(r.experience || []).map(e => (e.bullets || []).map(b => typeof b === "string" ? b : b.text)));
+  const kw = a.have.map(k => k.toLowerCase());
+  const best = bullets.map(b => [b, kw.filter(k => b.toLowerCase().includes(k)).length]).sort((x, y) => y[1] - x[1]).map(x => x[0]);
+  const work = best[0] ? `At ${f.company || "my current company"}, I ${lc(best[0]).replace(/\.$/, "")}.` : "";
+  const proj = f.topProj ? `Outside my day job I built ${f.topProj.name.replace(/\s*\(.*?\)/g, "")}, where I ${lc((f.topProj.bullets || [""])[0]).replace(/\.$/, "")}.` : "";
+  return `Dear Hiring Team at ${j.company},
+
+I'm applying for the ${role} role${j.location ? " (" + j.location + ")" : ""}. ${f.company ? `As ${f.role || "an engineer"} at ${f.company}, ` : ""}I build and ship software end to end, and this role's focus on ${a.have.slice(0, 3).join(", ") || "core engineering"} matches what I do every day.
+
+${[work, proj].filter(Boolean).join(" ")}
+
+${a.miss.length ? `I'm also actively strengthening ${a.miss.slice(0, 2).join(" and ")}, which I see matters for this team. ` : ""}I'd welcome the chance to discuss how I can contribute to ${j.company}.
+
+Thank you for your consideration.
+
+Sincerely,
+${f.name}${f.phone ? "\n" + f.phone : ""}${f.email ? "\n" + f.email : ""}${f.linkedin ? "\n" + f.linkedin : ""}`;
+}
+function copyBox(text, rows) {
+  const ta = el("textarea", { rows: String(rows || 8), style: "width:100%;font:13px/1.45 var(--body);padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)" }); ta.value = text;
+  const btn = el("button", { class: "btn", type: "button", text: "Copy", onclick: async () => { try { await navigator.clipboard.writeText(ta.value); btn.textContent = "Copied ✓"; } catch (e) { ta.select(); document.execCommand("copy"); btn.textContent = "Copied ✓"; } setTimeout(() => btn.textContent = "Copy", 1500); } });
+  return el("div", { style: "display:flex;flex-direction:column;gap:6px" }, ta, el("div", { class: "actions" }, btn));
+}
+function openPrep(j, tab) {
+  const d = $("dlg"), b = $("dlgBody"); b.textContent = "";
+  tab = tab || "prep";
+  b.append(el("div", { class: "row", style: "justify-content:space-between" }, el("h3", { text: "Prepare: " + j.company }), el("button", { class: "btn", type: "button", text: "✕", onclick: () => d.close() })));
+  b.append(el("div", { class: "note", text: j.role }));
+  const tabs = el("div", { class: "row" });
+  [["prep", "Interview prep"], ["ref", "Referral message"], ["cover", "Cover letter"]].forEach(([k, t]) => tabs.append(el("button", { class: "chip", type: "button", "aria-pressed": String(tab === k), text: t, onclick: () => openPrep(j, k) })));
+  b.append(tabs);
+  const q = s => encodeURIComponent(s);
+  const co = j.company.replace(/\s*\(.*?\)/g, "");
+  if (tab === "prep") {
+    b.append(el("b", { text: "Past interview questions & experiences" }));
+    const links = el("div", { class: "links" });
+    [["Glassdoor", "interview reviews", `https://www.glassdoor.co.in/Search/results.htm?keyword=${q(co + " interview")}`],
+     ["AmbitionBox", "interview questions", `https://www.google.com/search?q=${q("site:ambitionbox.com " + co + " interview questions")}`],
+     ["GeeksforGeeks", "interview experiences", `https://www.google.com/search?q=${q("site:geeksforgeeks.org " + co + " interview experience")}`],
+     ["LeetCode Discuss", "candidate write-ups", `https://www.google.com/search?q=${q("site:leetcode.com/discuss " + co + " interview")}`],
+     ["YouTube", "interview walkthroughs", `https://www.youtube.com/results?search_query=${q(co + " " + j.role.replace(/\s*\(.*?\)/g, "") + " interview experience")}`],
+     ["LinkedIn", "people to ask for a referral", `https://www.linkedin.com/search/results/people/?keywords=${q(co + " " + (j.category === "non-technical" ? "" : "engineer"))}`]]
+      .forEach(([n, dsc, u]) => links.append(el("a", { class: "lk", href: u, target: "_blank", rel: "noopener" }, el("strong", { text: n }), el("span", { text: dsc }))));
+    b.append(links);
+    const done = LS.get(PREPKEY, {}); const key = co.toLowerCase();
+    const topics = [].concat(...[...new Set((j.tracks || ["SDE"]).concat(j.category === "non-technical" ? ["Non-tech"] : []))].map(t => (PREP[t] || []).map(x => [t, x])), PREP.HR.map(x => ["HR", x]));
+    const total = topics.length, cnt = () => topics.filter(([, x]) => (done[key] || {})[x]).length;
+    const head = el("b", { text: `Checklist (${cnt()}/${total} done)` });
+    b.append(head);
+    const list = el("div", { style: "display:flex;flex-direction:column;gap:4px" });
+    topics.forEach(([t, x]) => { const c = el("input", { type: "checkbox" }); c.checked = !!(done[key] || {})[x]; c.onchange = () => { done[key] = done[key] || {}; if (c.checked) done[key][x] = 1; else delete done[key][x]; LS.set(PREPKEY, done); head.textContent = `Checklist (${cnt()}/${total} done)`; }; list.append(el("label", { class: "toggle", style: "color:var(--ink)" }, c, el("span", {}, el("span", { class: "tag", text: t }), " " + x))); });
+    b.append(list);
+  } else {
+    if (!activeResume()) { b.append(el("p", { text: "These drafts are written from your resume profile. Set it up first." }), el("button", { class: "btn primary", type: "button", text: "Go to Profile & resume", onclick: () => { d.close(); showTab("profile"); } })); d.showModal(); return; }
+    const a = analyse(j);
+    if (tab === "ref") {
+      b.append(el("b", { text: "LinkedIn connection note (300 characters max)" }), copyBox(referralText(j, a, false), 4));
+      b.append(el("b", { text: "Full message / e-mail to a referrer" }), copyBox(referralText(j, a, true), 14));
+      b.append(el("div", { class: "note", text: "Replace [Name], and add one personal line (same college, a post of theirs you liked) — it doubles reply rates." }));
+    } else {
+      b.append(el("b", { text: "Cover letter" }), copyBox(coverLetter(j, a), 16));
+      b.append(el("div", { class: "note", text: "Read it once and adjust a sentence or two in your own words before sending." }));
+    }
+  }
+  if (!d.open) d.showModal();
+}
+
+// ======================================================================
+// CALENDAR: follow-up reminders
+const ymd = d => d.replace(/-/g, "");
+function gcalLink(t) {
+  const end = addDays(t.followUp, 1);
+  const txt = `Follow up: ${t.company}${t.role ? " – " + t.role : ""}`;
+  const det = `Status: ${t.status || ""}\nNext step: ${t.nextStep || "-"}\n${t.link || ""}`;
+  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(txt)}&dates=${ymd(t.followUp)}/${ymd(end)}&details=${encodeURIComponent(det)}`;
+}
+function exportIcs() {
+  const open = tracker.filter(t => t.followUp && !["Offer", "Rejected", "Withdrawn"].includes(t.status));
+  if (!open.length) { alert("No open applications with a follow-up date."); return; }
+  const esc = s => String(s || "").replace(/[\;,]/g, m => "\\" + m).replace(/\n/g, "\\n");
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+  const ev = open.map(t => ["BEGIN:VEVENT", `UID:${t.uid || Math.random().toString(36).slice(2)}@jobradar`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${ymd(t.followUp)}`, `DTEND;VALUE=DATE:${ymd(addDays(t.followUp, 1))}`,
+    `SUMMARY:${esc("Follow up: " + t.company + (t.role ? " – " + t.role : ""))}`, `DESCRIPTION:${esc("Status: " + (t.status || "") + "\nNext step: " + (t.nextStep || "-") + "\n" + (t.link || ""))}`,
+    "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Job follow-up", "TRIGGER:PT9H", "END:VALARM", "END:VEVENT"].join("\r\n"));
+  const ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Job Radar//EN", "CALSCALE:GREGORIAN", ...ev, "END:VCALENDAR"].join("\r\n");
+  const a = el("a", { href: URL.createObjectURL(new Blob([ics], { type: "text/calendar" })), download: "job-followups.ics" });
+  document.body.append(a); a.click(); a.remove();
+}
+
+// ======================================================================
+// DATA SOURCES health panel
+function renderHealth(st) {
+  const box = $("srcHealth"); if (!box) return; box.textContent = "";
+  if (!st || !st.sources) { box.append(el("summary", { text: "Data sources: status not available yet (appears after the next refresh)" })); return; }
+  const ok = st.sources.filter(s => s.ok), bad = st.sources.filter(s => !s.ok);
+  box.append(el("summary", { text: `Data sources: ${ok.length} working, ${bad.length} failing · checked ${fmt(st.checkedAt)}` }));
+  const rows = el("div", { style: "display:flex;flex-direction:column;gap:4px;margin-top:8px" });
+  [...bad.sort((a, b) => b.failStreak - a.failStreak), ...ok.sort((a, b) => b.count - a.count)].forEach(s => rows.append(el("div", { class: "meta", style: "gap:4px 12px" },
+    el("span", { class: "st", style: `background:var(${s.ok ? "--fresh-soft" : "--warn-soft"});color:var(${s.ok ? "--fresh" : "--warn"})`, text: s.ok ? "OK" : "FAIL ×" + s.failStreak }),
+    el("b", { text: s.name }), el("span", { text: s.type }), el("span", { text: s.ok ? s.count + " roles" : (s.lastOk ? "last worked " + fmt(s.lastOk) : "never worked") }),
+    s.ok ? null : el("span", { text: s.error }))));
+  box.append(rows);
+  box.append(el("p", { class: "note", text: "A source failing for several runs usually means the company moved its careers site. Fix or remove it in config/sources.json." }));
+}
+
+// ======================================================================
+// PROGRESS dashboard (tracker tab)
+function barRows(items, max, fmtv) {
+  const wrap = el("div", { style: "display:flex;flex-direction:column;gap:6px" });
+  items.forEach(([label, v, tip]) => {
+    const fill = el("i", { style: `display:block;height:100%;width:${max ? Math.max(v ? 2 : 0, 100 * v / max) : 0}%;background:var(--accent);border-radius:0 4px 4px 0` });
+    wrap.append(el("div", { title: tip || `${label}: ${fmtv ? fmtv(v) : v}`, style: "display:grid;grid-template-columns:minmax(90px,140px) 1fr 52px;gap:8px;align-items:center;font-size:13px" },
+      el("span", { style: "color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap", text: label }),
+      el("span", { style: "height:12px;background:var(--bg);border-radius:0 4px 4px 0" }, fill),
+      el("span", { style: "text-align:right;font-family:var(--mono)", text: fmtv ? fmtv(v) : String(v) })));
+  });
+  return wrap;
+}
+function renderProgress() {
+  const box = $("trkProgress"); if (!box) return; box.textContent = "";
+  const sent = tracker.filter(t => t.status !== "Saved");
+  if (sent.length < 2) { box.hidden = true; return; } box.hidden = false;
+  const grid = el("div", { style: "display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px" });
+  // weekly volume
+  const weekStart = d => { const x = new Date(d); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x.toISOString().slice(0, 10); };
+  const weeks = []; for (let i = 7; i >= 0; i--) weeks.push(weekStart(addDays(today(), -7 * i)));
+  const perWeek = weeks.map(w => [new Date(w).toLocaleDateString(undefined, { day: "numeric", month: "short" }), sent.filter(t => t.appliedOn && weekStart(t.appliedOn) === w).length]);
+  const mx = Math.max(1, ...perWeek.map(x => x[1]));
+  const cols = el("div", { style: "display:grid;grid-template-columns:repeat(8,1fr);gap:4px;align-items:end;height:110px" });
+  perWeek.forEach(([w, v], i) => cols.append(el("div", { title: `Week of ${w}: ${v} application${v === 1 ? "" : "s"}`, style: "display:flex;flex-direction:column;justify-content:flex-end;height:100%" },
+    i === 7 ? el("span", { style: "font:12px var(--mono);text-align:center", text: String(v) }) : null,
+    el("i", { style: `display:block;height:${Math.max(v ? 3 : 1, 90 * v / mx)}px;background:var(${v ? "--accent" : "--line"});border-radius:4px 4px 0 0` }))));
+  const axis = el("div", { style: "display:grid;grid-template-columns:repeat(8,1fr);gap:4px;font-size:11px;color:var(--muted);text-align:center" });
+  perWeek.forEach(([w], i) => axis.append(el("span", { text: i % 2 === 1 || i === 7 ? w : "" })));
+  grid.append(el("div", {}, el("b", { text: "Applications per week" }), el("div", { class: "note", text: "Last 8 weeks, by applied date" }), cols, axis));
+  // funnel
+  const st = t => t.status, R = t => RANK[t.status] || 0;
+  const funnel = [["Applied", sent.length],
+    ["Heard back", sent.filter(t => R(t) >= 2 && !["No Response", "Withdrawn"].includes(st(t))).length],
+    ["Assessment+", sent.filter(t => R(t) >= 3 && !["Rejected", "Withdrawn"].includes(st(t))).length],
+    ["Interview+", sent.filter(t => R(t) >= 4 && !["Rejected", "Withdrawn"].includes(st(t))).length],
+    ["Offer", sent.filter(t => st(t) === "Offer").length]];
+  grid.append(el("div", {}, el("b", { text: "Funnel" }), el("div", { class: "note", text: "How far applications got (rejections count as heard back)" }), barRows(funnel, sent.length)));
+  // response rate by source
+  const bySrc = {}; sent.forEach(t => { const s = t.source || "Other"; bySrc[s] = bySrc[s] || [0, 0]; bySrc[s][0]++; if ((RANK[t.status] || 0) >= 2 && !["No Response", "Withdrawn"].includes(t.status)) bySrc[s][1]++; });
+  const src = Object.entries(bySrc).sort((a, b) => b[1][0] - a[1][0]).map(([s, [n, r]]) => [`${s} (${n})`, Math.round(100 * r / n), `${s}: ${r} of ${n} heard back`]);
+  grid.append(el("div", {}, el("b", { text: "Response rate by source" }), el("div", { class: "note", text: "Share of applications that got any reply" }), barRows(src, 100, v => v + "%")));
+  // by company type
+  const byType = {}; sent.forEach(t => { const ty = companyType(t.company); byType[ty] = byType[ty] || [0, 0]; byType[ty][0]++; if ((RANK[t.status] || 0) >= 2 && !["No Response", "Withdrawn"].includes(t.status)) byType[ty][1]++; });
+  const ty = Object.entries(byType).map(([s, [n, r]]) => [`${s === "unknown" ? "Not labelled" : s[0].toUpperCase() + s.slice(1) + "-based"} (${n})`, Math.round(100 * r / n), `${s}: ${r} of ${n} heard back`]);
+  grid.append(el("div", {}, el("b", { text: "Response rate by company type" }), el("div", { class: "note", text: "Product vs service companies" }), barRows(ty, 100, v => v + "%")));
+  box.append(el("h2", { text: "Progress" }), grid);
+}

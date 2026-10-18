@@ -1,0 +1,10 @@
+{
+  "_help": "Daily alert settings for the GitHub Action. A new job is sent if its role or skills contain ANY keyword (leave keywords empty to get every new job). Telegram / e-mail credentials are GitHub secrets, never put them here.",
+  "appUrl": "https://jobsdashboard54.vercel.app",
+  "keywords": ["java", "spring", "python", "react", "full stack", "backend", "devops", "cloud", "aws", "machine learning", "ai", "data engineer", "software engineer", "sde", "developer"],
+  "categories": ["technical"],
+  "companyTypes": ["product", "service", "unknown"],
+  "officialLinksOnly": false,
+  "maxJobsPerAlert": 20,
+  "warnAfterFailedRuns": 3
+}

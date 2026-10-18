@@ -1,5 +1,5 @@
 // Job Radar service worker: offline app shell, always-fresh job data.
-const VERSION = "jr-v1";
+const VERSION = "jr-v2";
 const SHELL = ["index.html", "app.js", "resume/resume-render.js", "resume/linkedin-parser.js",
   "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/favicon-32.png"];
 const CDN = /^https:\/\/(cdnjs\.cloudflare\.com|fonts\.(googleapis|gstatic)\.com)\//;

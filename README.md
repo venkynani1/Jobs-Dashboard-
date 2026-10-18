@@ -27,3 +27,19 @@ The site is a Progressive Web App: it installs to the home screen / desktop, ope
 - **Windows / Mac (Chrome or Edge):** the install icon in the address bar, or the **Install app** button.
 
 Updates arrive automatically whenever the repo changes. `manifest.webmanifest`, `sw.js` and `icons/` make this work.
+
+## New in this version
+
+- **Match %** on every job and a **Best match for me** sort (needs your profile). **Recently posted** sort and "Posted 2d ago" on cards; **+N SIMILAR** marks the same role listed for other cities or sites.
+- **🎯 Prepare** on every job: links to past interview questions (Glassdoor, AmbitionBox, GeeksforGeeks, LeetCode, YouTube), people to ask for referrals, a topic checklist, plus a ready **referral message** and **cover letter** written from your profile.
+- **Tracker:** Progress charts (applications per week, funnel, response rate by source and company type), **📅 Add to Google Calendar** per follow-up and **Follow-ups to calendar** (.ics for any calendar app).
+- **Data sources panel** (bottom of the Jobs tab): which company sites worked in the last refresh, which are failing and since when.
+
+## Daily alerts (optional)
+
+After each refresh, `scripts/notify.py` sends new jobs that match `config/alerts.json` (keywords, role type, company type). Add GitHub secrets under **Settings → Secrets and variables → Actions → New repository secret**:
+
+- **Telegram:** `TELEGRAM_BOT_TOKEN` (from @BotFather → /newbot) and `TELEGRAM_CHAT_ID` (send your bot a message, then open `https://api.telegram.org/bot<TOKEN>/getUpdates` and copy `chat.id`).
+- **E-mail:** `ALERT_EMAIL_USER` (your Gmail), `ALERT_EMAIL_PASS` (a Gmail **App Password**: Google Account → Security → 2-Step Verification → App passwords), optional `ALERT_EMAIL_TO`.
+
+With no secrets the step does nothing. It also warns when a job source has failed several runs in a row.

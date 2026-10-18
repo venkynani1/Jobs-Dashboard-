@@ -31,6 +31,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "jobs.json")
+STATUS = os.path.join(ROOT, "data", "sources-status.json")
 SOURCES = os.path.join(ROOT, "config", "sources.json")
 COMPANIES = os.path.join(ROOT, "config", "companies.json")
 
@@ -203,8 +204,17 @@ def parse_iso(s):
         return None
 
 
+def day(d):
+    """datetime -> 'YYYY-MM-DD' (IST), or None."""
+    if d is None:
+        return None
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=dt.timezone.utc)
+    return d.astimezone(IST).date().isoformat()
+
+
 def job(company, role, location, url, source, category, text="", experience=None,
-        careers=None, source_type="official"):
+        careers=None, source_type="official", posted=None):
     yrs = years_required(RANGE.sub(" ", text))
     rng = RANGE.search(role + " " + text)
     exp = experience or (rng.group(0) if rng else (f"{yrs}+ yrs" if yrs else "Entry level"))
@@ -221,6 +231,8 @@ def job(company, role, location, url, source, category, text="", experience=None
         "sourceType": source_type,
         "source": source,
     }
+    if posted:
+        o["postedOn"] = posted
     sal = salary_of(role + " " + text)
     if sal:
         o["salary"] = sal
@@ -256,7 +268,7 @@ def src_amazon(cfg):
             out.append(job("Amazon", f"{title} (Job {j.get('id_icims','')})".replace(" (Job )", ""),
                            j.get("normalized_location") or j.get("location", "India"),
                            "https://www.amazon.jobs" + j.get("job_path", ""), "amazon",
-                           category_of(title), text,
+                           category_of(title), text, posted=day(posted),
                            careers="https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND"))
     return out
 
@@ -300,8 +312,10 @@ def src_workday(cfg):
             cat = accept(title, text)
             if not cat:
                 continue
+            ago = 0 if re.search(r"today", posted, re.I) else 1 if re.search(r"yesterday", posted, re.I) else (int(m.group(1)) if m else None)
             out.append(job(company, title, loc, f"https://{host}/en-US/{site}{path}", "workday", cat, text,
-                           careers=f"https://{host}/en-US/{site}"))
+                           careers=f"https://{host}/en-US/{site}",
+                           posted=(NOW - dt.timedelta(days=ago)).date().isoformat() if ago is not None else None))
     return out
 
 
@@ -317,7 +331,8 @@ def src_greenhouse(cfg):
         text = clean(j.get("content", ""))
         cat = accept(title, text)
         if cat:
-            out.append(job(cfg["company"], title, loc, j.get("absolute_url", ""), "greenhouse", cat, text))
+            out.append(job(cfg["company"], title, loc, j.get("absolute_url", ""), "greenhouse", cat, text,
+                           posted=day(parse_iso(j.get("first_published") or j.get("updated_at")))))
     return out
 
 
@@ -336,7 +351,8 @@ def src_lever(cfg):
             clean(l.get("content", "")) for l in j.get("lists", []) or [])
         cat = accept(title + " " + cats.get("commitment", ""), text)
         if cat:
-            out.append(job(cfg["company"], title, loc, j.get("hostedUrl", ""), "lever", cat, text))
+            out.append(job(cfg["company"], title, loc, j.get("hostedUrl", ""), "lever", cat, text,
+                           posted=day(dt.datetime.fromtimestamp(created / 1000, dt.timezone.utc)) if created else None))
     return out
 
 
@@ -356,7 +372,7 @@ def src_smartrecruiters(cfg):
         if not (ENTRY.search(title) or re.search(r"entry|intern|associate", lvl, re.I)):
             continue
         out.append(job(cfg["company"], title, loc_s, f"https://jobs.smartrecruiters.com/{cid}/{j.get('id')}",
-                       "smartrecruiters", category_of(title), lvl))
+                       "smartrecruiters", category_of(title), lvl, posted=day(parse_iso(j.get("releasedDate")))))
     return out
 
 
@@ -389,7 +405,8 @@ def src_rss(cfg):
             continue
         loc = " / ".join(dict.fromkeys(w.title() for w in INDIA.findall(title))) or "India"
         out.append(job(company, title, loc, link, "rss:" + cfg["name"], category_of(title), desc,
-                       experience="Freshers", source_type="aggregator"))
+                       experience="Freshers", source_type="aggregator",
+                       posted=day(pub.replace(tzinfo=dt.timezone.utc)) if pub else None))
     return out
 
 
@@ -475,18 +492,30 @@ def main():
         board = {"jobs": []}
     old = board.get("jobs", [])
 
-    fetched, ok_sources, failed = [], set(), []
+    try:
+        prev_status = {x["name"] + "|" + x["type"]: x for x in json.load(open(STATUS)).get("sources", [])}
+    except (OSError, ValueError, KeyError):
+        prev_status = {}
+    fetched, ok_sources, failed, status = [], set(), [], []
     for s in cfg["sources"]:
         name = s.get("company") or s.get("name") or s["type"]
+        prev = prev_status.get(name + "|" + s["type"], {})
         try:
             got = HANDLERS[s["type"]](s)
             ok_sources.add(name)
             log(f"ok   {s['type']:<15} {name:<28} {len(got)} roles")
             fetched.extend(got)
+            status.append({"name": name, "type": s["type"], "ok": True, "count": len(got), "error": "",
+                           "lastOk": NOW.isoformat(timespec="seconds"), "failStreak": 0})
         except Exception as e:
             failed.append(name)
-            log(f"FAIL {s['type']:<15} {name:<28} {type(e).__name__}: {str(e)[:120]}")
+            err = f"{type(e).__name__}: {str(e)[:120]}"
+            log(f"FAIL {s['type']:<15} {name:<28} {err}")
+            status.append({"name": name, "type": s["type"], "ok": False, "count": 0, "error": err,
+                           "lastOk": prev.get("lastOk"), "failStreak": prev.get("failStreak", 0) + 1})
         time.sleep(0.5)
+    with open(STATUS, "w", encoding="utf-8") as f:
+        json.dump({"checkedAt": NOW.isoformat(timespec="seconds"), "sources": status}, f, ensure_ascii=False, indent=1)
 
     fetched_by_key = {}
     for j in fetched:
@@ -503,7 +532,7 @@ def main():
         api_source = src and not src.startswith("rss:")
         if k in fetched_by_key:
             f = fetched_by_key[k]
-            for x in ("applyUrl", "location", "keywords", "category", "tracks"):
+            for x in ("applyUrl", "location", "keywords", "category", "tracks", "postedOn"):
                 if f.get(x):
                     j[x] = f[x]
             if f.get("salary"):
@@ -531,6 +560,14 @@ def main():
 
     new.sort(key=lambda j: (j["sourceType"] != "official", j["category"] != "technical"))
     jobs = [enrich(j, cmap) for j in (new + result)[:CAP]]
+    # flag the same role listed several times (other cities / another site)
+    norm_role = lambda r: re.sub(r"\(.*?\)|\b(job|req|r)\s*[-#:]?\s*\w*\d\w*|[^a-z ]", " ", (r or "").lower()).split()
+    groups = {}
+    for j in jobs:
+        groups.setdefault((j["company"].lower(), " ".join(norm_role(j["role"]))), []).append(j)
+    for g in groups.values():
+        for j in g:
+            j["similar"] = len(g) - 1
 
     board = {"refreshedAt": NOW.isoformat(timespec="seconds"),
              "nextRefreshAt": next_refresh().isoformat(timespec="seconds"),

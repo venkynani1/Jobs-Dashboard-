@@ -116,6 +116,11 @@ td textarea{min-height:34px;resize:vertical}
 .stat span{font-size:12px;color:var(--muted)}
 details summary{cursor:pointer;font-weight:600}
 details ol{margin:6px 0;padding-left:20px;font-size:13.5px}
+.tag.match{font-weight:600}
+.tag.match.hi{background:var(--fresh-soft);color:var(--fresh)}
+.tag.match.mid{background:var(--accent-soft);color:var(--accent)}
+.tag.match.lo{background:var(--bg);color:var(--muted)}
+#srcHealth summary{font-weight:600;cursor:pointer}
 .okmsg{color:var(--fresh);font-size:13px}
 .errmsg{color:#c0392b;font-size:13px}
 </style>
@@ -151,7 +156,7 @@ details ol{margin:6px 0;padding-left:20px;font-size:13.5px}
         <span class="lbl">Salary</span>
         <select id="sal"><option value="0">Any</option><option value="3">₹3+ LPA</option><option value="6">₹6+ LPA</option><option value="10">₹10+ LPA</option><option value="15">₹15+ LPA</option></select>
         <span class="lbl">Sort</span>
-        <select id="sort"><option value="company">Company A–Z</option><option value="new">Newest first</option><option value="salary">Salary high → low</option></select>
+        <select id="sort"><option value="company">Company A–Z</option><option value="new">Newest first</option><option value="salary">Salary high → low</option><option value="posted">Recently posted</option><option value="best">Best match for me</option></select>
         <label class="toggle"><input type="checkbox" id="newOnly"> New only</label>
         <label class="toggle"><input type="checkbox" id="hideApplied"> Hide applied</label>
         <button class="btn" type="button" id="resetF">Reset filters</button>
@@ -160,6 +165,7 @@ details ol{margin:6px 0;padding-left:20px;font-size:13.5px}
     <div class="row" style="justify-content:space-between"><h2>Open roles by company</h2><span class="count" id="count"></span></div>
     <div class="companies" id="companies"><div class="empty">Loading…</div></div>
     <p class="note"><span class="tag new">NEW</span> found in the latest refresh · <span class="tag agg">VIA LISTING</span> link goes to a job-listing site, confirm on the company's careers page · <span class="tag nt">NON-TECH</span> non-technical role · Salaries marked <i>est.</i> are typical fresher ranges for that company type, not the posting's figure. "Pan India" jobs show under every city.</p>
+    <details class="card" id="srcHealth"><summary>Data sources</summary></details>
     <div class="shelf">
       <h2>Trusted job boards · fresh searches</h2>
       <p>LinkedIn, Naukri and others don't allow automatic collection, so these open pre-filtered searches (entry level, recent) in one tap.</p>
@@ -174,9 +180,11 @@ details ol{margin:6px 0;padding-left:20px;font-size:13.5px}
   <!-- TRACKER -->
   <section class="panel" id="tab-tracker" hidden>
     <div class="stats" id="trkStats"></div>
+    <div class="card" id="trkProgress" hidden></div>
     <div class="row">
       <button class="btn primary" type="button" id="trkAdd">＋ Add application</button>
       <button class="btn" type="button" id="trkExport">⬇ Export Excel</button>
+      <button class="btn" type="button" id="trkIcs" title="Download all open follow-up dates as calendar events">📅 Follow-ups to calendar</button>
       <label class="btn" style="cursor:pointer">⬆ Import Excel / CSV<input type="file" id="trkImport" accept=".xlsx,.xls,.csv" hidden></label>
       <button class="btn plum" type="button" id="gmailBtn">✉ Check Gmail for updates</button>
       <select id="trkFilter"><option value="all">All statuses</option></select>
