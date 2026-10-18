@@ -1,0 +1,44 @@
+{
+  "_help": "Add or remove companies here. type = amazon | workday | greenhouse | lever | smartrecruiters | rss. Sources that fail are skipped and shown in the Actions log.",
+  "sources": [
+    {"type": "amazon", "company": "Amazon", "queries": ["software development engineer", "intern", "data engineer", "machine learning"]},
+
+    {"type": "workday", "company": "Visa", "host": "visa.wd5.myworkdayjobs.com", "tenant": "visa", "site": "Visa"},
+    {"type": "workday", "company": "Salesforce", "host": "salesforce.wd12.myworkdayjobs.com", "tenant": "salesforce", "site": "External_Career_Site"},
+    {"type": "workday", "company": "Target", "host": "target.wd5.myworkdayjobs.com", "tenant": "target", "site": "targetcareers"},
+    {"type": "workday", "company": "NVIDIA", "host": "nvidia.wd5.myworkdayjobs.com", "tenant": "nvidia", "site": "NVIDIAExternalCareerSite"},
+    {"type": "workday", "company": "Walmart Global Tech", "host": "walmart.wd5.myworkdayjobs.com", "tenant": "walmart", "site": "WalmartExternal"},
+    {"type": "workday", "company": "Dell", "host": "dell.wd1.myworkdayjobs.com", "tenant": "dell", "site": "External"},
+    {"type": "workday", "company": "Intel", "host": "intel.wd1.myworkdayjobs.com", "tenant": "intel", "site": "External"},
+    {"type": "workday", "company": "PayPal", "host": "paypal.wd1.myworkdayjobs.com", "tenant": "paypal", "site": "jobs"},
+    {"type": "workday", "company": "Mastercard", "host": "mastercard.wd1.myworkdayjobs.com", "tenant": "mastercard", "site": "CorporateCareers"},
+    {"type": "workday", "company": "DBS Tech India", "host": "dbs.wd3.myworkdayjobs.com", "tenant": "dbs", "site": "DBS_Careers"},
+    {"type": "workday", "company": "Kaleris", "host": "kaleris.wd501.myworkdayjobs.com", "tenant": "kaleris", "site": "kaleris_careers"},
+    {"type": "workday", "company": "Altera", "host": "altera.wd1.myworkdayjobs.com", "tenant": "altera", "site": "Altera"},
+    {"type": "workday", "company": "Broadcom", "host": "broadcom.wd1.myworkdayjobs.com", "tenant": "broadcom", "site": "External_Career"},
+
+    {"type": "greenhouse", "company": "PhonePe", "token": "phonepe"},
+    {"type": "greenhouse", "company": "Rubrik", "token": "rubrik"},
+    {"type": "greenhouse", "company": "Databricks", "token": "databricks"},
+    {"type": "greenhouse", "company": "Postman", "token": "postman"},
+    {"type": "greenhouse", "company": "MongoDB", "token": "mongodb"},
+    {"type": "greenhouse", "company": "Cloudflare", "token": "cloudflare"},
+    {"type": "greenhouse", "company": "Groww", "token": "groww"},
+
+    {"type": "lever", "company": "Smarsh", "site": "smarsh"},
+    {"type": "lever", "company": "Meesho", "site": "meesho"},
+    {"type": "lever", "company": "CRED", "site": "cred"},
+    {"type": "lever", "company": "Zeta", "site": "zeta"},
+
+    {"type": "smartrecruiters", "company": "Swiggy", "id": "SWIGGY"},
+    {"type": "smartrecruiters", "company": "Freshworks", "id": "Freshworks"},
+    {"type": "smartrecruiters", "company": "Bosch", "id": "BoschGroup"},
+    {"type": "smartrecruiters", "company": "Visa", "id": "Visa"},
+
+    {"type": "rss", "name": "freshershunt", "url": "https://freshershunt.in/feed/"},
+    {"type": "rss", "name": "jobs4fresher", "url": "https://jobs4fresher.com/feed/"},
+    {"type": "rss", "name": "enggwave", "url": "https://www.enggwave.com/feed"},
+    {"type": "rss", "name": "offcampusjobs4u", "url": "https://offcampusjobs4u.com/feed/"},
+    {"type": "rss", "name": "fresherstech", "url": "https://www.fresherstech.com/feed/"}
+  ]
+}
