@@ -1,32 +1,2316 @@
 {
-  "refreshedAt": "2026-10-14T00:50:00+05:30",
-  "nextRefreshAt": "2026-10-14T06:57:00+05:30",
+  "refreshedAt": "2026-10-18T10:47:17+05:30",
+  "nextRefreshAt": "2026-10-18T18:57:00+05:30",
   "jobs": [
-    {"id":"amazon-sde1-2026","company":"Amazon","role":"Software Dev Engineer I (SDE-1), Job ID 10454438","location":"Bengaluru / Hyderabad / Chennai","experience":"Freshers","batch":"2026 grads only","tracks":["SDE","Java","Python"],"applyUrl":"https://www.amazon.jobs/en/jobs/10454438","careersUrl":"https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND","sourceType":"official","foundOn":"14 Oct","isNew":true},
-    {"id":"amazon-chennai-2026","company":"Amazon","role":"Fresher tech role (Chennai)","location":"Chennai","experience":"0–1 yr","tracks":["SDE"],"applyUrl":"https://jobs4fresher.com/amazon-recruitment-2026-chennai/","careersUrl":"https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"cisco-se-india","company":"Cisco","role":"Software Engineer","location":"Across India","experience":"Freshers","tracks":["SDE","Python","Java"],"applyUrl":"https://jobs4fresher.com/cisco-off-campus-drive-2026-across-india/","careersUrl":"https://jobs.cisco.com/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"google-swe-freshers","company":"Google","role":"Software Engineer, University Graduate","location":"Pan India","experience":"Freshers","tracks":["SDE","Python","Java"],"applyUrl":"https://jobsnet.in/google-off-campus-drive-2026-software-engineer-freshers-pan-india/","careersUrl":"https://www.google.com/about/careers/applications/jobs/results/?location=India&target_level=EARLY","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"enphase-ase","company":"Enphase Energy","role":"Associate Engineer – Software","location":"Bengaluru","experience":"0–2 yrs","tracks":["SDE","Python"],"applyUrl":"https://jobsnet.in/enphase-energy-hiring-associate-software-engineer-0-2-years/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"hpe-sse","company":"HPE","role":"Systems Software Engineer","location":"Bengaluru","experience":"0–2 yrs","tracks":["SDE","Python"],"applyUrl":"https://jobs4fresher.com/hpe-off-campus-drive-2026-bangalore-4/","careersUrl":"https://careers.hpe.com/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"experian-ase","company":"Experian","role":"Associate Software Engineer","location":"Hyderabad","experience":"Freshers","tracks":["SDE","Java"],"applyUrl":"https://jobs4fresher.com/experian-off-campus-referral-drive-2026-hyderabad/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"cdk-ase","company":"CDK Global","role":"Associate Software Engineer","location":"Hyderabad","experience":"Freshers","tracks":["SDE","Java"],"applyUrl":"https://jobs4fresher.com/cdk-global-off-campus-drive-2026-hyderabad/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"dentsu-ase","company":"Dentsu","role":"Associate Software Engineer","location":"Mumbai","experience":"Freshers","tracks":["SDE"],"applyUrl":"https://jobs4fresher.com/dentsu-off-campus-drive-2026-mumbai/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"medpace-jse","company":"Medpace","role":"Junior Software Engineer","location":"Mumbai","experience":"Freshers","tracks":["SDE"],"applyUrl":"https://jobs4fresher.com/medpace-off-campus-drive-2026-mumbai-india/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"symphonyai-ase-java","company":"SymphonyAI","role":"Associate Software Engineer (Java)","location":"Bengaluru / Remote","experience":"Freshers","tracks":["Java","SDE"],"applyUrl":"https://jobs4fresher.com/symphonyai-recruitment-2026-bangaloreremote/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"quest-java","company":"QuEST Global","role":"Core Java Application Engineer","location":"Pan India","experience":"Freshers","tracks":["Java"],"applyUrl":"https://jobs4fresher.com/quest-global-recruitment-2026-pan-india/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"infosys-sp-dse","company":"Infosys","role":"Specialist Programmer / Digital Specialist Engineer","location":"Across India","experience":"Freshers","batch":"2026 batch","tracks":["SDE","Java","Python"],"applyUrl":"https://jobs4fresher.com/infosys-off-campus-drive-2026-across-india-2/","careersUrl":"https://career.infosys.com/joblist","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"cognizant-pan-india","company":"Cognizant","role":"Fresher hiring (2025 & 2026 batch)","location":"Pan India","experience":"Freshers","batch":"2025 / 2026","tracks":["SDE"],"applyUrl":"https://jobs4fresher.com/cognizant-recruitment-2026-pan-india/","careersUrl":"https://careers.cognizant.com/in-en/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"hcl-swdev","company":"HCLTech","role":"Software Developer (mega off-campus drive)","location":"Across India","experience":"Freshers","tracks":["SDE"],"applyUrl":"https://freshershunt.in/hcltech-mega-off-campus-drive-2026/","careersUrl":"https://www.hcltech.com/careers","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"volvo-blr","company":"Volvo Group","role":"Fresher software role","location":"Bengaluru","experience":"Freshers","tracks":["SDE"],"applyUrl":"https://jobs4fresher.com/volvo-off-campus-drive-2026-bangalore-4/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"solarwinds-sde1","company":"SolarWinds","role":"Engineer (SDE-1)","location":"Bengaluru","experience":"Freshers / early career","batch":"2024–2026","tracks":["SDE"],"applyUrl":"https://yohire.in/job/solarwinds-engineer-sde-1-bangalore-off-campus-2026","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"secpod-devops","company":"SecPod","role":"DevOps Engineer – Entry Level","location":"Bengaluru (office)","experience":"0–2 yrs","tracks":["DevOps"],"applyUrl":"https://secpod.keka.com/careers/jobdetails/81749","sourceType":"official","foundOn":"14 Oct","isNew":true},
-    {"id":"wissen-devops","company":"Wissen Technology","role":"Junior DevOps Engineer","location":"Bengaluru (hybrid)","experience":"0–2 yrs","batch":"2023–2026","tracks":["DevOps"],"applyUrl":"https://careers.wissen.com","sourceType":"official","foundOn":"14 Oct","isNew":true},
-    {"id":"siemens-energy-aiml","company":"Siemens Energy","role":"Entry Level AI/ML Engineer","location":"India","experience":"0–3 yrs","tracks":["AI/ML","Python"],"applyUrl":"https://www.enggwave.com/siemens-energy-recruitment-2026/108407","careersUrl":"https://jobs.siemens-energy.com/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"siemens-se","company":"Siemens","role":"Software Engineer","location":"India","experience":"0–1 yr","tracks":["SDE"],"applyUrl":"https://techcompreviews.in/siemens-hiring-software-engineer/","careersUrl":"https://jobs.siemens.com/careers","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"uhg-se","company":"UnitedHealth Group / Optum","role":"Software Engineer","location":"India","experience":"Freshers","tracks":["SDE","Java"],"applyUrl":"https://techcompreviews.in/unitedhealth-group-hiring-software-engineer/","careersUrl":"https://careers.unitedhealthgroup.com/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"honeywell-se1","company":"Honeywell","role":"Software Engineer I (Connected Aerospace)","location":"India","experience":"Freshers","tracks":["SDE"],"applyUrl":"https://freshershunt.in/honeywell-aerospace-software-engineer-2026/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"eaton-aiml","company":"Eaton","role":"AI/ML Apprentice","location":"India","experience":"Freshers","tracks":["AI/ML","Python"],"applyUrl":"https://freshershunt.in/eaton-ai-ml-apprentice-2026/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"turtle-sde","company":"Turtle Software (via AccioJob)","role":"Software Development Engineer · ₹5 LPA","location":"Pune","experience":"Freshers","batch":"2025 / 2026","tracks":["SDE"],"applyUrl":"https://go.acciojob.com/Yd9vst","sourceType":"aggregator","foundOn":"14 Oct","isNew":true},
-    {"id":"acsia-get","company":"Acsia Technologies","role":"Graduate Engineer Trainee (automotive software)","location":"Thiruvananthapuram","experience":"Freshers","tracks":["SDE"],"applyUrl":"https://jobs4fresher.com/acsia-technologies-off-campus-drive-2026-thiruvananthapuram/","sourceType":"aggregator","foundOn":"14 Oct","isNew":true}
+    {
+      "id": "amazon-software-development-engineer-i-job-10580014-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I (Job 10580014)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580014/software-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-software-development-engineer-i-job-10580008-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I (Job 10580008)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580008/software-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-software-development-engineer-i-ftc-job-10580010-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I FTC (Job 10580010)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-software-development-engineer-i-ftc-job-10580009-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I FTC (Job 10580009)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580009/software-development-engineer-i-ftc",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-software-development-engineer-i-job-10580013-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I (Job 10580013)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580013/software-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-software-development-engineer-i-job-10580011-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I (Job 10580011)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580011/software-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-data-center-operations-technician-data-center-operations-dco-job-10568703",
+      "company": "Amazon",
+      "role": "Data Center Operations Technician, Data Center Operations (DCO) (Job 10568703)",
+      "location": "Mumbai, Maharashtra, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10568703/data-center-operations-technician-data-center-operations-dco",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-data-engineer-i-dsp-analytics-job-10551531-hyderabad",
+      "company": "Amazon",
+      "role": "Data Engineer I, DSP Analytics (Job 10551531)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10551531/data-engineer-i-dsp-analytics",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-data-engineer-flex-analytics-job-10536801-hyderabad",
+      "company": "Amazon",
+      "role": "Data Engineer, Flex Analytics (Job 10536801)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10536801/data-engineer-flex-analytics",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-data-engineer-selling-partner-insights-and-analytics-sps-job-10530756-ben",
+      "company": "Amazon",
+      "role": "Data Engineer, Selling Partner Insights and Analytics, SPS (Job 10530756)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10530756/data-engineer-selling-partner-insights-and-analytics-sps",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-system-development-engineer-i-job-10579966-hyderabad",
+      "company": "Amazon",
+      "role": "System Development Engineer I (Job 10579966)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "DevOps",
+        "Python",
+        "Java"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10579966/system-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-system-development-engineer-i-amazon-job-10576573-chennai",
+      "company": "Amazon",
+      "role": "System Development Engineer I, Amazon (Job 10576573)",
+      "location": "Chennai, Tamil Nadu, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "DevOps",
+        "Python",
+        "Java"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10576573/system-development-engineer-i-amazon",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-support-ops-specialist-support-operations-level-3-job-10575489-hyderabad",
+      "company": "Amazon",
+      "role": "Support Ops Specialist, Support Operations (Level 3) (Job 10575489)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10575489/support-ops-specialist-support-operations-level-3",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-support-ops-specialist-support-operations-level-3-job-10575503-bengaluru",
+      "company": "Amazon",
+      "role": "Support Ops Specialist, Support Operations (Level 3) (Job 10575503)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10575503/support-ops-specialist-support-operations-level-3",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-business-analyst-i-amazon-pay-job-10566492-bengaluru",
+      "company": "Amazon",
+      "role": "Business Analyst I, Amazon Pay (Job 10566492)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10566492/business-analyst-i-amazon-pay",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "amazon-business-analyst-i-cmt-job-10561075-bengaluru",
+      "company": "Amazon",
+      "role": "Business Analyst I, CMT (Job 10561075)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10561075/business-analyst-i-cmt",
+      "sourceType": "official",
+      "source": "amazon",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "mastercard-software-engineer-i-1-pune",
+      "company": "Mastercard",
+      "role": "Software Engineer I-1",
+      "location": "Pune, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-I-1_R-293576-1",
+      "sourceType": "official",
+      "source": "workday",
+      "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "dbs-tech-india-associate-application-developer-consumer-banking-group-technology",
+      "company": "DBS Tech India",
+      "role": "Associate, Application Developer, Consumer Banking Group Technology",
+      "location": "Hyderabad - DTI Waverock SEZ",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Hyderabad---DTI-Waverock-SEZ/Associate--Application-Developer--Consumer-Banking-Group-Technology_WD89809",
+      "sourceType": "official",
+      "source": "workday",
+      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "dbs-tech-india-associate-specialist-application-developer-institutional-banking-",
+      "company": "DBS Tech India",
+      "role": "Associate, Specialist, Application Developer,  Institutional Banking Group Technology",
+      "location": "Hyderabad - DTI Skyview SEZ",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Hyderabad---DTI-Skyview-SEZ/Associate--Specialist--Application-Developer---Institutional-Banking-Group-Technology_WD89785",
+      "sourceType": "official",
+      "source": "workday",
+      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "dbs-tech-india-associate-application-developer-specialist-institutional-banking-",
+      "company": "DBS Tech India",
+      "role": "Associate, Application Developer Specialist, Institutional Banking Group Technology",
+      "location": "Hyderabad - DTI Skyview SEZ",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Hyderabad---DTI-Skyview-SEZ/ASSOC--Specialist--Application-Developer--Corporate-Banking--BR0005-_WD89714",
+      "sourceType": "official",
+      "source": "workday",
+      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "dbs-tech-india-associate-application-developer-future-ready-hyderabad-dti-skyvie",
+      "company": "DBS Tech India",
+      "role": "Associate, Application Developer, Future Ready",
+      "location": "Hyderabad - DTI Skyview SEZ",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Hyderabad---DTI-Skyview-SEZ/Associate--Application-Developer--Future-Ready_WD86805-1",
+      "sourceType": "official",
+      "source": "workday",
+      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "kaleris-associate-software-engineer-intern-chennai",
+      "company": "Kaleris",
+      "role": "Associate Software Engineer Intern",
+      "location": "Chennai",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658",
+      "sourceType": "official",
+      "source": "workday",
+      "careersUrl": "https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "rubrik-software-engineer-cpd-winter-intern-bangalore",
+      "company": "Rubrik",
+      "role": "Software Engineer (CPD) - Winter Intern",
+      "location": "Bangalore",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-plc-automation-engineer-ecf2-bengaluru",
+      "company": "Bosch",
+      "role": "PLC Automation Engineer-ECF2",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155960139",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-in-rbai-senior-engineer-maintenance-shift-leader-charcon-bengaluru",
+      "company": "Bosch",
+      "role": "IN_RBAI_Senior Engineer - Maintenance Shift Leader (Charcon)",
+      "location": "Bengaluru, KA, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155952001",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-software-for-hw-evaluation-embedded-engg-bsh-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "Software for HW Evaluation_Embedded_Engg_BSH",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155946889",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-in-rbai-senior-process-engineer-pick-and-place-bangalore",
+      "company": "Bosch",
+      "role": "IN_RBAI_Senior Process Engineer Pick and Place",
+      "location": "Bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155907509",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-ci-cd-workflow-engineer-ebh-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "CI/CD Workflow Engineer_EBH",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155769159",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-java-full-stack-with-java-angular-pune-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "Java Full Stack with Java & Angular, Pune",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155761606",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-full-stack-with-c-angular-pune-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "Full Stack with C# & Angular, Pune",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-embedded-c-developer-ebh-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "Embedded_C++ Developer_EBH",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155720828",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-devops-engineer-application-deployment-configuration-k8s-bangalore",
+      "company": "Bosch",
+      "role": "DevOps Engineer (Application Deployment & Configuration - K8S)",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155720139",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-data-scientist-bengaluru",
+      "company": "Bosch",
+      "role": "Data Scientist",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "AI/ML"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155709908",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-research-engineer-generative-ai-and-computer-vision-bengaluru",
+      "company": "Bosch",
+      "role": "Research Engineer – Generative AI and Computer Vision",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155700095",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-emt3-vm-gen-ai-ml-senior-developer-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "EMT3_VM_Gen_AI_ML_Senior_Developer",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155663208",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-emt3-vm-python-gen-ai-developer-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "EMT3_VM_Python_Gen_AI_Developer",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155662678",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-it-application-operations-engineer-bengaluru",
+      "company": "Bosch",
+      "role": "IT Application Operations Engineer",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155662139",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-ect3-embedded-testing-bangalore-bangalore",
+      "company": "Bosch",
+      "role": "ECT3_Embedded Testing_Bangalore",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155527259",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-hil-test-engineer-bangalore",
+      "company": "Bosch",
+      "role": "HiL Test Engineer",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155454876",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-full-stack-software-developer-with-ai-expertise-pune-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "Full Stack Software Developer with AI expertise, Pune",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155451389",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-product-development-engineer-nha-series-support-jap-jaipur",
+      "company": "Bosch",
+      "role": "Product Development Engineer - NHA Series Support JaP",
+      "location": "Jaipur, RJ, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155444296",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-test-engineer-bengaluru",
+      "company": "Bosch",
+      "role": "Test Engineer",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155423158",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-test-engineer-mbd-mil-sil-bengaluru",
+      "company": "Bosch",
+      "role": "Test Engineer -MBD/MiL/SiL",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155420099",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-sap-slt-developer-2n-bengaluru",
+      "company": "Bosch",
+      "role": "SAP SLT Developer-2n",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155412979",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-ai-cloud-consultant-bangalore",
+      "company": "Bosch",
+      "role": "AI & Cloud Consultant",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "AI/ML",
+        "DevOps"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155163279",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-lab-operations-administration-engineer-at-ps-cc-edt-in-bengaluru",
+      "company": "Bosch",
+      "role": "Lab Operations & Administration Engineer at PS-CC/EDT-IN",
+      "location": "Bengaluru, Karnataka, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155161819",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-automotive-diagnostic-and-troubleshooting-engineer-for-ev-hev-systems-ban-",
+      "company": "Bosch",
+      "role": "Automotive Diagnostic and troubleshooting Engineer for EV & HEV Systems - BAN",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154990583",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-model-based-development-engineer-bangalore",
+      "company": "Bosch",
+      "role": "Model Based Development Engineer",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154989438",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-devops-mlops-specialist-bengaluru",
+      "company": "Bosch",
+      "role": "DevOps/MLOps Specialist",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "AI/ML",
+        "DevOps"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154982800",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-hil-test-engineer-bengaluru",
+      "company": "Bosch",
+      "role": "HiL Test Engineer",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154983622",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-embedded-c-developer-ect1-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "Embedded C++ Developer_ECT1",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154955389",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "bosch-resident-engineer-bengaluru",
+      "company": "Bosch",
+      "role": "Resident Engineer",
+      "location": "bengaluru, India",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154926418",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "l-t-edutech-l-t-edutech-recruitment-2026-freshers-engineer-trainee-chennai-chenn",
+      "company": "L&T EduTech",
+      "role": "L&T EduTech Recruitment 2026 | Freshers | Engineer Trainee | Chennai",
+      "location": "Chennai",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "applyUrl": "https://www.enggwave.com/lt-edutech-recruitment-2026/108880",
+      "sourceType": "aggregator",
+      "source": "rss:enggwave",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "kaplan-kaplan-recruitment-2026-software-engineer-i-bangalore-bangalore",
+      "company": "Kaplan",
+      "role": "Kaplan Recruitment 2026 | Software Engineer I | Bangalore",
+      "location": "Bangalore",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/kaplan-recruitment-2026-software-engineer-i-bangalore/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "cisco-cisco-recruitment-2026-software-engineer-bangalore-bangalore",
+      "company": "Cisco",
+      "role": "Cisco Recruitment 2026 | Software Engineer | Bangalore",
+      "location": "Bangalore",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/cisco-recruitment-2026-software-engineer-bangalore-3/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "infosys-infosys-off-campus-drive-2026-digital-specialist-engineer-trainee-hydera",
+      "company": "Infosys",
+      "role": "Infosys Off Campus Drive 2026 | Digital Specialist Engineer (Trainee) | Hyderabad, Bengaluru, Delhi NCR",
+      "location": "Hyderabad / Bengaluru / Delhi / Ncr",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/infosys-off-campus-drive-2026-digital-specialist-engineer-trainee/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "infosys-infosys-off-campus-drive-2026-specialist-programmer-trainee-hyderabad-be",
+      "company": "Infosys",
+      "role": "Infosys Off Campus Drive 2026 | Specialist Programmer (Trainee) | Hyderabad, Bengaluru, Delhi NCR",
+      "location": "Hyderabad / Bengaluru / Delhi / Ncr",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/infosys-off-campus-drive-2026-specialist-programmer-trainee/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "renault-group-renault-group-off-campus-drive-2026-engineer-programmer-analyst-ni",
+      "company": "Renault Group",
+      "role": "Renault Group Off Campus Drive 2026 | Engineer, Programmer Analyst – Nissan GBS | Chennai",
+      "location": "Chennai",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/renault-group-off-campus-drive-2026-engineer-programmer-analyst-nissan-gbs-chennai/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "wayfair-wayfair-off-campus-drive-2026-software-engineer-intern-ai-genai-india",
+      "company": "Wayfair",
+      "role": "Wayfair Off Campus Drive 2026 – Software Engineer Intern (AI & GenAI)",
+      "location": "India",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/wayfair-off-campus-drive-2026-software-engineer-intern/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "volvo-volvo-off-campus-drive-2026-graduate-apprentice-trainee-india",
+      "company": "Volvo",
+      "role": "Volvo Off Campus Drive 2026 – Graduate Apprentice Trainee",
+      "location": "India",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/volvo-off-campus-drive-2026-graduate-apprentice-trainee/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "cargill-cargill-recruitment-2026-associate-developer-process-automation-india",
+      "company": "Cargill",
+      "role": "Cargill Recruitment 2026 – Associate Developer, Process Automation",
+      "location": "India",
+      "experience": "Freshers",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps",
+        "Python"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/cargill-recruitment-2026-associate-developer-process-automation/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "foundOn": "18 Oct",
+      "isNew": true
+    },
+    {
+      "id": "google-swe2-ads",
+      "company": "Google",
+      "role": "Software Engineer II, Google Ads",
+      "location": "Bengaluru",
+      "experience": "1 yr",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/84511043966902982-software-engineer-ii-google-ads",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "google-swe2-corpeng",
+      "company": "Google",
+      "role": "Software Engineer II, Corp Eng",
+      "location": "Hyderabad",
+      "experience": "1 yr",
+      "tracks": [
+        "SDE",
+        "Python",
+        "Java"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/138674961899233990-software-engineer-ii-corp-eng",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "google-cloud-data-eng",
+      "company": "Google",
+      "role": "Cloud Data Engineer (Early)",
+      "location": "Bengaluru / Hyderabad",
+      "experience": "Early career",
+      "tracks": [
+        "Python",
+        "Java",
+        "AI/ML"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/84091917435839174-cloud-data-engineer",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "google-swe3-infra-cloud",
+      "company": "Google",
+      "role": "Software Engineer III, Infrastructure, Google Cloud",
+      "location": "Bengaluru",
+      "experience": "2 yrs (1 with adv. degree)",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/131817929036440262-software-engineer-iii-infrastructure-google-cloud",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "google-swe3-fullstack",
+      "company": "Google",
+      "role": "Software Engineer III, Full Stack",
+      "location": "Bengaluru / Hyderabad",
+      "experience": "2 yrs (1 with adv. degree)",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/118404496526058182-software-engineer-iii-full-stack",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "google-swe3-payments",
+      "company": "Google",
+      "role": "Software Engineer III, Payments",
+      "location": "Hyderabad",
+      "experience": "2 yrs Java (1 with adv. degree)",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/111602324891148998-software-engineer-iii-payments",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "google-swe3-aiml",
+      "company": "Google",
+      "role": "Software Engineer III, AI/ML",
+      "location": "Hyderabad",
+      "experience": "2 yrs + 1 yr ML",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/83807658246578886-software-engineer-iii-aiml",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "google-swe-youtube-fs",
+      "company": "Google",
+      "role": "Software Engineer, YouTube, Full Stack",
+      "location": "Bengaluru",
+      "experience": "2 yrs (1 with adv. degree)",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ],
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/74698303731573446-software-engineer-youtube-full-stack",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY"
+    },
+    {
+      "id": "phonepe-swe-android",
+      "company": "PhonePe",
+      "role": "Software Engineer, Android",
+      "location": "Bengaluru",
+      "experience": "1–2 yrs",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/phonepe/jobs/7799494003",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "juspay-sde-backend",
+      "company": "Juspay",
+      "role": "Software Development Engineer – Backend (DEV-BE01)",
+      "location": "Bengaluru",
+      "experience": "Entry level",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://joinus.juspay.in?jobId=DEV-BE01",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://juspay.io/careers/DEV-BE01"
+    },
+    {
+      "id": "swiggy-sde1",
+      "company": "Swiggy",
+      "role": "Software Development Engineer I",
+      "location": "Bengaluru",
+      "experience": "1–3 yrs",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/SWIGGY/6000000001469588-software-development-engineer-i",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "netapp-se",
+      "company": "NetApp",
+      "role": "Software Engineer",
+      "location": "Bengaluru",
+      "experience": "1–2 yrs",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://careers.netapp.com/job/-/-/27600/97816764512",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "franklin-ase",
+      "company": "Franklin Templeton",
+      "role": "Associate Software Engineer (Req 869678)",
+      "location": "Hyderabad",
+      "experience": "Fresher / early career",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://careers.franklintempleton.com/us/en/job/FTGFTMUS869678EXTERNALENUS/Associate-Software-Engineer",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "niit-ase",
+      "company": "NIIT",
+      "role": "Associate Software Engineer",
+      "location": "Gurugram (WFO)",
+      "experience": "0–1 yr",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.niit.com/NIITMTS/job/Gurugram%2C-Haryana-ASSOCIATE-SOFTWARE-ENGINEER/60339044/",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "thermofisher-asd",
+      "company": "Thermo Fisher Scientific",
+      "role": "Associate Systems Developer (R-01369454)",
+      "location": "Bengaluru",
+      "experience": "Fresher",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://jobs.thermofisher.com/global/en/job/R-01369454/Associate-Systems-Developer",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "accenture-ds-associate-genai",
+      "company": "Accenture",
+      "role": "Data Science Associate – GenAI & Python (R00361602)",
+      "location": "Bengaluru / Kolkata / Gurugram",
+      "experience": "0–2 yrs",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ],
+      "applyUrl": "https://www.accenture.com/in-en/careers/jobdetails?id=R00361602_en",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "amex-analyst-ds",
+      "company": "American Express",
+      "role": "Analyst – Data Science (Req 26014259)",
+      "location": "Gurugram / Bengaluru (hybrid)",
+      "experience": "0–30 months",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ],
+      "applyUrl": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014259",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "target-engineer",
+      "company": "Target",
+      "role": "Engineer (R0000453869)",
+      "location": "Bengaluru",
+      "experience": "1+ yr",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/Tower-02-Manyata-Embassy-Business-Park-Racenahali--Nagawara-Villages-Outer-Ring-Rd-Bangalore-540065/Engineer_R0000453869",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "optum-se-java",
+      "company": "Optum (UnitedHealth Group)",
+      "role": "Software Engineer (Java, SQL)",
+      "location": "Gurugram",
+      "experience": "Fresher / early career",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://careers.unitedhealthgroup.com/job/-/-/34088/100918446496",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "dbs-assoc-appdev",
+      "company": "DBS Tech India",
+      "role": "Associate/Specialist – Application Development, IBG Technology (WD86131)",
+      "location": "Hyderabad",
+      "experience": "0–2 yrs",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-GB/DBS_Careers/job/Hyderabad---DTI-Waverock-SEZ/Associate--Specialist--Application-Developement--Institutional-Banking-Group-Technology_WD86131-1",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "spglobal-se-edm",
+      "company": "S&P Global",
+      "role": "Software Engineer – Enterprise Data Management (332151)",
+      "location": "Noida",
+      "experience": "Fresher / early career",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://careers.spglobal.com/jobs/332151?lang=en-us",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "wellsfargo-se-java-fs",
+      "company": "Wells Fargo",
+      "role": "Software Engineer – Java Full Stack with React",
+      "location": "Bengaluru (hybrid)",
+      "experience": "2+ yrs",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "applyUrl": "https://jobfound.org/job/wells-fargo-is-hiring-for-software-engineer-java-full-stack-react-bengaluru-hybrid-india-14-october-2026",
+      "sourceType": "aggregator",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.wellsfargojobs.com/"
+    },
+    {
+      "id": "citi-young-apprentice-automation",
+      "company": "Citi",
+      "role": "Young Apprentice – Process Automation & Finance Intelligence (261000621)",
+      "location": "Mumbai (hybrid)",
+      "experience": "Apprentice / fresher",
+      "tracks": [
+        "Python"
+      ],
+      "applyUrl": "https://jobs.citi.com/job/-/-/287/101902023136",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "deloitte-analyst-finance-ai",
+      "company": "Deloitte",
+      "role": "Analyst – Finance AI Implementation",
+      "location": "Bengaluru",
+      "experience": "0–2 yrs",
+      "tracks": [
+        "AI/ML"
+      ],
+      "applyUrl": "https://southasiacareers.deloitte.com/job/Bengaluru-Analyst-Finance-AI-Implementation-Bengaluru-Finance-Transformation-Finance-Strategy/60602644/",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "capgemini-aqe",
+      "company": "Capgemini",
+      "role": "Associate Quality Engineer (test automation)",
+      "location": "Bengaluru",
+      "experience": "0–5 yrs (freshers ok)",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://careers.capgemini.com/job/Bangalore-Associate-Quality-Engineer/1433216333/",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://www.naukri.com/job-listings-associate-quality-engineer-capgemini-technology-services-india-limited-bengaluru-0-to-5-years-071026942144"
+    },
+    {
+      "id": "jci-ase-powerplatform-ai",
+      "company": "Johnson Controls",
+      "role": "Associate Software Engineer – Power Platform & AI (WD30281830)",
+      "location": "Pune",
+      "experience": "1–2 yrs",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "applyUrl": "https://jobs.johnsoncontrols.com/job/WD30281830",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "seagate-swdev-intern",
+      "company": "Seagate",
+      "role": "Intern – Software Development",
+      "location": "Pune",
+      "experience": "Students / freshers",
+      "tracks": [
+        "SDE"
+      ],
+      "applyUrl": "https://seagatecareers.com/job/Pune-Intern-Software-Development/15209-en_US/",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "smarsh-swe-intern",
+      "company": "Smarsh",
+      "role": "Software Engineer Intern – Enterprise Engineering (Java & AI)",
+      "location": "Bengaluru (hybrid)",
+      "experience": "Students / recent grads",
+      "tracks": [
+        "SDE",
+        "Java",
+        "AI/ML"
+      ],
+      "applyUrl": "https://jobs.lever.co/smarsh/5657c390-a459-486e-97cb-a30b56eba602/",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "kaleris-cloudops-intern",
+      "company": "Kaleris",
+      "role": "CloudOps Intern (R-100650)",
+      "location": "Chennai",
+      "experience": "Final-year students",
+      "tracks": [
+        "DevOps"
+      ],
+      "applyUrl": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/CloudOps-Intern_R-100650",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "honeywell-ai-intern",
+      "company": "Honeywell",
+      "role": "Intern Bachelors – AI (159846)",
+      "location": "Bengaluru",
+      "experience": "Bachelor's students",
+      "tracks": [
+        "AI/ML"
+      ],
+      "applyUrl": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/159846",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "altera-ai-automation-intern",
+      "company": "Altera",
+      "role": "AI Automation Intern (R03334)",
+      "location": "Hyderabad",
+      "experience": "Intern",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ],
+      "applyUrl": "https://altera.wd1.myworkdayjobs.com/Altera/job/Regus-Madhapur/AI-Automation-Intern_R03334",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "gevernova-ai-research-intern",
+      "company": "GE Vernova",
+      "role": "Advanced Research Intern – AI (R5050740)",
+      "location": "Bengaluru",
+      "experience": "Intern",
+      "tracks": [
+        "AI/ML"
+      ],
+      "applyUrl": "https://careers.gevernova.com/intern/job/R5050740",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "gehc-ai-research-intern",
+      "company": "GE HealthCare",
+      "role": "Research Intern – AI (R4043882)",
+      "location": "Bengaluru",
+      "experience": "Intern",
+      "tracks": [
+        "AI/ML"
+      ],
+      "applyUrl": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4043882EXTERNALENGLOBAL/Research-Intern-AI",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "cdac-jit-oct-2026",
+      "company": "C-DAC",
+      "role": "JIT Oct 2026 – Project Associate / Project Engineer (apply by 26 Oct)",
+      "location": "Pan India",
+      "experience": "0+ yrs",
+      "tracks": [
+        "SDE",
+        "Python",
+        "Java",
+        "AI/ML",
+        "DevOps"
+      ],
+      "applyUrl": "https://careers.cdac.in/",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false,
+      "careersUrl": "https://careers.cdac.in/"
+    },
+    {
+      "id": "pearson-data-apprentice",
+      "company": "Pearson",
+      "role": "Apprentice – Data Analytics (BI)",
+      "location": "Noida",
+      "experience": "Fresher / 0–2 yrs",
+      "tracks": [
+        "Python"
+      ],
+      "applyUrl": "https://pearson.jobs/noida-ind/apprentice-data-analytics-business-intelligence/854345DAC42E40C5A58BD3A1BE26FC60/job/",
+      "sourceType": "official",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "automationedge-java-fresher",
+      "company": "AutomationEdge",
+      "role": "Java Developer – Fresher",
+      "location": "Pune",
+      "experience": "Fresher",
+      "tracks": [
+        "Java"
+      ],
+      "applyUrl": "https://in.indeed.com/rc/clk?jk=38eb6d551fd6898d&fccid=4bdaf9b0f43f71da&vjs=3",
+      "sourceType": "aggregator",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "id": "qbyss-jr-python",
+      "company": "QBYSS",
+      "role": "Junior Python Developer",
+      "location": "India",
+      "experience": "Fresher / early career",
+      "tracks": [
+        "Python"
+      ],
+      "applyUrl": "https://jobfound.org/job/qbyss-is-hiring-for-junior-python-developer-india-india-17-october-2026",
+      "sourceType": "aggregator",
+      "foundOn": "18 Oct",
+      "isNew": false
+    },
+    {
+      "applyUrl": "https://apply.careers.microsoft.com/careers/job/1970393556863192?domain=microsoft.com",
+      "company": "Microsoft",
+      "experience": "0–1 yr",
+      "foundOn": "17 Oct",
+      "id": "microsoft-swe-blr",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Software Engineering (0–1 yr)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.bankofamerica.com/en-us/job-detail/26036892/apprentice-multiple-locations",
+      "batch": "2027",
+      "company": "Bank of America",
+      "experience": "Final-year students",
+      "foundOn": "17 Oct",
+      "id": "boa-swe-apprentice",
+      "isNew": false,
+      "location": "Mumbai / Chennai / Gurugram / Hyderabad / GIFT City",
+      "role": "Software Engineer – Apprentice (JR-26036892)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java"
+      ]
+    },
+    {
+      "applyUrl": "https://www.wayfair.com/careers/job/software-engineer-intern/2-20829",
+      "batch": "2027",
+      "company": "Wayfair",
+      "experience": "Students (7th sem CSE)",
+      "foundOn": "17 Oct",
+      "id": "wayfair-swe-intern-genai",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Software Engineer Intern – AI-First & GenAI (Req 20829)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail/Research-Intern-AI/132016",
+      "company": "IBM Research",
+      "experience": "Students (B.Tech/M.Tech/PhD)",
+      "foundOn": "17 Oct",
+      "id": "ibm-research-ai-intern",
+      "isNew": false,
+      "location": "Gurugram / Bengaluru",
+      "role": "Research Intern – AI (Job 132016)",
+      "sourceType": "official",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail/Software-Developer-Intern/134098",
+      "batch": "2027",
+      "company": "IBM",
+      "experience": "Students (graduating by May 2027)",
+      "foundOn": "17 Oct",
+      "id": "ibm-swdev-intern-134098",
+      "isNew": false,
+      "location": "Bengaluru (hybrid)",
+      "role": "Software Developer Intern (Job 134098)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-562122/1372943155/",
+      "company": "Volvo Group",
+      "experience": "Freshers",
+      "foundOn": "17 Oct",
+      "id": "volvo-gat-python",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Graduate Apprentice Trainee – Python Test Framework (Req 36071)",
+      "sourceType": "official",
+      "tracks": [
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-562122/1372940155/",
+      "company": "Volvo Group",
+      "experience": "Freshers",
+      "foundOn": "17 Oct",
+      "id": "volvo-gat-android",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Graduate Apprentice Trainee – Android Infotainment (Req 36070)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.qualcomm.com/careers/job/446721019961?domain=qualcomm.com",
+      "company": "Qualcomm",
+      "experience": "Fresher",
+      "foundOn": "17 Oct",
+      "id": "qualcomm-ae-sw-blr",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Associate Engineer – Software (Job 446721019961)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://www.metlifecareers.com/en_US/ml/JobDetail/Software-Platform-Engineer-I/21141",
+      "company": "MetLife",
+      "experience": "0–2 yrs",
+      "foundOn": "17 Oct",
+      "id": "metlife-platform-eng1",
+      "isNew": false,
+      "location": "Pune",
+      "role": "Software / Platform Engineer I",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ]
+    },
+    {
+      "applyUrl": "https://impactanalytics.keka.com/careers/jobdetails/92315",
+      "company": "Impact Analytics",
+      "experience": "Intern / Fresher",
+      "foundOn": "17 Oct",
+      "id": "impactanalytics-devops-intern",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "DevOps Intern",
+      "sourceType": "official",
+      "tracks": [
+        "DevOps"
+      ]
+    },
+    {
+      "applyUrl": "https://job-boards.greenhouse.io/micoworks/jobs/5451974008",
+      "company": "Mico",
+      "experience": "Intern / Fresher",
+      "foundOn": "17 Oct",
+      "id": "mico-agentic-ai-intern",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Agentic AI Intern",
+      "sourceType": "official",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://apply.careers.microsoft.com/careers/job/1970393556917520?domain=microsoft.com&hl=en",
+      "company": "Microsoft",
+      "experience": "Students",
+      "foundOn": "17 Oct",
+      "id": "microsoft-ds-intern",
+      "isNew": false,
+      "location": "Across India",
+      "role": "Data Science Intern",
+      "sourceType": "official",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.cargill.com/en/job/-/-/23251/101947724080",
+      "company": "Cargill",
+      "experience": "1–2 yrs",
+      "foundOn": "17 Oct",
+      "id": "cargill-assoc-dev-automation",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Associate Developer – Process Automation",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Pune-India/Associate-Back-End-Software-Engineer_R322697",
+      "company": "Light & Wonder",
+      "experience": "1–3 yrs",
+      "foundOn": "17 Oct",
+      "id": "lnw-assoc-backend",
+      "isNew": false,
+      "location": "Pune",
+      "role": "Associate Back-End Software Engineer (R322697)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java"
+      ]
+    },
+    {
+      "applyUrl": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-RMZ/Cloud-AI-Engineer_R263637",
+      "batch": "2024–2026",
+      "company": "Analog Devices",
+      "experience": "Freshers / entry level",
+      "foundOn": "17 Oct",
+      "id": "adi-cloud-ai-engineer",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Cloud AI Engineer (R263637)",
+      "sourceType": "official",
+      "tracks": [
+        "AI/ML",
+        "DevOps",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://freshershunt.in/kpit-off-campus-drive-2026/",
+      "batch": "2027",
+      "company": "KPIT Technologies",
+      "experience": "Freshers",
+      "foundOn": "17 Oct",
+      "id": "kpit-ae-2027",
+      "isNew": false,
+      "location": "Pune / Bengaluru (expected)",
+      "role": "Associate Engineer 2027 (Phase 2) – registration closes 18 Oct, 8 PM",
+      "sourceType": "aggregator",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://www.linkedin.com/jobs/view/4477076751/",
+      "company": "Appinventiv",
+      "experience": "Freshers",
+      "foundOn": "17 Oct",
+      "id": "appinventiv-software-trainee",
+      "isNew": false,
+      "location": "Delhi NCR",
+      "role": "Software Trainee (Java/Python/JS)",
+      "sourceType": "aggregator",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://freshershunt.in/harman-internship-2026-testing/",
+      "company": "HARMAN",
+      "experience": "Students / Freshers",
+      "foundOn": "17 Oct",
+      "id": "harman-test-automation-intern",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Test Automation Intern – Python (Job 33043)",
+      "sourceType": "aggregator",
+      "tracks": [
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs4fresher.com/equifax-recruitment-2026-pune/",
+      "company": "Equifax",
+      "experience": "Freshers",
+      "foundOn": "17 Oct",
+      "id": "equifax-trainee-pune",
+      "isNew": false,
+      "location": "Pune",
+      "role": "Software Technology Engineering Trainee – Entry",
+      "sourceType": "aggregator",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs4fresher.com/medpace-recruitment-2026-navi-mumbai/",
+      "company": "Medpace",
+      "experience": "Entry level",
+      "foundOn": "17 Oct",
+      "id": "medpace-jr-qa",
+      "isNew": false,
+      "location": "Navi Mumbai",
+      "role": "Junior Software QA Test Engineer",
+      "sourceType": "aggregator",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs4fresher.com/mks-internship-2026-gurgaon/",
+      "company": "MKS",
+      "experience": "Students",
+      "foundOn": "17 Oct",
+      "id": "mks-cs-intern",
+      "isNew": false,
+      "location": "Gurugram",
+      "role": "Computer Science Engineer Undergraduate Intern",
+      "sourceType": "aggregator",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.qualcomm.com/careers/job/446719784235?hl=en-US&domain=qualcomm.com",
+      "batch": "2027",
+      "company": "Qualcomm",
+      "experience": "Fresher",
+      "foundOn": "15 Oct",
+      "id": "qualcomm-ae-sw-2027",
+      "isNew": false,
+      "location": "Hyderabad / Bengaluru / Chennai / Noida",
+      "role": "Associate Engineer – Software (2027 Campus Hire)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/CPU-Compiler-Intern---2027_JR2027260-1",
+      "batch": "2027",
+      "company": "NVIDIA",
+      "experience": "Students (BS/MS)",
+      "foundOn": "15 Oct",
+      "id": "nvidia-cpu-compiler-intern",
+      "isNew": false,
+      "location": "Pune / Bengaluru",
+      "role": "CPU Compiler Intern – 2027 (JR2027260)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://apply.careers.microsoft.com/careers/job/1970393556911730",
+      "company": "Microsoft",
+      "experience": "Students",
+      "foundOn": "15 Oct",
+      "id": "microsoft-swe-intern",
+      "isNew": false,
+      "location": "Multiple India locations (on-site)",
+      "role": "Software Engineering Intern (Job 200041085)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs.ea.com/en_US/careers/ApplicationMethods?jobId=216034",
+      "company": "Electronic Arts",
+      "experience": "Students",
+      "foundOn": "15 Oct",
+      "id": "ea-swe-intern-hyd",
+      "isNew": false,
+      "location": "Hyderabad (hybrid)",
+      "role": "Software Engineer Intern (Job 216034)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://surveys.infosysapps.com/r/a/SEcampusregistration2027batch",
+      "batch": "2027",
+      "company": "Infosys",
+      "experience": "Fresher",
+      "foundOn": "15 Oct",
+      "id": "infosys-se-2027",
+      "isNew": false,
+      "location": "Pan India",
+      "role": "Systems Engineer – 2027 batch campus registration",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.wipro.com/job/Gurugram-Graduate-Engineer-Trainee-IND-122016/201955-en_US",
+      "company": "Wipro",
+      "experience": "Fresher",
+      "foundOn": "15 Oct",
+      "id": "wipro-get-gurugram",
+      "isNew": false,
+      "location": "Gurugram",
+      "role": "Graduate Engineer Trainee (testing support)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.wipro.com/job/Noida-Graduate-Engineer-Trainee-IND-201308/190711-en_US/",
+      "batch": "2025 / 2026",
+      "company": "Wipro",
+      "experience": "Fresher",
+      "foundOn": "15 Oct",
+      "id": "wipro-get-noida",
+      "isNew": false,
+      "location": "Noida",
+      "role": "Graduate Engineer Trainee (QA)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs.worldline.com/job/Associate-Consultant-Testing/305507-en_US?src=LinkedIn",
+      "company": "Worldline",
+      "experience": "0–1 yrs",
+      "foundOn": "15 Oct",
+      "id": "worldline-assoc-testing",
+      "isNew": false,
+      "location": "Pune",
+      "role": "Associate Consultant – Testing (Selenium/Playwright)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://www.virtusa.com/careers/job-search/global/en/job/VIRVIRGLOBALCREQ261732EXTERNALENGLOBAL/Associate?utm_source=linkedin&utm_medium=phenom-feeds&source=taleo",
+      "company": "Virtusa",
+      "experience": "0–2 yrs",
+      "foundOn": "15 Oct",
+      "id": "virtusa-sw-tester",
+      "isNew": false,
+      "location": "Hyderabad",
+      "role": "Associate – Software Tester",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://app.screenloop.com/careers/aryaxai/job_posts/8648?sl_source=organic-posting-network&tab=overview&igbTracker=963526456",
+      "batch": "2025 / 2026",
+      "company": "AryaXAI",
+      "experience": "Fresher",
+      "foundOn": "15 Oct",
+      "id": "aryaxai-agent-intern",
+      "isNew": false,
+      "location": "Mumbai / Remote (India)",
+      "role": "AI Agent Engineer Intern",
+      "sourceType": "official",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4046876EXTERNALENGLOBAL/Trainee-Engineer",
+      "company": "GE HealthCare",
+      "experience": "0–1 yrs",
+      "foundOn": "15 Oct",
+      "id": "gehc-trainee-embedded",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Trainee Engineer – Embedded Software/Firmware",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://signzy.keka.com/careers/jobdetails/134560",
+      "company": "Signzy",
+      "experience": "0–1 yrs",
+      "foundOn": "15 Oct",
+      "id": "signzy-qa-intern",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "QA Intern (Java, Python, API testing)",
+      "sourceType": "official",
+      "tracks": [
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.quality-ai.com/job/Bangalore-QA-Automation-Engineer-%28Technical%29-560045/59206844/?utm_source=LINKEDIN&utm_medium=referrer",
+      "company": "QualityAI",
+      "experience": "0–3 yrs (freshers OK)",
+      "foundOn": "15 Oct",
+      "id": "qualityai-qa-automation",
+      "isNew": false,
+      "location": "Bengaluru (hybrid)",
+      "role": "QA Automation Engineer (Technical)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://jobsnet.in/red-hat-internship-drive-software-engineering-interns/",
+      "batch": "2027",
+      "company": "Red Hat",
+      "experience": "Students",
+      "foundOn": "15 Oct",
+      "id": "redhat-swe-intern-2027",
+      "isNew": false,
+      "location": "Pune / Bengaluru",
+      "role": "Software Engineering Intern 2027",
+      "sourceType": "aggregator",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://jobsnet.in/bt-group-off-campus-drive-hiring-for-associate-engineer/",
+      "batch": "2022–2026",
+      "company": "BT Group",
+      "experience": "Fresher",
+      "foundOn": "15 Oct",
+      "id": "bt-ae-apprentice",
+      "isNew": false,
+      "location": "India",
+      "role": "Associate Engineer – Apprentice",
+      "sourceType": "aggregator",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=132670&source=WEB_Search_NA",
+      "company": "IBM",
+      "experience": "0–1 yrs",
+      "foundOn": "14 Oct",
+      "id": "ibm-ase-data-blr",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Associate Software Engineer – Data & Analytics (Job 132670)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Python",
+        "AI/ML"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=132681&source=WEB_Search_NA",
+      "company": "IBM",
+      "experience": "0–1 yrs",
+      "foundOn": "14 Oct",
+      "id": "ibm-ase-pune",
+      "isNew": false,
+      "location": "Pune",
+      "role": "Associate Software Engineer (Job 132681)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail/Intern-Associate-Engineer/137023",
+      "batch": "2027",
+      "company": "IBM",
+      "experience": "Fresher",
+      "foundOn": "14 Oct",
+      "id": "ibm-intern-ae-2027",
+      "isNew": false,
+      "location": "Bengaluru (hybrid)",
+      "role": "Intern / Associate Engineer (Job 137023)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://higher.gs.com/roles/170478",
+      "batch": "2027",
+      "company": "Goldman Sachs",
+      "experience": "Fresher",
+      "foundOn": "14 Oct",
+      "id": "gs-new-analyst-2027",
+      "isNew": false,
+      "location": "Bengaluru / Hyderabad",
+      "role": "2027 New Analyst – Engineering",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009291",
+      "batch": "2025–2026",
+      "company": "Emerson",
+      "experience": "Fresher",
+      "foundOn": "14 Oct",
+      "id": "emerson-se-trainee",
+      "isNew": false,
+      "location": "Pune",
+      "role": "Software Engineer Trainee (Job 26009291)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.marsh.com/global/en/job/R_366607/Interns-Applications-Development",
+      "batch": "2027",
+      "company": "Marsh",
+      "experience": "Intern",
+      "foundOn": "14 Oct",
+      "id": "marsh-ai-native-intern",
+      "isNew": false,
+      "location": "Pune (hybrid)",
+      "role": "AI Native Intern – Applications Development (R_366607)",
+      "sourceType": "official",
+      "tracks": [
+        "AI/ML",
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://maersk.wd3.myworkdayjobs.com/Maersk_Manual/job/India-Bengaluru-560064/Associate-Software-Engineer_R189758",
+      "batch": "2023–2026",
+      "company": "Maersk",
+      "experience": "0–2 yrs",
+      "foundOn": "14 Oct",
+      "id": "maersk-ase",
+      "isNew": false,
+      "location": "Bengaluru / Pune",
+      "role": "Associate Software Engineer",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs.autodesk.com/careers/job/1443153774769",
+      "company": "Autodesk",
+      "experience": "0–2 yrs",
+      "foundOn": "14 Oct",
+      "id": "autodesk-sde",
+      "isNew": false,
+      "location": "Pune (hybrid)",
+      "role": "Software Development Engineer (Java, AWS)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java",
+        "DevOps"
+      ]
+    },
+    {
+      "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407&gh_src=2e352a8a1us",
+      "batch": "2024–2026",
+      "company": "Rubrik",
+      "experience": "0–2 yrs",
+      "foundOn": "14 Oct",
+      "id": "rubrik-se",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Software Engineer",
+      "sourceType": "official",
+      "tracks": [
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://jobs.trinet.com/careers/job/43718193?hl=en&utm_source=linkedin&domain=trinet.com",
+      "batch": "2024–2026",
+      "company": "TriNet",
+      "experience": "0–2 yrs",
+      "foundOn": "14 Oct",
+      "id": "trinet-ase",
+      "isNew": false,
+      "location": "Hyderabad",
+      "role": "Associate Software Engineer (Java/Python, GenAI)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Java",
+        "Python",
+        "AI/ML"
+      ]
+    },
+    {
+      "applyUrl": "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0826-2000&BRID=1340119&SBDID=943&lang=1",
+      "batch": "2022–2026",
+      "company": "CGI",
+      "experience": "Freshers",
+      "foundOn": "14 Oct",
+      "id": "cgi-aiml-blr",
+      "isNew": false,
+      "location": "Bengaluru",
+      "role": "Associate Software Engineer – AI/ML",
+      "sourceType": "official",
+      "tracks": [
+        "AI/ML",
+        "Python"
+      ]
+    },
+    {
+      "applyUrl": "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0926-1187&BRID=1334822&SBDID=943&lang=1",
+      "company": "CGI",
+      "experience": "Freshers",
+      "foundOn": "14 Oct",
+      "id": "cgi-ase-java-ai",
+      "isNew": false,
+      "location": "Hyderabad",
+      "role": "Associate Software Engineer – Java AI",
+      "sourceType": "official",
+      "tracks": [
+        "Java",
+        "SDE",
+        "AI/ML"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=135409&source=SN_LinkedIn",
+      "batch": "2023–2026",
+      "company": "IBM",
+      "experience": "1–3 yrs",
+      "foundOn": "14 Oct",
+      "id": "ibm-aiops-dev",
+      "isNew": false,
+      "location": "Bengaluru / Hyderabad / Pune",
+      "role": "Software Developer (AIOps)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Python",
+        "DevOps"
+      ]
+    },
+    {
+      "applyUrl": "https://www.careers.ford.com/en/job/-/-/48560/101714131408",
+      "company": "Ford",
+      "experience": "0–2 yrs",
+      "foundOn": "14 Oct",
+      "id": "ford-ase-java",
+      "isNew": false,
+      "location": "Chennai",
+      "role": "Associate Software Engineer (Java/Spring Boot)",
+      "sourceType": "official",
+      "tracks": [
+        "Java",
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://cnx.wd1.myworkdayjobs.com/external_global/job/IND-Hyderabad/Java-Full-Stack-Developer_R1768581?src=LinkedIn",
+      "batch": "2021–2026",
+      "company": "Concentrix",
+      "experience": "0–3 yrs",
+      "foundOn": "14 Oct",
+      "id": "concentrix-java-fs",
+      "isNew": false,
+      "location": "Hyderabad",
+      "role": "Associate Java Full Stack Developer",
+      "sourceType": "official",
+      "tracks": [
+        "Java",
+        "SDE"
+      ]
+    },
+    {
+      "applyUrl": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2028048EXTERNALENGLOBAL/Software-Engineer",
+      "company": "Cisco",
+      "experience": "0–2 yrs",
+      "foundOn": "14 Oct",
+      "id": "cisco-se-2028048",
+      "isNew": false,
+      "location": "Bengaluru (hybrid)",
+      "role": "Software Engineer (Job 2028048)",
+      "sourceType": "official",
+      "tracks": [
+        "SDE",
+        "Python"
+      ]
+    }
   ]
 }

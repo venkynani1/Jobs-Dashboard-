@@ -7,7 +7,14 @@ Tracks: SDE, Python, Java, DevOps, AI/ML.
 ## How it works
 
 - `index.html` — the dashboard. Search, filter by track, mark jobs as applied (saved in your browser).
-- `data/jobs.json` — the job list. A Claude scheduled task researches the web at **06:57 and 18:57 IST** every day and rewrites this file.
+- `data/jobs.json` — the job list. A free **GitHub Action** (`.github/workflows/refresh-jobs.yml`) runs at **06:57 and 18:57 IST** every day, runs `scripts/fetch_jobs.py`, and commits the updated file. GitHub Pages then redeploys the site. No Claude subscription or API key is needed.
+- `config/sources.json` — the companies and feeds the fetcher checks: Amazon, Workday career sites, Greenhouse, Lever and SmartRecruiters boards, and RSS feeds from fresher job sites. Add or remove entries here.
+
+## Automatic refresh
+
+1. **Settings → Actions → General → Workflow permissions:** choose *Read and write permissions* and save.
+2. **Actions tab → Refresh jobs → Run workflow** to test it once. The log shows `ok` or `FAIL` for each source.
+3. After that it runs on its own twice a day. Jobs that disappear from a company's site are removed; listing-site jobs drop off after 45 days.
 - Also includes pre-filtered "last 24 hours / entry level" searches on LinkedIn, Naukri and Indeed, plus official career portals for 30+ companies.
 
 ## Run it
