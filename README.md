@@ -6,12 +6,14 @@ Tracks: SDE, Python, Java, DevOps, AI/ML.
 
 ## How it works
 
-- `index.html` — the dashboard. Filters: role type (technical / non-technical), track, product vs service company, salary, new only, hide applied.
-- **Resume for this job** — every job has a button that builds a one-page, ATS-friendly resume tailored to that role (summary, skill order, experience bullets, best two projects) and downloads it as PDF or Word. It shows the keyword match, missing skills and a project idea for each gap. Runs in the browser; no server or API key.
-- `resume/resume.json` — your resume data. Edit this file to update the resume everywhere. `resume/resume-render.js` is the template.
-- `data/jobs.json` — the job list, rewritten by a free **GitHub Action** (`.github/workflows/refresh-jobs.yml`) at **06:57 and 18:57 IST** using `scripts/fetch_jobs.py`.
-- `config/sources.json` — companies and feeds the fetcher checks. `config/companies.json` — product / service labels.
+**Jobs tab** — filters for role type (technical / non-technical), track, city, product vs service company, salary, new only and hide applied. Each job has Apply, **Resume for this job**, Mark applied, and LinkedIn / Naukri search links.
 
-Salaries: when a posting states a figure it is shown as is; otherwise a typical fresher range for that company type is shown and marked *est.*
+**Tracker tab** — every "Mark applied" lands here; add applications from anywhere else with "Add application". Edit status, next step, follow-up date and notes inline. Export / import Excel (same columns as `Job_Application_Tracker.xlsx`). Saved in your browser, so export as a backup.
 
-LinkedIn and Naukri don't allow automatic collection, so each job has LinkedIn / Naukri search links and the page has pre-filtered board searches.
+**Gmail updates** — "Check Gmail for updates" reads recent recruiting emails (read-only, inside your browser) and suggests status changes (assessment, interview, rejection, offer) for tracked companies; you approve each one. Needs a free Google OAuth Client ID once — the setup steps are shown in the app.
+
+**Profile & resume tab** — anyone can upload their LinkedIn "Save to PDF" file; it is parsed in the browser into an editable profile (add projects and bullets), and all tailored resumes then use it. Nothing is uploaded anywhere. Without an uploaded profile, `resume/resume.json` (the owner's resume) is used.
+
+Files: `index.html` + `app.js` (the app), `resume/` (resume data, template, LinkedIn parser), `data/jobs.json` (refreshed by the GitHub Action at 06:57 / 18:57 IST via `scripts/fetch_jobs.py`), `config/sources.json` (companies checked), `config/companies.json` (product / service labels).
+
+Salaries: a figure stated in the posting is shown as is; otherwise a typical fresher range for that company type, marked *est.*
