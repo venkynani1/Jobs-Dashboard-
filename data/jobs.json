@@ -1,7 +1,2586 @@
 {
-  "refreshedAt": "2026-10-18T11:44:49+05:30",
+  "refreshedAt": "2026-10-18T13:51:00+05:30",
   "nextRefreshAt": "2026-10-18T18:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-software-development-engineer-ii-international-emerging-stores-sub-same-d",
+      "company": "Amazon",
+      "role": "Software Development Engineer II, International Emerging Stores Sub-same Day (Job 10574438)",
+      "location": "Gurugram, Haryana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Java",
+        "C++",
+        "C#"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10574438/software-development-engineer-ii-international-emerging-stores-sub-same-day",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-09",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": null,
+        "max": null,
+        "estimated": true,
+        "text": "Stipend (internship)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-data-engineer-i-worldwide-operations-finance-ww-ops-finance-s-a-ww-ops-fi",
+      "company": "Amazon",
+      "role": "Data Engineer I, Worldwide Operations Finance, WW Ops Finance S&A, WW Ops Finance S&A (Job 10574806)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "Oracle",
+        "AWS",
+        "Tableau"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10574806/data-engineer-i-worldwide-operations-finance-ww-ops-finance-s-a-ww-ops-finance-s-a",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-09",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-associate-ii-ml-data-operations-go-ai-operations-job-10574381-uttar-prade",
+      "company": "Amazon",
+      "role": "Associate II, ML Data Operations, GO-AI Operations (Job 10574381)",
+      "location": "Uttar Pradesh, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "AI/ML"
+      ],
+      "keywords": [
+        "Go",
+        "Computer Vision",
+        "Excel",
+        "MS Office"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10574381/associate-ii-ml-data-operations-go-ai-operations",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-09",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "amazon-data-scientist-ii-eu-prime-and-marketing-analytics-science-primas-job-105",
+      "company": "Amazon",
+      "role": "Data Scientist II, EU Prime and Marketing Analytics & Science (PRIMAS) (Job 10561346)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10561346/data-scientist-ii-eu-prime-and-marketing-analytics-science-primas",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-09-28",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-data-scientist-ii-amazon-finauto-lantern-job-10569183-hyderabad",
+      "company": "Amazon",
+      "role": "Data Scientist II, Amazon FinAuto - Lantern (Job 10569183)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10569183/data-scientist-ii-amazon-finauto-lantern",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-05",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-associate-ii-ml-data-operations-go-ai-operations-job-10555955-chennai",
+      "company": "Amazon",
+      "role": "Associate II, ML Data Operations, GO-AI Operations (Job 10555955)",
+      "location": "Chennai, Tamil Nadu, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "AI/ML"
+      ],
+      "keywords": [
+        "Go",
+        "Computer Vision",
+        "Excel",
+        "MS Office"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10555955/associate-ii-ml-data-operations-go-ai-operations",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-09-23",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "visa-data-engineer-1-2-years-of-experience-in-java-python-go-kafka-flink-hadoop-",
+      "company": "Visa",
+      "role": "Data Engineer (1 - 2 years of experience in Java / Python / Go, Kafka, Flink, Hadoop)",
+      "location": "IN - Bengaluru, India",
+      "experience": "1 - 2 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Python",
+        "Java"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "Go",
+        "Kafka",
+        "Hadoop"
+      ],
+      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Data-Engineer--1---2-years-of-experience-in-Java---Python---Go--Kafka--Flink--Hadoop-_REF088312W",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-06",
+      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "visa-safety-security-specialist-1-3-years-experience-in-bengaluru",
+      "company": "Visa",
+      "role": "Safety/Security Specialist (1-3 years experience)",
+      "location": "IN - Bengaluru, India",
+      "experience": "1-3 years",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "CI/CD",
+        "Linux",
+        "REST",
+        "Postman",
+        "Jira",
+        "Grafana",
+        "Networking"
+      ],
+      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Safety-Security-Specialist--1-3-years-experience-_REF088924W",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-01",
+      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "visa-associate-cybersecurity-analyst-in-bengaluru",
+      "company": "Visa",
+      "role": "Associate Cybersecurity Analyst",
+      "location": "IN - Bengaluru, India",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "REST"
+      ],
+      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Associate-Cybersecurity-Analyst_REF088190W",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-18",
+      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "salesforce-systems-engineer-workday-platform-2-locations",
+      "company": "Salesforce",
+      "role": "Systems Engineer -  Workday Platform",
+      "location": "2 Locations",
+      "experience": "3-5 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Git",
+        "Agile",
+        "Scrum",
+        "Prompt Engineering",
+        "Salesforce"
+      ],
+      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Systems-Engineer----Workday-Platform_JR364391",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-16",
+      "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "salesforce-technical-support-engineer-commerce-cloud-2-locations",
+      "company": "Salesforce",
+      "role": "Technical Support Engineer - Commerce Cloud",
+      "location": "2 Locations",
+      "experience": "3-4 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Java",
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS",
+        "SQL",
+        "Oracle",
+        "MongoDB",
+        "REST",
+        "Salesforce"
+      ],
+      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Technical-Support-Engineer---Commerce-Cloud_JR353944-1",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-14",
+      "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "nvidia-software-qa-engineer-india",
+      "company": "NVIDIA",
+      "role": "Software QA Engineer",
+      "location": "India, Pune",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "keywords": [
+        "Selenium",
+        "Communication"
+      ],
+      "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Software-QA-Engineer_JR2027627",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-13",
+      "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "nvidia-sox-it-compliance-analyst-2-locations",
+      "company": "NVIDIA",
+      "role": "SOX IT Compliance Analyst",
+      "location": "2 Locations",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Deep Learning",
+        "Excel",
+        "SAP"
+      ],
+      "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/SOX-IT-Compliance-Analyst_JR2008881",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-13",
+      "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-cloud-software-development-engineer-india",
+      "company": "Intel",
+      "role": "Cloud Software Development Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps",
+        "Python"
+      ],
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Spring",
+        "Python",
+        "Angular",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Jenkins",
+        "GitHub Actions",
+        "CI/CD",
+        "Linux"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Cloud-Software-Development-Engineer_JR0287692",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-01",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-ai-software-development-engineer-india",
+      "company": "Intel",
+      "role": "AI Software Development Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Python",
+        "C++",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "Algorithms",
+        "Communication"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/AI-Software-Development-Engineer_JR0287693",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-01",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-ai-software-solutions-engineer-india",
+      "company": "Intel",
+      "role": "AI Software Solutions Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "keywords": [
+        "Python",
+        "C++",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Data Structures",
+        "Algorithms",
+        "Communication"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/AI-Software-Solutions-Engineer_JR0287966",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-14",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-diagnostics-firmware-engineer-india",
+      "company": "Intel",
+      "role": "Diagnostics Firmware Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "keywords": [
+        "Python",
+        "C++",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Algorithms",
+        "Communication"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Diagnostics-Firmware-Engineer_JR0287984",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-16",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-systems-and-hardware-enabling-engineer-india",
+      "company": "Intel",
+      "role": "Systems and Hardware Enabling Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Python",
+        "C++",
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Systems-and-Hardware-Enabling-Engineer_JR0287240",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-22",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-microarchitecture-and-design-engineer-ai-soc-india",
+      "company": "Intel",
+      "role": "Microarchitecture and Design Engineer - AI SoC",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "keywords": [
+        "Communication"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Microarchitecture-and-Design-Engineer---AI-SoC_JR0287606-1",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-08",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-memory-electrical-validation-engineer-india",
+      "company": "Intel",
+      "role": "Memory Electrical Validation Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Memory-Electrical-Validation-Engineer_JR0287713",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-05",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-gpu-performance-verification-engineer-india",
+      "company": "Intel",
+      "role": "GPU Performance Verification Engineer",
+      "location": "India, Bangalore",
+      "experience": "2+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "keywords": [
+        "Machine Learning"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/GPU-Performance-Verification-Engineer_JR0288229",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-16",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mastercard-associate-analyst-analytics-metrics-navi-mumbai",
+      "company": "Mastercard",
+      "role": "Associate Analyst, Analytics & Metrics",
+      "location": "Navi Mumbai, India (Finicity)",
+      "experience": "3-4 years",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Databricks",
+        "Git",
+        "pandas",
+        "NumPy",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Associate-Analyst--Analytics---Metrics_R-293135",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-16",
+      "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mastercard-data-scientist-ii-gurgaon",
+      "company": "Mastercard",
+      "role": "Data Scientist II",
+      "location": "Gurgaon, India",
+      "experience": "3–5 years",
+      "category": "technical",
+      "tracks": [
+        "AI/ML"
+      ],
+      "keywords": [
+        "Python",
+        "Go",
+        "Scala",
+        "SQL",
+        "SQL Server",
+        "Spark",
+        "Hadoop",
+        "Airflow",
+        "Snowflake",
+        "Databricks",
+        "ETL",
+        "Machine Learning",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Gurgaon-India/Data-Scientist-II_R-291761",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-30",
+      "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mastercard-data-scientist-ii-product-data-analytics-gurgaon",
+      "company": "Mastercard",
+      "role": "Data Scientist II, Product Data & Analytics",
+      "location": "Gurgaon, India",
+      "experience": "3–5 years",
+      "category": "technical",
+      "tracks": [
+        "AI/ML"
+      ],
+      "keywords": [
+        "Python",
+        "Go",
+        "Scala",
+        "SQL",
+        "SQL Server",
+        "Spark",
+        "Hadoop",
+        "Airflow",
+        "Snowflake",
+        "Databricks",
+        "ETL",
+        "Machine Learning",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Gurgaon-India/Data-Scientist-II--Product-Data---Analytics_R-292062",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-30",
+      "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "databricks-software-engineer-infrastructure-bengaluru",
+      "company": "Databricks",
+      "role": "Software Engineer, Infrastructure",
+      "location": "Bengaluru, India",
+      "experience": "3–5 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "keywords": [
+        "Python",
+        "Databricks",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "GitHub Actions",
+        "CI/CD",
+        "Excel",
+        "Prometheus",
+        "Grafana"
+      ],
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-30",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mongodb-software-engineer-3-gurugram",
+      "company": "MongoDB",
+      "role": "Software Engineer 3",
+      "location": "Gurugram",
+      "experience": "3-4 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Spring",
+        "Microservices",
+        "SQL",
+        "MySQL",
+        "MongoDB",
+        "AWS",
+        "Azure",
+        "CI/CD",
+        "REST",
+        "Data Structures",
+        "Algorithms",
+        "Communication"
+      ],
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-30",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mongodb-software-engineer-3-ai-framework-integrations-gurugram",
+      "company": "MongoDB",
+      "role": "Software Engineer 3, AI Framework Integrations",
+      "location": "Gurugram",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "TypeScript",
+        "C#",
+        "Go",
+        "Rust",
+        "MongoDB",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Jira",
+        "RAG",
+        "LangChain",
+        "Communication"
+      ],
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8127772",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-11",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mongodb-software-engineer-3-enterprise-architecture-gurugram",
+      "company": "MongoDB",
+      "role": "Software Engineer 3 - Enterprise Architecture",
+      "location": "Gurugram",
+      "experience": "2-5 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML"
+      ],
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Go",
+        "Rust",
+        "MongoDB",
+        "AWS",
+        "Azure",
+        "Kubernetes",
+        "CI/CD",
+        "RAG",
+        "Communication"
+      ],
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8221290",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-28",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "adobe-conversation-ai-engineer-bangalore",
+      "company": "Adobe",
+      "role": "Conversation AI Engineer",
+      "location": "Bangalore",
+      "experience": "3–5 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Python",
+        "Express",
+        "NLP",
+        "LLM",
+        "RAG",
+        "Prompt Engineering",
+        "System Design"
+      ],
+      "applyUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Conversation-AI-Engineer_R172109",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-29",
+      "careersUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "adobe-information-security-analyst-bangalore",
+      "company": "Adobe",
+      "role": "Information Security Analyst",
+      "location": "Bangalore",
+      "experience": "2-4 years",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Express",
+        "AWS",
+        "Azure",
+        "Linux",
+        "Communication"
+      ],
+      "applyUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Information-Security-Analyst_R171091",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-18",
+      "careersUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "micron-technology-associate-engineer-it-eng-system-mgr-hyderabad-phoenix-aquila",
+      "company": "Micron Technology",
+      "role": "Associate Engineer, IT Eng System Mgr",
+      "location": "Hyderabad - Phoenix Aquila, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Kubernetes",
+        "Ansible",
+        "Jenkins",
+        "CI/CD",
+        "Linux",
+        "Communication"
+      ],
+      "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Hyderabad---Phoenix-Aquila-India/Associate-Engineer--IT-Eng-System-Mgr_JR112672",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "kla-specialist-technology-software-chennai",
+      "company": "KLA",
+      "role": "Specialist, Technology - Software",
+      "location": "Chennai, India",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Java",
+        "Microservices",
+        "Python",
+        "C++",
+        "C#",
+        ".NET",
+        "Swift",
+        "Kubernetes",
+        "CI/CD",
+        "Machine Learning",
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Specialist--Technology---Software_2641137",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-05",
+      "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "kla-engr-software-qa-2-chennai",
+      "company": "KLA",
+      "role": "Engr, Software QA 2",
+      "location": "Chennai, India",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Java",
+        "C#",
+        "Selenium",
+        "Machine Learning"
+      ],
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Engr--Software-QA-2_2640389",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-29",
+      "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "kla-software-quality-engineer-automation-ai-chennai",
+      "company": "KLA",
+      "role": "Software Quality Engineer – Automation & AI",
+      "location": "Chennai, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "Python"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "C++",
+        "C#",
+        "Machine Learning",
+        "Prompt Engineering",
+        "Communication"
+      ],
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Software-Quality-Engineer---Automation---AI_2641371",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-01",
+      "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "kla-engineer-product-applications-chennai",
+      "company": "KLA",
+      "role": "Engineer, Product Applications",
+      "location": "Chennai, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Machine Learning"
+      ],
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Engineer--Product-Applications_2640820",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-29",
+      "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "motorola-solutions-software-engineer-3-4-years-c-full-stack-python-bangalore",
+      "company": "Motorola Solutions",
+      "role": "Software Engineer(3-4 years) (C++, Full-Stack, Python)",
+      "location": "Bangalore, India",
+      "experience": "3-4 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "C++",
+        "C#",
+        "Docker",
+        "Git",
+        "Agile",
+        "Data Structures",
+        "Algorithms",
+        "Communication"
+      ],
+      "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer--C--C-Python--Devops--Automation--AI-_R67215",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-09",
+      "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 2
+    },
+    {
+      "id": "motorola-solutions-software-engineer-go-and-java-datastructure-algorithm-bangalo",
+      "company": "Motorola Solutions",
+      "role": "Software Engineer(Go and Java, Datastructure, Algorithm)",
+      "location": "Bangalore, India",
+      "experience": "2 to 4 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "keywords": [
+        "Java",
+        "C++",
+        "Go",
+        "Golang",
+        "PostgreSQL",
+        "Redis",
+        "Elasticsearch",
+        "RabbitMQ",
+        "Docker",
+        "CI/CD",
+        "gRPC",
+        "Data Structures",
+        "Algorithms",
+        "Networking",
+        "Communication"
+      ],
+      "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer-Go-and-Java--Datastructure--Algorithm-_R68249",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-18",
+      "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 2
+    },
+    {
+      "id": "motorola-solutions-software-engineer-java-android-kotlin-ios-javascript-bangalor",
+      "company": "Motorola Solutions",
+      "role": "Software Engineer (Java, Android/Kotlin/IOS/Javascript)",
+      "location": "Bangalore, India",
+      "experience": "2+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Java"
+      ],
+      "keywords": [
+        "Java",
+        "JavaScript",
+        "C++",
+        "Kotlin",
+        "Communication"
+      ],
+      "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer--Java--Android-Kotlin-IOS-Javascript-_R68277",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-06",
+      "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 2
+    },
+    {
+      "id": "thermo-fisher-scientific-assoc-finance-systems-analyst-2-locations",
+      "company": "Thermo Fisher Scientific",
+      "role": "Assoc Finance Systems Analyst",
+      "location": "2 Locations",
+      "experience": "3–5 years",
+      "category": "technical",
+      "tracks": [
+        "DevOps"
+      ],
+      "keywords": [
+        "SQL",
+        "Oracle",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Bangalore-India/Assoc-Finance-Systems-Analyst_R-01369783",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-13",
+      "careersUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "thermo-fisher-scientific-data-engineer-ii-bangalore",
+      "company": "Thermo Fisher Scientific",
+      "role": "Data Engineer II",
+      "location": "Bangalore, India",
+      "experience": "2+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Cassandra",
+        "Snowflake",
+        "Databricks",
+        "AWS",
+        "Azure",
+        "Agile",
+        "Scrum",
+        "Machine Learning",
+        "LLM",
+        "Power BI",
+        "Tableau",
+        "Communication"
+      ],
+      "applyUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Bangalore-India/Data-Engineer-II_R-01367830",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-21",
+      "careersUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-applied-scientist-ii-rbs-tech-job-10561089-bengaluru",
+      "company": "Amazon",
+      "role": "Applied Scientist II, RBS Tech (Job 10561089)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "1+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Machine Learning",
+        "Deep Learning",
+        "NLP",
+        "Computer Vision",
+        "GenAI",
+        "Communication"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10561089/applied-scientist-ii-rbs-tech",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-09-28",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "amazon-applied-scientist-ii-rbs-tech-job-10563441-bengaluru",
+      "company": "Amazon",
+      "role": "Applied Scientist II, RBS Tech (Job 10563441)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "C++",
+        "Machine Learning",
+        "Deep Learning",
+        "NLP",
+        "Computer Vision",
+        "Algorithms"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10563441/applied-scientist-ii-rbs-tech",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-09-29",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "visa-accountant-exp-in-t-e-card-program-in-bengaluru",
+      "company": "Visa",
+      "role": "Accountant (Exp in T&E card program)",
+      "location": "IN - Bengaluru, India",
+      "experience": "2+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Oracle",
+        "Excel",
+        "SAP",
+        "Communication",
+        "MS Office"
+      ],
+      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Accountant--Exp-in-T-E-card-program-_REF089033W",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-03",
+      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "visa-analyst-client-success-in-bengaluru",
+      "company": "Visa",
+      "role": "Analyst, Client Success",
+      "location": "IN - Bengaluru, India",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Analyst--Client-Success_REF089066W",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-17",
+      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "visa-portfolio-specialist-in-bengaluru",
+      "company": "Visa",
+      "role": "Portfolio Specialist",
+      "location": "IN - Bengaluru, India",
+      "experience": "2-5 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Portfolio-Specialist_REF089167W",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-13",
+      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "target-media-analyst-bangalore",
+      "company": "Target",
+      "role": "Media Analyst",
+      "location": "Bangalore,India",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Oracle",
+        "Excel",
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Media-Analyst_R0000453264",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-18",
+      "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "target-analyst-pim-ops-bangalore",
+      "company": "Target",
+      "role": "Analyst PIM Ops",
+      "location": "Bangalore,India",
+      "experience": "3–5 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "SQL",
+        "Power BI",
+        "Excel",
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Analyst-PIM-Ops_R0000473632",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-09",
+      "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "paypal-regulatory-reporting-specialist-bangalore",
+      "company": "PayPal",
+      "role": "Regulatory Reporting Specialist",
+      "location": "Bangalore, Karnataka, India",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "SAP",
+        "Communication"
+      ],
+      "applyUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Regulatory-Reporting-Specialist_R0137740",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-06",
+      "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mastercard-specialist-product-management-gurgaon",
+      "company": "Mastercard",
+      "role": "Specialist Product Management",
+      "location": "Gurgaon, India",
+      "experience": "3–4 Years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "Agile",
+        "GenAI",
+        "Power BI",
+        "Tableau",
+        "Excel"
+      ],
+      "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Gurgaon-India/Associate-Product-Specialist--Product-Management_R-280604",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-05",
+      "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "dbs-tech-india-officer-customer-service-officer-consumer-banking-group-vadavalli",
+      "company": "DBS Tech India",
+      "role": "Officer, Customer Service Officer, Consumer Banking Group",
+      "location": "Vadavalli, Coimbatore",
+      "experience": "2-4 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Communication"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Vadavalli-Coimbatore/Officer--Customer-Service-Officer--Consumer-Banking-Group_WD89646",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-13",
+      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "dbs-tech-india-analyst-grievance-redressal-officer-consumer-banking-group-region",
+      "company": "DBS Tech India",
+      "role": "Analyst, Grievance Redressal Officer, Consumer Banking Group",
+      "location": "Regional Office Mumbai",
+      "experience": "3-5 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Regional-Office-Mumbai/Associate--Grievance-Redressal-Operations---Analytics--Consumer-Banking-Group_WD86979",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-07",
+      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mongodb-associate-hr-shared-services-gurugram",
+      "company": "MongoDB",
+      "role": "Associate, HR Shared Services",
+      "location": "Gurugram",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "MongoDB",
+        "AWS",
+        "Azure",
+        "Agile"
+      ],
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8173777",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-04",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mongodb-specialist-sales-performance-gurugram",
+      "company": "MongoDB",
+      "role": "Specialist, Sales Performance",
+      "location": "Gurugram",
+      "experience": "3–4 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "MongoDB",
+        "AWS",
+        "Azure",
+        "Tableau",
+        "Salesforce"
+      ],
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8201518",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-01",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "groww-creative-illustrator-bengaluru-vtp",
+      "company": "Groww",
+      "role": "Creative Illustrator",
+      "location": "Bengaluru-VTP, India",
+      "experience": "3–4 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.eu.greenhouse.io/groww/jobs/4979964101",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-08",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "groww-procurement-specialist-bengaluru-vtp",
+      "company": "Groww",
+      "role": "Procurement Specialist",
+      "location": "Bengaluru-VTP, India",
+      "experience": "2+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.eu.greenhouse.io/groww/jobs/4980317101",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-14",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "adobe-computer-scientist-c-noida",
+      "company": "Adobe",
+      "role": "Computer Scientist- C++",
+      "location": "Noida",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "Express",
+        "C++",
+        "GenAI",
+        "RAG"
+      ],
+      "applyUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Computer-Scientist--C--_R171105",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-18",
+      "careersUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "workday-customer-support-analyst-financials-payroll-ind-pune",
+      "company": "Workday",
+      "role": "Customer Support Analyst (Financials & Payroll)",
+      "location": "IND.Pune",
+      "experience": "1+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "SQL",
+        "Machine Learning",
+        "LLM"
+      ],
+      "applyUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/INDPune/Customer-Support-Analyst--AI-ML-Application-Support--_JR-0110071",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-14",
+      "careersUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "workday-customer-support-analyst-hcm-talent-compensation-benefits-ind-pune",
+      "company": "Workday",
+      "role": "Customer Support Analyst (HCM, Talent, Compensation & Benefits)",
+      "location": "IND.Pune",
+      "experience": "1+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "SQL",
+        "AWS",
+        "Azure",
+        "GCP",
+        "LLM",
+        "Communication"
+      ],
+      "applyUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/INDPune/Sr-Associate-Customer-Support-Analyst--AI-ML-Application-Support-_JR-0110060",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-14",
+      "careersUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "workday-product-trainer-hcm-ind-pune",
+      "company": "Workday",
+      "role": "Product Trainer HCM",
+      "location": "IND.Pune",
+      "experience": "2+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Oracle",
+        "SAP",
+        "Communication"
+      ],
+      "applyUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/INDPune/Product-Trainer-HCM_JR-0110197",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-14",
+      "careersUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "autodesk-gtm-support-specialist-bengaluru",
+      "company": "Autodesk",
+      "role": "GTM Support Specialist",
+      "location": "Bengaluru, IND",
+      "experience": "1+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Salesforce",
+        "MS Office"
+      ],
+      "applyUrl": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Bengaluru-IND/GTM-Support-Specialist_26WD101454-1",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-16",
+      "careersUrl": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "analog-devices-associate-specialist-customer-operations-india",
+      "company": "Analog Devices",
+      "role": "Associate Specialist, Customer Operations",
+      "location": "India, Gandhinagar",
+      "experience": "1-3 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Python",
+        "Go",
+        "SQL",
+        "Agile",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "SAP",
+        "Communication"
+      ],
+      "applyUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/India-Gandhinagar/Associate-Specialist--Customer-Operations_R266628",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-07",
+      "careersUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "analog-devices-buyer-procurement-india",
+      "company": "Analog Devices",
+      "role": "Buyer, Procurement",
+      "location": "India, Gandhinagar",
+      "experience": "1-4 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Go",
+        "Oracle",
+        "Excel",
+        "SAP",
+        "Communication",
+        "Stakeholder management"
+      ],
+      "applyUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/India-Gandhinagar/Buyer--Procurement_R265290",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-24",
+      "careersUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "kla-analyst-algorithm-research-development-chennai",
+      "company": "KLA",
+      "role": "Analyst, Algorithm Research & Development",
+      "location": "Chennai, India",
+      "experience": "3-5 Years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Python",
+        "C++",
+        "Spark",
+        "Docker",
+        "Kubernetes",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "PyTorch",
+        "Algorithms"
+      ],
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Analyst--Algorithm-Research---Development_2638559",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-14",
+      "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "thermo-fisher-scientific-cra-i-fsp-mumbai",
+      "company": "Thermo Fisher Scientific",
+      "role": "CRA I - FSP",
+      "location": "Mumbai, India",
+      "experience": "1 to 2 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "GCP",
+        "Communication"
+      ],
+      "applyUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Mumbai-India/CRA-I---FSP_R-01368661",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-21",
+      "careersUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "gitlab-benefits-analyst-bangalore",
+      "company": "GitLab",
+      "role": "Benefits Analyst",
+      "location": "Bangalore, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Go",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8864819002",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-09",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "elastic-business-analyst-marketing-1-fixed-term-bangalore",
+      "company": "Elastic",
+      "role": "Business Analyst, Marketing-1 (Fixed Term)",
+      "location": "Bangalore, India",
+      "experience": "3–5 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "CSS",
+        "SQL",
+        "Elasticsearch",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Salesforce",
+        "Communication"
+      ],
+      "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8177119&gh_jid=8177119",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-09",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "elastic-coordinator-marketing-operations-fixed-term-bangalore",
+      "company": "Elastic",
+      "role": "Coordinator, Marketing Operations (Fixed Term)",
+      "location": "Bangalore, India",
+      "experience": "1–3 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "CSS",
+        "Elasticsearch",
+        "Salesforce"
+      ],
+      "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8161139&gh_jid=8161139",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-07",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "elastic-marketing-coordinators-amer-fixed-term-bangalore",
+      "company": "Elastic",
+      "role": "Marketing Coordinators, AMER (Fixed Term)",
+      "location": "Bangalore, India",
+      "experience": "2-3 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "CSS",
+        "Elasticsearch",
+        "Tableau",
+        "Salesforce",
+        "Communication"
+      ],
+      "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8263255&gh_jid=8263255",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-08",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "twilio-people-generalist-remote-india",
+      "company": "Twilio",
+      "role": "People Generalist",
+      "location": "Remote - India",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "ServiceNow",
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8256431",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-09",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-bengaluru-bengaluru",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Bengaluru",
+      "location": "Bengaluru, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8003027?gh_jid=8003027",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-delhi-new-delhi",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Delhi",
+      "location": "New Delhi, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8248830?gh_jid=8248830",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-mumbai-mumbai",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Mumbai",
+      "location": "Mumbai, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8248800?gh_jid=8248800",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "servicenow-customer-success-executive-mumbai",
+      "company": "ServiceNow",
+      "role": "Customer Success Executive",
+      "location": "Mumbai, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000153407564",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-10-05",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "servicenow-customer-success-executive-bangalore",
+      "company": "ServiceNow",
+      "role": "Customer Success Executive",
+      "location": "Bangalore, Karnataka, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000152904319",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-10-01",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "servicenow-enterprise-account-executive-mrd-mumbai",
+      "company": "ServiceNow",
+      "role": "Enterprise Account Executive - MRD",
+      "location": "Mumbai, Maharashtra, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000151572119",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-09-24",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "servicenow-customer-success-executive-strategic-accounts-mumbai",
+      "company": "ServiceNow",
+      "role": "Customer Success Executive, Strategic Accounts",
+      "location": "Mumbai, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000149814859",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-09-16",
+      "foundOn": "18 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
     {
       "id": "amazon-software-development-engineer-time-pay-innovation-job-10561005-hyderabad",
       "company": "Amazon",
@@ -22,14 +2601,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-26",
+      "similar": 2
     },
     {
       "id": "amazon-software-development-engineer-time-pay-innovation-job-10561001-hyderabad",
@@ -51,14 +2632,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-26",
+      "similar": 2
     },
     {
       "id": "amazon-software-development-engineer-time-pay-innovation-job-10561007-hyderabad",
@@ -80,14 +2663,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-26",
+      "similar": 2
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10579674-mumbai",
@@ -107,14 +2692,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 4
     },
     {
       "id": "amazon-data-center-operations-tech-data-center-operations-dco-job-10568655-mumba",
@@ -134,14 +2721,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-05",
+      "similar": 1
     },
     {
       "id": "amazon-data-center-operations-tech-data-center-operations-dco-job-10537164-mumba",
@@ -161,14 +2750,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-11",
+      "similar": 1
     },
     {
       "id": "amazon-controls-engineer-controls-deployment-service-india-job-10529689-hyderaba",
@@ -190,14 +2781,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-04",
+      "similar": 0
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10535692-mumbai",
@@ -217,14 +2810,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-10",
+      "similar": 4
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10535690-mumbai",
@@ -244,14 +2839,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-10",
+      "similar": 4
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10544310-mumbai",
@@ -271,14 +2868,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-16",
+      "similar": 4
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10544309-mumbai",
@@ -298,14 +2897,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-16",
+      "similar": 4
     },
     {
       "id": "amazon-system-development-engineer-edgeai-hw-compute-group-job-10573481-bengalur",
@@ -331,14 +2932,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-08",
+      "similar": 0
     },
     {
       "id": "amazon-she-builds-1-1-resume-interview-coaching-india-job-10557386-bengaluru",
@@ -356,14 +2959,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-23",
+      "similar": 0
     },
     {
       "id": "amazon-applied-scientist-international-machine-learning-job-10555817-gurugram",
@@ -390,14 +2995,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-09-22",
+      "similar": 0
     },
     {
       "id": "amazon-business-intel-engineer-go-ai-job-10556820-hyderabad",
@@ -423,14 +3030,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-22",
+      "similar": 0
     },
     {
       "id": "visa-data-analyst-in-bengaluru",
@@ -460,14 +3069,16 @@
       "source": "workday",
       "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "visa-analyst-client-consulting-ai-in-mumbai",
@@ -496,14 +3107,16 @@
       "source": "workday",
       "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "salesforce-associate-success-guide-india-hyderabad",
@@ -525,14 +3138,16 @@
       "source": "workday",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "target-engineer-target-india-tower-02",
@@ -552,14 +3167,16 @@
       "source": "workday",
       "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-05",
+      "similar": 0
     },
     {
       "id": "paypal-site-reliability-engineer-chennai",
@@ -591,14 +3208,16 @@
       "source": "workday",
       "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-associate-application-developer-institutional-banking-group-techn",
@@ -626,14 +3245,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "rubrik-software-engineer-cloud-azure-bangalore",
@@ -663,14 +3284,16 @@
       "sourceType": "official",
       "source": "greenhouse",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-07",
+      "similar": 0
     },
     {
       "id": "rubrik-software-engineer-saas-o365-bangalore",
@@ -699,14 +3322,16 @@
       "sourceType": "official",
       "source": "greenhouse",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-06",
+      "similar": 0
     },
     {
       "id": "swiggy-test-employee-executive-bengaluru",
@@ -723,14 +3348,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-05",
+      "similar": 0
     },
     {
       "id": "bosch-in-bosch-rexroth-india-field-service-engineer-executive-hydraulic-system-a",
@@ -747,14 +3374,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "bosch-calibration-specialist-gasoline-systems-bangalore",
@@ -771,14 +3400,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-embedded-c-linux-ect2-coimbatore",
@@ -797,14 +3428,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-in-bosch-rexroth-india-engineer-executive-logistics-sanand",
@@ -821,14 +3454,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "bosch-hardware-technical-specialist-bengaluru",
@@ -845,14 +3480,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "bosch-ui-designer-bangalore",
@@ -869,14 +3506,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "bosch-sap-pp-consultant-telangana",
@@ -895,14 +3534,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "amazon-applied-scientist-alexa-sensitive-content-intelligence-asci-job-10578603-",
@@ -927,14 +3568,16 @@
       "source": "amazon",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "visa-finance-analyst-exp-in-contract-accounting-revenue-accounting-mandate-ca-ic",
@@ -956,14 +3599,16 @@
       "source": "workday",
       "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-03",
+      "similar": 0
     },
     {
       "id": "visa-irf-compliance-analyst-in-mumbai",
@@ -981,42 +3626,16 @@
       "source": "workday",
       "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
-    },
-    {
-      "id": "target-pricing-analyst-4-bangalore",
-      "company": "Target",
-      "role": "Pricing Analyst-4",
-      "location": "Bangalore,India",
-      "experience": "2+ yrs",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "SQL",
-        "Excel"
-      ],
-      "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Pricing-Analyst-4_R0000475691",
-      "sourceType": "official",
-      "source": "workday",
-      "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
-      "foundOn": "18 Oct",
-      "isNew": true,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-06",
+      "similar": 0
     },
     {
       "id": "mastercard-associate-specialist-implementation-pune",
@@ -1036,14 +3655,16 @@
       "source": "workday",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "mastercard-associate-analyst-insights-enablement-gurgaon",
@@ -1068,14 +3689,16 @@
       "source": "workday",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "mastercard-associate-analyst-navi-mumbai",
@@ -1101,14 +3724,16 @@
       "source": "workday",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-06",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-associate-quality-assurance-regional-product-development-hyderaba",
@@ -1134,14 +3759,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-22",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-senio-associate-quality-assurance-regional-product-development-hy",
@@ -1167,14 +3794,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-22",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-assistant-officer-personal-banker-consumer-banking-group-puliyaku",
@@ -1195,14 +3824,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-17",
+      "similar": 1
     },
     {
       "id": "dbs-tech-india-assistant-officer-personal-banker-consumer-banking-group-uppilipa",
@@ -1223,14 +3854,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 1
     },
     {
       "id": "dbs-tech-india-associate-specialist-credit-analyst-institutional-banking-group-m",
@@ -1250,14 +3883,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-analyst-generalist-business-management-support-global-financial-m",
@@ -1278,14 +3913,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-09",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-analyst-client-services-small-medium-enterprises-hyderabad-dbil",
@@ -1305,14 +3942,16 @@
       "source": "workday",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-08",
+      "similar": 0
     },
     {
       "id": "altera-hw-and-dsp-graduate-intern-bengaluru",
@@ -1333,14 +3972,16 @@
       "source": "workday",
       "careersUrl": "https://altera.wd1.myworkdayjobs.com/en-US/Altera",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-10-08",
+      "similar": 0
     },
     {
       "id": "rubrik-eng-project-program-intern-bangalore",
@@ -1363,14 +4004,16 @@
       "sourceType": "official",
       "source": "greenhouse",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-09-06",
+      "similar": 0
     },
     {
       "id": "rubrik-industrial-trainee-bangalore",
@@ -1389,14 +4032,16 @@
       "sourceType": "official",
       "source": "greenhouse",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "mongodb-employer-brand-analyst-gurugram",
@@ -1417,14 +4062,16 @@
       "sourceType": "official",
       "source": "greenhouse",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-08",
+      "similar": 0
     },
     {
       "id": "groww-video-editor-intern-bengaluru-vtp",
@@ -1443,14 +4090,16 @@
       "sourceType": "official",
       "source": "greenhouse",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-09-04",
+      "similar": 0
     },
     {
       "id": "meesho-associate-operations-bangalore",
@@ -1470,14 +4119,16 @@
       "sourceType": "official",
       "source": "lever",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-01",
+      "similar": 0
     },
     {
       "id": "zeta-executive-assistant-bangalore-dd",
@@ -1497,14 +4148,16 @@
       "sourceType": "official",
       "source": "lever",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-23",
+      "similar": 0
     },
     {
       "id": "bosch-risk-management-officer-bengaluru",
@@ -1521,14 +4174,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "bosch-in-rbic-customer-quality-management-product-quality-management-qmm3-chkp-k",
@@ -1545,14 +4200,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "bosch-in-rbic-operations-controller-outbound-logistics-pune",
@@ -1569,14 +4226,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "bosch-in-rbin-area-sales-manager-jamshedpur-power-tools-jamshedpur",
@@ -1593,14 +4252,16 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "hpe-hpe-internship-2026-3-intern-openings-remote-hybrid-bengaluru-apply-now-beng",
@@ -1617,14 +4278,16 @@
       "sourceType": "aggregator",
       "source": "rss:freshershunt",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-10-18",
+      "similar": 0
     },
     {
       "id": "wipro-wipro-off-campus-drive-2026-associate-analyst-chennai-chennai",
@@ -1641,14 +4304,16 @@
       "sourceType": "aggregator",
       "source": "rss:offcampusjobs4u",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 2.5,
         "max": 5,
         "estimated": true,
         "text": "₹2.5–5 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-17",
+      "similar": 0
     },
     {
       "id": "hcltech-hcltech-off-campus-drive-2026-process-associate-for-arts-science-fresher",
@@ -1665,14 +4330,16 @@
       "sourceType": "aggregator",
       "source": "rss:offcampusjobs4u",
       "foundOn": "18 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 2.5,
         "max": 5,
         "estimated": true,
         "text": "₹2.5–5 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-17",
+      "similar": 0
     },
     {
       "id": "amazon-software-development-engineer-i-job-10580014-hyderabad",
@@ -1697,7 +4364,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 3
     },
     {
       "id": "amazon-software-development-engineer-i-job-10580008-hyderabad",
@@ -1722,7 +4391,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 3
     },
     {
       "id": "amazon-software-development-engineer-i-ftc-job-10580010-hyderabad",
@@ -1747,7 +4418,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 1
     },
     {
       "id": "amazon-software-development-engineer-i-ftc-job-10580009-hyderabad",
@@ -1772,7 +4445,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 1
     },
     {
       "id": "amazon-software-development-engineer-i-job-10580013-hyderabad",
@@ -1797,7 +4472,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 3
     },
     {
       "id": "amazon-software-development-engineer-i-job-10580011-hyderabad",
@@ -1822,7 +4499,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 3
     },
     {
       "id": "amazon-data-center-operations-technician-data-center-operations-dco-job-10568703",
@@ -1850,7 +4529,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-05",
+      "similar": 0
     },
     {
       "id": "amazon-data-engineer-i-dsp-analytics-job-10551531-hyderabad",
@@ -1882,7 +4563,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-17",
+      "similar": 0
     },
     {
       "id": "amazon-data-engineer-flex-analytics-job-10536801-hyderabad",
@@ -1914,7 +4597,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-10",
+      "similar": 0
     },
     {
       "id": "amazon-data-engineer-selling-partner-insights-and-analytics-sps-job-10530756-ben",
@@ -1946,7 +4631,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-06",
+      "similar": 0
     },
     {
       "id": "amazon-system-development-engineer-i-job-10579966-hyderabad",
@@ -1983,7 +4670,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "amazon-system-development-engineer-i-amazon-job-10576573-chennai",
@@ -2020,7 +4709,9 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "amazon-support-ops-specialist-support-operations-level-3-job-10575489-hyderabad",
@@ -2047,7 +4738,9 @@
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 1
     },
     {
       "id": "amazon-support-ops-specialist-support-operations-level-3-job-10575503-bengaluru",
@@ -2074,7 +4767,9 @@
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 1
     },
     {
       "id": "amazon-business-analyst-i-amazon-pay-job-10566492-bengaluru",
@@ -2103,7 +4798,9 @@
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-01",
+      "similar": 0
     },
     {
       "id": "amazon-business-analyst-i-cmt-job-10561075-bengaluru",
@@ -2133,7 +4830,9 @@
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-09-28",
+      "similar": 0
     },
     {
       "id": "mastercard-software-engineer-i-1-pune",
@@ -2160,7 +4859,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-associate-application-developer-specialist-institutional-banking-",
@@ -2200,7 +4901,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "dbs-tech-india-associate-application-developer-future-ready-hyderabad-dti-skyvie",
@@ -2234,7 +4937,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "kaleris-associate-software-engineer-intern-chennai",
@@ -2263,7 +4968,9 @@
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-09-28",
+      "similar": 0
     },
     {
       "id": "rubrik-software-engineer-cpd-winter-intern-bangalore",
@@ -2292,7 +4999,9 @@
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-09-06",
+      "similar": 0
     },
     {
       "id": "bosch-plc-automation-engineer-ecf2-bengaluru",
@@ -2319,7 +5028,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "bosch-in-rbai-senior-engineer-maintenance-shift-leader-charcon-bengaluru",
@@ -2343,7 +5054,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "bosch-software-for-hw-evaluation-embedded-engg-bsh-hosur-road-bangalore",
@@ -2367,7 +5080,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "bosch-in-rbai-senior-process-engineer-pick-and-place-bangalore",
@@ -2391,7 +5106,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-16",
+      "similar": 0
     },
     {
       "id": "bosch-ci-cd-workflow-engineer-ebh-hosur-road-bangalore",
@@ -2417,7 +5134,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-java-full-stack-with-java-angular-pune-hosur-road-bangalore",
@@ -2445,7 +5164,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-full-stack-with-c-angular-pune-hosur-road-bangalore",
@@ -2472,7 +5193,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-embedded-c-developer-ebh-hosur-road-bangalore",
@@ -2498,7 +5221,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-devops-engineer-application-deployment-configuration-k8s-bangalore",
@@ -2523,7 +5248,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-data-scientist-bengaluru",
@@ -2547,7 +5274,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-research-engineer-generative-ai-and-computer-vision-bengaluru",
@@ -2574,7 +5303,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-emt3-vm-gen-ai-ml-senior-developer-hosur-road-bangalore",
@@ -2598,7 +5329,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-emt3-vm-python-gen-ai-developer-hosur-road-bangalore",
@@ -2624,7 +5357,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-it-application-operations-engineer-bengaluru",
@@ -2648,7 +5383,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-15",
+      "similar": 0
     },
     {
       "id": "bosch-ect3-embedded-testing-bangalore-bangalore",
@@ -2672,7 +5409,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "bosch-hil-test-engineer-bangalore",
@@ -2696,7 +5435,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 1
     },
     {
       "id": "bosch-full-stack-software-developer-with-ai-expertise-pune-hosur-road-bangalore",
@@ -2721,7 +5462,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "bosch-product-development-engineer-nha-series-support-jap-jaipur",
@@ -2745,7 +5488,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "bosch-test-engineer-bengaluru",
@@ -2769,7 +5514,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "bosch-test-engineer-mbd-mil-sil-bengaluru",
@@ -2793,7 +5540,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "bosch-sap-slt-developer-2n-bengaluru",
@@ -2819,7 +5568,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-14",
+      "similar": 0
     },
     {
       "id": "bosch-ai-cloud-consultant-bangalore",
@@ -2844,7 +5595,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "bosch-lab-operations-administration-engineer-at-ps-cc-edt-in-bengaluru",
@@ -2868,7 +5621,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-13",
+      "similar": 0
     },
     {
       "id": "bosch-automotive-diagnostic-and-troubleshooting-engineer-for-ev-hev-systems-ban-",
@@ -2892,7 +5647,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "bosch-model-based-development-engineer-bangalore",
@@ -2916,7 +5673,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "bosch-devops-mlops-specialist-bengaluru",
@@ -2941,7 +5700,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "bosch-hil-test-engineer-bengaluru",
@@ -2965,7 +5726,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 1
     },
     {
       "id": "bosch-embedded-c-developer-ect1-hosur-road-bangalore",
@@ -2991,7 +5754,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "bosch-resident-engineer-bengaluru",
@@ -3015,7 +5780,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-12",
+      "similar": 0
     },
     {
       "id": "l-t-edutech-l-t-edutech-recruitment-2026-freshers-engineer-trainee-chennai-chenn",
@@ -3040,7 +5807,9 @@
         "max": 7,
         "estimated": true,
         "text": "₹3.5–7 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-18",
+      "similar": 0
     },
     {
       "id": "kaplan-kaplan-recruitment-2026-software-engineer-i-bangalore-bangalore",
@@ -3064,7 +5833,9 @@
         "max": 10,
         "estimated": true,
         "text": "₹4–10 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-18",
+      "similar": 0
     },
     {
       "id": "cisco-cisco-recruitment-2026-software-engineer-bangalore-bangalore",
@@ -3088,7 +5859,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-18",
+      "similar": 0
     },
     {
       "id": "infosys-infosys-off-campus-drive-2026-digital-specialist-engineer-trainee-hydera",
@@ -3112,7 +5885,9 @@
         "text": "₹7 LPA"
       },
       "keywords": [],
-      "companyType": "service"
+      "companyType": "service",
+      "postedOn": "2026-10-18",
+      "similar": 0
     },
     {
       "id": "infosys-infosys-off-campus-drive-2026-specialist-programmer-trainee-hyderabad-be",
@@ -3136,7 +5911,9 @@
         "text": "₹21 LPA"
       },
       "keywords": [],
-      "companyType": "service"
+      "companyType": "service",
+      "postedOn": "2026-10-18",
+      "similar": 0
     },
     {
       "id": "renault-group-renault-group-off-campus-drive-2026-engineer-programmer-analyst-ni",
@@ -3160,7 +5937,9 @@
         "max": 10,
         "estimated": true,
         "text": "₹4–10 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-18",
+      "similar": 0
     },
     {
       "id": "wayfair-wayfair-off-campus-drive-2026-software-engineer-intern-ai-genai-india",
@@ -3187,7 +5966,9 @@
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
+      },
+      "postedOn": "2026-10-17",
+      "similar": 0
     },
     {
       "id": "volvo-volvo-off-campus-drive-2026-graduate-apprentice-trainee-india",
@@ -3211,7 +5992,9 @@
         "max": 6,
         "estimated": true,
         "text": "₹3–6 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-17",
+      "similar": 0
     },
     {
       "id": "cargill-cargill-recruitment-2026-associate-developer-process-automation-india",
@@ -3240,7 +6023,9 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "postedOn": "2026-10-17",
+      "similar": 0
     },
     {
       "id": "google-swe2-ads",
@@ -3269,7 +6054,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "google-swe2-corpeng",
@@ -3298,7 +6084,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "google-cloud-data-eng",
@@ -3327,7 +6114,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "google-swe3-infra-cloud",
@@ -3356,7 +6144,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "google-swe3-fullstack",
@@ -3385,7 +6174,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "google-swe3-payments",
@@ -3412,7 +6202,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "google-swe3-aiml",
@@ -3437,7 +6228,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "google-swe-youtube-fs",
@@ -3466,7 +6258,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "phonepe-swe-android",
@@ -3492,7 +6285,8 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "juspay-sde-backend",
@@ -3516,7 +6310,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "swiggy-sde1",
@@ -3542,7 +6337,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "netapp-se",
@@ -3565,7 +6361,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "franklin-ase",
@@ -3588,7 +6385,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "niit-ase",
@@ -3611,7 +6409,8 @@
         "max": 7,
         "estimated": true,
         "text": "₹3.5–7 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "thermofisher-asd",
@@ -3634,7 +6433,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "accenture-ds-associate-genai",
@@ -3661,7 +6461,8 @@
         "max": 7,
         "estimated": true,
         "text": "₹3.5–7 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "amex-analyst-ds",
@@ -3687,7 +6488,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "target-engineer",
@@ -3710,7 +6512,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "optum-se-java",
@@ -3737,7 +6540,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "dbs-assoc-appdev",
@@ -3763,7 +6567,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "spglobal-se-edm",
@@ -3786,7 +6591,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "wellsfargo-se-java-fs",
@@ -3814,7 +6620,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "citi-young-apprentice-automation",
@@ -3839,7 +6646,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "deloitte-analyst-finance-ai",
@@ -3862,7 +6670,8 @@
         "max": 7,
         "estimated": true,
         "text": "₹3.5–7 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "capgemini-aqe",
@@ -3886,7 +6695,8 @@
         "max": 7,
         "estimated": true,
         "text": "₹3.5–7 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "jci-ase-powerplatform-ai",
@@ -3910,7 +6720,8 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     },
     {
       "id": "seagate-swdev-intern",
@@ -3933,1591 +6744,8 @@
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      }
-    },
-    {
-      "id": "smarsh-swe-intern",
-      "company": "Smarsh",
-      "role": "Software Engineer Intern – Enterprise Engineering (Java & AI)",
-      "location": "Bengaluru (hybrid)",
-      "experience": "Students / recent grads",
-      "tracks": [
-        "SDE",
-        "Java",
-        "AI/ML"
-      ],
-      "applyUrl": "https://jobs.lever.co/smarsh/5657c390-a459-486e-97cb-a30b56eba602/",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "id": "kaleris-cloudops-intern",
-      "company": "Kaleris",
-      "role": "CloudOps Intern (R-100650)",
-      "location": "Chennai",
-      "experience": "Final-year students",
-      "tracks": [
-        "DevOps"
-      ],
-      "applyUrl": "https://kaleris.wd501.myworkdayjobs.com/kaleris_careers/job/Chennai/CloudOps-Intern_R-100650",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "id": "honeywell-ai-intern",
-      "company": "Honeywell",
-      "role": "Intern Bachelors – AI (159846)",
-      "location": "Bengaluru",
-      "experience": "Bachelor's students",
-      "tracks": [
-        "AI/ML"
-      ],
-      "applyUrl": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/159846",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "id": "altera-ai-automation-intern",
-      "company": "Altera",
-      "role": "AI Automation Intern (R03334)",
-      "location": "Hyderabad",
-      "experience": "Intern",
-      "tracks": [
-        "AI/ML",
-        "Python"
-      ],
-      "applyUrl": "https://altera.wd1.myworkdayjobs.com/Altera/job/Regus-Madhapur/AI-Automation-Intern_R03334",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "id": "gevernova-ai-research-intern",
-      "company": "GE Vernova",
-      "role": "Advanced Research Intern – AI (R5050740)",
-      "location": "Bengaluru",
-      "experience": "Intern",
-      "tracks": [
-        "AI/ML"
-      ],
-      "applyUrl": "https://careers.gevernova.com/intern/job/R5050740",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "id": "gehc-ai-research-intern",
-      "company": "GE HealthCare",
-      "role": "Research Intern – AI (R4043882)",
-      "location": "Bengaluru",
-      "experience": "Intern",
-      "tracks": [
-        "AI/ML"
-      ],
-      "applyUrl": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4043882EXTERNALENGLOBAL/Research-Intern-AI",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "id": "cdac-jit-oct-2026",
-      "company": "C-DAC",
-      "role": "JIT Oct 2026 – Project Associate / Project Engineer (apply by 26 Oct)",
-      "location": "Pan India",
-      "experience": "0+ yrs",
-      "tracks": [
-        "SDE",
-        "Python",
-        "Java",
-        "AI/ML",
-        "DevOps"
-      ],
-      "applyUrl": "https://careers.cdac.in/",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "careersUrl": "https://careers.cdac.in/",
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "id": "pearson-data-apprentice",
-      "company": "Pearson",
-      "role": "Apprentice – Data Analytics (BI)",
-      "location": "Noida",
-      "experience": "Fresher / 0–2 yrs",
-      "tracks": [
-        "Python"
-      ],
-      "applyUrl": "https://pearson.jobs/noida-ind/apprentice-data-analytics-business-intelligence/854345DAC42E40C5A58BD3A1BE26FC60/job/",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "id": "automationedge-java-fresher",
-      "company": "AutomationEdge",
-      "role": "Java Developer – Fresher",
-      "location": "Pune",
-      "experience": "Fresher",
-      "tracks": [
-        "Java"
-      ],
-      "applyUrl": "https://in.indeed.com/rc/clk?jk=38eb6d551fd6898d&fccid=4bdaf9b0f43f71da&vjs=3",
-      "sourceType": "aggregator",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      }
-    },
-    {
-      "id": "qbyss-jr-python",
-      "company": "QBYSS",
-      "role": "Junior Python Developer",
-      "location": "India",
-      "experience": "Fresher / early career",
-      "tracks": [
-        "Python"
-      ],
-      "applyUrl": "https://jobfound.org/job/qbyss-is-hiring-for-junior-python-developer-india-india-17-october-2026",
-      "sourceType": "aggregator",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://apply.careers.microsoft.com/careers/job/1970393556863192?domain=microsoft.com",
-      "company": "Microsoft",
-      "experience": "0–1 yr",
-      "foundOn": "17 Oct",
-      "id": "microsoft-swe-blr",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Software Engineering (0–1 yr)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.bankofamerica.com/en-us/job-detail/26036892/apprentice-multiple-locations",
-      "batch": "2027",
-      "company": "Bank of America",
-      "experience": "Final-year students",
-      "foundOn": "17 Oct",
-      "id": "boa-swe-apprentice",
-      "isNew": false,
-      "location": "Mumbai / Chennai / Gurugram / Hyderabad / GIFT City",
-      "role": "Software Engineer – Apprentice (JR-26036892)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://www.wayfair.com/careers/job/software-engineer-intern/2-20829",
-      "batch": "2027",
-      "company": "Wayfair",
-      "experience": "Students (7th sem CSE)",
-      "foundOn": "17 Oct",
-      "id": "wayfair-swe-intern-genai",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Software Engineer Intern – AI-First & GenAI (Req 20829)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "AI/ML"
-      ],
-      "category": "technical",
-      "keywords": [
-        "GenAI"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail/Research-Intern-AI/132016",
-      "company": "IBM Research",
-      "experience": "Students (B.Tech/M.Tech/PhD)",
-      "foundOn": "17 Oct",
-      "id": "ibm-research-ai-intern",
-      "isNew": false,
-      "location": "Gurugram / Bengaluru",
-      "role": "Research Intern – AI (Job 132016)",
-      "sourceType": "official",
-      "tracks": [
-        "AI/ML",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail/Software-Developer-Intern/134098",
-      "batch": "2027",
-      "company": "IBM",
-      "experience": "Students (graduating by May 2027)",
-      "foundOn": "17 Oct",
-      "id": "ibm-swdev-intern-134098",
-      "isNew": false,
-      "location": "Bengaluru (hybrid)",
-      "role": "Software Developer Intern (Job 134098)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "service",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-562122/1372943155/",
-      "company": "Volvo Group",
-      "experience": "Freshers",
-      "foundOn": "17 Oct",
-      "id": "volvo-gat-python",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Graduate Apprentice Trainee – Python Test Framework (Req 36071)",
-      "sourceType": "official",
-      "tracks": [
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs.volvogroup.com/job/Bangalore-Graduate-Apprentice-Trainee-562122/1372940155/",
-      "company": "Volvo Group",
-      "experience": "Freshers",
-      "foundOn": "17 Oct",
-      "id": "volvo-gat-android",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Graduate Apprentice Trainee – Android Infotainment (Req 36070)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.qualcomm.com/careers/job/446721019961?domain=qualcomm.com",
-      "company": "Qualcomm",
-      "experience": "Fresher",
-      "foundOn": "17 Oct",
-      "id": "qualcomm-ae-sw-blr",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Associate Engineer – Software (Job 446721019961)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://www.metlifecareers.com/en_US/ml/JobDetail/Software-Platform-Engineer-I/21141",
-      "company": "MetLife",
-      "experience": "0–2 yrs",
-      "foundOn": "17 Oct",
-      "id": "metlife-platform-eng1",
-      "isNew": false,
-      "location": "Pune",
-      "role": "Software / Platform Engineer I",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "DevOps"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://impactanalytics.keka.com/careers/jobdetails/92315",
-      "company": "Impact Analytics",
-      "experience": "Intern / Fresher",
-      "foundOn": "17 Oct",
-      "id": "impactanalytics-devops-intern",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "DevOps Intern",
-      "sourceType": "official",
-      "tracks": [
-        "DevOps"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://job-boards.greenhouse.io/micoworks/jobs/5451974008",
-      "company": "Mico",
-      "experience": "Intern / Fresher",
-      "foundOn": "17 Oct",
-      "id": "mico-agentic-ai-intern",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Agentic AI Intern",
-      "sourceType": "official",
-      "tracks": [
-        "AI/ML",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://apply.careers.microsoft.com/careers/job/1970393556917520?domain=microsoft.com&hl=en",
-      "company": "Microsoft",
-      "experience": "Students",
-      "foundOn": "17 Oct",
-      "id": "microsoft-ds-intern",
-      "isNew": false,
-      "location": "Across India",
-      "role": "Data Science Intern",
-      "sourceType": "official",
-      "tracks": [
-        "AI/ML",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.cargill.com/en/job/-/-/23251/101947724080",
-      "company": "Cargill",
-      "experience": "1–2 yrs",
-      "foundOn": "17 Oct",
-      "id": "cargill-assoc-dev-automation",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Associate Developer – Process Automation",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Pune-India/Associate-Back-End-Software-Engineer_R322697",
-      "company": "Light & Wonder",
-      "experience": "1–3 yrs",
-      "foundOn": "17 Oct",
-      "id": "lnw-assoc-backend",
-      "isNew": false,
-      "location": "Pune",
-      "role": "Associate Back-End Software Engineer (R322697)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-RMZ/Cloud-AI-Engineer_R263637",
-      "batch": "2024–2026",
-      "company": "Analog Devices",
-      "experience": "Freshers / entry level",
-      "foundOn": "17 Oct",
-      "id": "adi-cloud-ai-engineer",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Cloud AI Engineer (R263637)",
-      "sourceType": "official",
-      "tracks": [
-        "AI/ML",
-        "DevOps",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://freshershunt.in/kpit-off-campus-drive-2026/",
-      "batch": "2027",
-      "company": "KPIT Technologies",
-      "experience": "Freshers",
-      "foundOn": "17 Oct",
-      "id": "kpit-ae-2027",
-      "isNew": false,
-      "location": "Pune / Bengaluru (expected)",
-      "role": "Associate Engineer 2027 (Phase 2) – registration closes 18 Oct, 8 PM",
-      "sourceType": "aggregator",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://www.linkedin.com/jobs/view/4477076751/",
-      "company": "Appinventiv",
-      "experience": "Freshers",
-      "foundOn": "17 Oct",
-      "id": "appinventiv-software-trainee",
-      "isNew": false,
-      "location": "Delhi NCR",
-      "role": "Software Trainee (Java/Python/JS)",
-      "sourceType": "aggregator",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://freshershunt.in/harman-internship-2026-testing/",
-      "company": "HARMAN",
-      "experience": "Students / Freshers",
-      "foundOn": "17 Oct",
-      "id": "harman-test-automation-intern",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Test Automation Intern – Python (Job 33043)",
-      "sourceType": "aggregator",
-      "tracks": [
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs4fresher.com/equifax-recruitment-2026-pune/",
-      "company": "Equifax",
-      "experience": "Freshers",
-      "foundOn": "17 Oct",
-      "id": "equifax-trainee-pune",
-      "isNew": false,
-      "location": "Pune",
-      "role": "Software Technology Engineering Trainee – Entry",
-      "sourceType": "aggregator",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs4fresher.com/medpace-recruitment-2026-navi-mumbai/",
-      "company": "Medpace",
-      "experience": "Entry level",
-      "foundOn": "17 Oct",
-      "id": "medpace-jr-qa",
-      "isNew": false,
-      "location": "Navi Mumbai",
-      "role": "Junior Software QA Test Engineer",
-      "sourceType": "aggregator",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs4fresher.com/mks-internship-2026-gurgaon/",
-      "company": "MKS",
-      "experience": "Students",
-      "foundOn": "17 Oct",
-      "id": "mks-cs-intern",
-      "isNew": false,
-      "location": "Gurugram",
-      "role": "Computer Science Engineer Undergraduate Intern",
-      "sourceType": "aggregator",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "unknown",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.qualcomm.com/careers/job/446719784235?hl=en-US&domain=qualcomm.com",
-      "batch": "2027",
-      "company": "Qualcomm",
-      "experience": "Fresher",
-      "foundOn": "15 Oct",
-      "id": "qualcomm-ae-sw-2027",
-      "isNew": false,
-      "location": "Hyderabad / Bengaluru / Chennai / Noida",
-      "role": "Associate Engineer – Software (2027 Campus Hire)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/CPU-Compiler-Intern---2027_JR2027260-1",
-      "batch": "2027",
-      "company": "NVIDIA",
-      "experience": "Students (BS/MS)",
-      "foundOn": "15 Oct",
-      "id": "nvidia-cpu-compiler-intern",
-      "isNew": false,
-      "location": "Pune / Bengaluru",
-      "role": "CPU Compiler Intern – 2027 (JR2027260)",
-      "sourceType": "official",
-      "tracks": [
-        "Non-tech"
-      ],
-      "category": "non-technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://apply.careers.microsoft.com/careers/job/1970393556911730",
-      "company": "Microsoft",
-      "experience": "Students",
-      "foundOn": "15 Oct",
-      "id": "microsoft-swe-intern",
-      "isNew": false,
-      "location": "Multiple India locations (on-site)",
-      "role": "Software Engineering Intern (Job 200041085)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs.ea.com/en_US/careers/ApplicationMethods?jobId=216034",
-      "company": "Electronic Arts",
-      "experience": "Students",
-      "foundOn": "15 Oct",
-      "id": "ea-swe-intern-hyd",
-      "isNew": false,
-      "location": "Hyderabad (hybrid)",
-      "role": "Software Engineer Intern (Job 216034)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://surveys.infosysapps.com/r/a/SEcampusregistration2027batch",
-      "batch": "2027",
-      "company": "Infosys",
-      "experience": "Fresher",
-      "foundOn": "15 Oct",
-      "id": "infosys-se-2027",
-      "isNew": false,
-      "location": "Pan India",
-      "role": "Systems Engineer – 2027 batch campus registration",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.wipro.com/job/Gurugram-Graduate-Engineer-Trainee-IND-122016/201955-en_US",
-      "company": "Wipro",
-      "experience": "Fresher",
-      "foundOn": "15 Oct",
-      "id": "wipro-get-gurugram",
-      "isNew": false,
-      "location": "Gurugram",
-      "role": "Graduate Engineer Trainee (testing support)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.wipro.com/job/Noida-Graduate-Engineer-Trainee-IND-201308/190711-en_US/",
-      "batch": "2025 / 2026",
-      "company": "Wipro",
-      "experience": "Fresher",
-      "foundOn": "15 Oct",
-      "id": "wipro-get-noida",
-      "isNew": false,
-      "location": "Noida",
-      "role": "Graduate Engineer Trainee (QA)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs.worldline.com/job/Associate-Consultant-Testing/305507-en_US?src=LinkedIn",
-      "company": "Worldline",
-      "experience": "0–1 yrs",
-      "foundOn": "15 Oct",
-      "id": "worldline-assoc-testing",
-      "isNew": false,
-      "location": "Pune",
-      "role": "Associate Consultant – Testing (Selenium/Playwright)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Selenium",
-        "Playwright"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://www.virtusa.com/careers/job-search/global/en/job/VIRVIRGLOBALCREQ261732EXTERNALENGLOBAL/Associate?utm_source=linkedin&utm_medium=phenom-feeds&source=taleo",
-      "company": "Virtusa",
-      "experience": "0–2 yrs",
-      "foundOn": "15 Oct",
-      "id": "virtusa-sw-tester",
-      "isNew": false,
-      "location": "Hyderabad",
-      "role": "Associate – Software Tester",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://app.screenloop.com/careers/aryaxai/job_posts/8648?sl_source=organic-posting-network&tab=overview&igbTracker=963526456",
-      "batch": "2025 / 2026",
-      "company": "AryaXAI",
-      "experience": "Fresher",
-      "foundOn": "15 Oct",
-      "id": "aryaxai-agent-intern",
-      "isNew": false,
-      "location": "Mumbai / Remote (India)",
-      "role": "AI Agent Engineer Intern",
-      "sourceType": "official",
-      "tracks": [
-        "AI/ML",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4046876EXTERNALENGLOBAL/Trainee-Engineer",
-      "company": "GE HealthCare",
-      "experience": "0–1 yrs",
-      "foundOn": "15 Oct",
-      "id": "gehc-trainee-embedded",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Trainee Engineer – Embedded Software/Firmware",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://signzy.keka.com/careers/jobdetails/134560",
-      "company": "Signzy",
-      "experience": "0–1 yrs",
-      "foundOn": "15 Oct",
-      "id": "signzy-qa-intern",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "QA Intern (Java, Python, API testing)",
-      "sourceType": "official",
-      "tracks": [
-        "Python",
-        "Java"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.quality-ai.com/job/Bangalore-QA-Automation-Engineer-%28Technical%29-560045/59206844/?utm_source=LINKEDIN&utm_medium=referrer",
-      "company": "QualityAI",
-      "experience": "0–3 yrs (freshers OK)",
-      "foundOn": "15 Oct",
-      "id": "qualityai-qa-automation",
-      "isNew": false,
-      "location": "Bengaluru (hybrid)",
-      "role": "QA Automation Engineer (Technical)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://jobsnet.in/red-hat-internship-drive-software-engineering-interns/",
-      "batch": "2027",
-      "company": "Red Hat",
-      "experience": "Students",
-      "foundOn": "15 Oct",
-      "id": "redhat-swe-intern-2027",
-      "isNew": false,
-      "location": "Pune / Bengaluru",
-      "role": "Software Engineering Intern 2027",
-      "sourceType": "aggregator",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://jobsnet.in/bt-group-off-campus-drive-hiring-for-associate-engineer/",
-      "batch": "2022–2026",
-      "company": "BT Group",
-      "experience": "Fresher",
-      "foundOn": "15 Oct",
-      "id": "bt-ae-apprentice",
-      "isNew": false,
-      "location": "India",
-      "role": "Associate Engineer – Apprentice",
-      "sourceType": "aggregator",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=132670&source=WEB_Search_NA",
-      "company": "IBM",
-      "experience": "0–1 yrs",
-      "foundOn": "14 Oct",
-      "id": "ibm-ase-data-blr",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Associate Software Engineer – Data & Analytics (Job 132670)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Python",
-        "AI/ML"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=132681&source=WEB_Search_NA",
-      "company": "IBM",
-      "experience": "0–1 yrs",
-      "foundOn": "14 Oct",
-      "id": "ibm-ase-pune",
-      "isNew": false,
-      "location": "Pune",
-      "role": "Associate Software Engineer (Job 132681)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail/Intern-Associate-Engineer/137023",
-      "batch": "2027",
-      "company": "IBM",
-      "experience": "Fresher",
-      "foundOn": "14 Oct",
-      "id": "ibm-intern-ae-2027",
-      "isNew": false,
-      "location": "Bengaluru (hybrid)",
-      "role": "Intern / Associate Engineer (Job 137023)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "service",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://higher.gs.com/roles/170478",
-      "batch": "2027",
-      "company": "Goldman Sachs",
-      "experience": "Fresher",
-      "foundOn": "14 Oct",
-      "id": "gs-new-analyst-2027",
-      "isNew": false,
-      "location": "Bengaluru / Hyderabad",
-      "role": "2027 New Analyst – Engineering",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009291",
-      "batch": "2025–2026",
-      "company": "Emerson",
-      "experience": "Fresher",
-      "foundOn": "14 Oct",
-      "id": "emerson-se-trainee",
-      "isNew": false,
-      "location": "Pune",
-      "role": "Software Engineer Trainee (Job 26009291)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.marsh.com/global/en/job/R_366607/Interns-Applications-Development",
-      "batch": "2027",
-      "company": "Marsh",
-      "experience": "Intern",
-      "foundOn": "14 Oct",
-      "id": "marsh-ai-native-intern",
-      "isNew": false,
-      "location": "Pune (hybrid)",
-      "role": "AI Native Intern – Applications Development (R_366607)",
-      "sourceType": "official",
-      "tracks": [
-        "AI/ML",
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "service",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      }
-    },
-    {
-      "applyUrl": "https://maersk.wd3.myworkdayjobs.com/Maersk_Manual/job/India-Bengaluru-560064/Associate-Software-Engineer_R189758",
-      "batch": "2023–2026",
-      "company": "Maersk",
-      "experience": "0–2 yrs",
-      "foundOn": "14 Oct",
-      "id": "maersk-ase",
-      "isNew": false,
-      "location": "Bengaluru / Pune",
-      "role": "Associate Software Engineer",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs.autodesk.com/careers/job/1443153774769",
-      "company": "Autodesk",
-      "experience": "0–2 yrs",
-      "foundOn": "14 Oct",
-      "id": "autodesk-sde",
-      "isNew": false,
-      "location": "Pune (hybrid)",
-      "role": "Software Development Engineer (Java, AWS)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java",
-        "DevOps"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "AWS"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407&gh_src=2e352a8a1us",
-      "batch": "2024–2026",
-      "company": "Rubrik",
-      "experience": "0–2 yrs",
-      "foundOn": "14 Oct",
-      "id": "rubrik-se",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Software Engineer",
-      "sourceType": "official",
-      "tracks": [
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://jobs.trinet.com/careers/job/43718193?hl=en&utm_source=linkedin&domain=trinet.com",
-      "batch": "2024–2026",
-      "company": "TriNet",
-      "experience": "0–2 yrs",
-      "foundOn": "14 Oct",
-      "id": "trinet-ase",
-      "isNew": false,
-      "location": "Hyderabad",
-      "role": "Associate Software Engineer (Java/Python, GenAI)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python",
-        "AI/ML"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python",
-        "GenAI"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0826-2000&BRID=1340119&SBDID=943&lang=1",
-      "batch": "2022–2026",
-      "company": "CGI",
-      "experience": "Freshers",
-      "foundOn": "14 Oct",
-      "id": "cgi-aiml-blr",
-      "isNew": false,
-      "location": "Bengaluru",
-      "role": "Associate Software Engineer – AI/ML",
-      "sourceType": "official",
-      "tracks": [
-        "AI/ML",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0926-1187&BRID=1334822&SBDID=943&lang=1",
-      "company": "CGI",
-      "experience": "Freshers",
-      "foundOn": "14 Oct",
-      "id": "cgi-ase-java-ai",
-      "isNew": false,
-      "location": "Hyderabad",
-      "role": "Associate Software Engineer – Java AI",
-      "sourceType": "official",
-      "tracks": [
-        "Java",
-        "SDE",
-        "AI/ML"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=135409&source=SN_LinkedIn",
-      "batch": "2023–2026",
-      "company": "IBM",
-      "experience": "1–3 yrs",
-      "foundOn": "14 Oct",
-      "id": "ibm-aiops-dev",
-      "isNew": false,
-      "location": "Bengaluru / Hyderabad / Pune",
-      "role": "Software Developer (AIOps)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Python",
-        "DevOps"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://www.careers.ford.com/en/job/-/-/48560/101714131408",
-      "company": "Ford",
-      "experience": "0–2 yrs",
-      "foundOn": "14 Oct",
-      "id": "ford-ase-java",
-      "isNew": false,
-      "location": "Chennai",
-      "role": "Associate Software Engineer (Java/Spring Boot)",
-      "sourceType": "official",
-      "tracks": [
-        "Java",
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Spring Boot",
-        "Spring"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://cnx.wd1.myworkdayjobs.com/external_global/job/IND-Hyderabad/Java-Full-Stack-Developer_R1768581?src=LinkedIn",
-      "batch": "2021–2026",
-      "company": "Concentrix",
-      "experience": "0–3 yrs",
-      "foundOn": "14 Oct",
-      "id": "concentrix-java-fs",
-      "isNew": false,
-      "location": "Hyderabad",
-      "role": "Associate Java Full Stack Developer",
-      "sourceType": "official",
-      "tracks": [
-        "Java",
-        "SDE"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      }
-    },
-    {
-      "applyUrl": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2028048EXTERNALENGLOBAL/Software-Engineer",
-      "company": "Cisco",
-      "experience": "0–2 yrs",
-      "foundOn": "14 Oct",
-      "id": "cisco-se-2028048",
-      "isNew": false,
-      "location": "Bengaluru (hybrid)",
-      "role": "Software Engineer (Job 2028048)",
-      "sourceType": "official",
-      "tracks": [
-        "SDE",
-        "Python"
-      ],
-      "category": "technical",
-      "keywords": [
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      }
+      },
+      "similar": 0
     }
   ]
 }
