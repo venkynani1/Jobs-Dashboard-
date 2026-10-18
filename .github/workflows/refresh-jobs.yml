@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "27 1 * * *"    # 06:57 IST
     - cron: "27 13 * * *"   # 18:57 IST
-  workflow_dispatch: {}
+  workflow_dispatch: {}      # "Run workflow" button for a manual refresh
 
 permissions:
   contents: write
@@ -16,22 +16,13 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: One-time move of uploaded files to repo root
-        run: |
-          if [ -d fresher-job-radar-auto ]; then
-            cp -r fresher-job-radar-auto/scripts fresher-job-radar-auto/config .
-            cp fresher-job-radar-auto/README.md README.md
-            cp fresher-job-radar-auto/data/jobs.json data/jobs.json
-            git rm -rq fresher-job-radar-auto
-          fi
 
       - name: Fetch jobs
         id: fetch
@@ -41,10 +32,15 @@ jobs:
         run: |
           git config user.name "job-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A scripts config data README.md
+          git add -A data
           if git diff --cached --quiet; then
             echo "No changes."
-          else
-            git commit -m "Refresh jobs: ${{ steps.fetch.outputs.total }} roles (${{ steps.fetch.outputs.new }} new)"
-            git push
+            exit 0
           fi
+          git commit -m "Refresh jobs: ${{ steps.fetch.outputs.total }} roles (${{ steps.fetch.outputs.new }} new)"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            echo "Push failed, retrying ($i)..."
+            sleep 10
+          done
+          exit 1
