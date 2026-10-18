@@ -1,0 +1,231 @@
+{
+  "name": "Venkatesh Ragipati",
+  "title": "Software Engineer | Full Stack (Java, Python, React) | AWS Certified Cloud Practitioner",
+  "contact": {
+    "location": "Chennai, India",
+    "phone": "+91 8985554001",
+    "email": "ragipativenkateshh@gmail.com",
+    "linkedin": "linkedin.com/in/venkateshragipatii",
+    "github": "github.com/venkynani1"
+  },
+  "summary": {
+    "default": "Software Engineer at Hexaware Technologies (1+ year, promoted twice) who modernises legacy systems and ships internal tools. Led a legacy ASP.NET to FastAPI + React migration, built attendance automation now in production, and won the Gen AI Designathon and Mavericks.AI Hackathon. Java, Spring Boot, Python, React, SQL; AWS Certified.",
+    "SDE": "Software Engineer at Hexaware Technologies (1+ year, promoted twice) who designs, builds and ships full-stack applications end to end. Led a legacy ASP.NET to FastAPI + React migration with 59 automated tests, and built two internal tools now in production at Hexaware. Java, Spring Boot, Python, React, TypeScript, SQL; Mavericks.AI Hackathon winner.",
+    "Java": "Software Engineer at Hexaware Technologies (1+ year, promoted twice) building backend services and REST APIs with Java and Spring Boot, plus React front ends. Experienced with SQL Server stored procedures, PL/SQL, Postman, Git and production hardening of enterprise applications. AWS Certified; Mavericks.AI Hackathon winner.",
+    "Python": "Software Engineer at Hexaware Technologies (1+ year, promoted twice) building Python backends and data tools. Led a legacy ASP.NET to FastAPI migration (8 API modules, 59 pytest tests) and builds scikit-learn ML pipelines with Flask APIs. Also ships React front ends; Mavericks.AI Hackathon winner.",
+    "DevOps": "Software Engineer at Hexaware Technologies (1+ year, promoted twice) and AWS Certified Cloud Practitioner. Deploys and runs applications on AWS, Vercel, Render and on-premise IIS, with environment-based configuration, health checks, scheduled jobs and serverless functions. Built production-safety checks into a migrated enterprise app.",
+    "AI/ML": "Software Engineer at Hexaware Technologies (1+ year, promoted twice) who builds machine-learning products end to end: scikit-learn model comparison, MLflow tracking, Flask model APIs and React dashboards (ROC-AUC 0.821 attrition model). Also experienced in LLM prompt optimisation; Gen AI Designathon and Mavericks.AI Hackathon winner.",
+    "nontech": "Software Engineer at Hexaware Technologies (1+ year, promoted twice) with a B.E. in ECE (CGPA 9.25). Builds tools that training, HR and support teams use every day, works directly with business users to understand their process, and writes clear user documentation. Hackathon and designathon winner."
+  },
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "PL/SQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "group": "Frameworks",
+      "items": [
+        "Spring Boot",
+        "FastAPI",
+        "Flask",
+        "React",
+        "Next.js",
+        "Vue.js",
+        "Tailwind CSS",
+        "REST APIs",
+        "Microservices"
+      ]
+    },
+    {
+      "group": "Databases",
+      "items": [
+        "SQL Server",
+        "PostgreSQL",
+        "Stored Procedures",
+        "Prisma ORM",
+        "Supabase"
+      ]
+    },
+    {
+      "group": "Cloud & DevOps",
+      "items": [
+        "AWS (IAM, CLI)",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Vercel",
+        "Render",
+        "IIS",
+        "CI/CD",
+        "Postman"
+      ]
+    },
+    {
+      "group": "AI/ML",
+      "items": [
+        "scikit-learn",
+        "pandas",
+        "MLflow",
+        "LLM prompt engineering"
+      ]
+    },
+    {
+      "group": "Practices",
+      "items": [
+        "Legacy modernisation",
+        "Unit testing (pytest)",
+        "JWT / SSO authentication",
+        "Role-based access control",
+        "Agile"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Hexaware Technologies",
+      "location": "Chennai, India",
+      "roles": [
+        {
+          "title": "Software Engineer Level 1",
+          "dates": "Sep 2026 – Present"
+        },
+        {
+          "title": "Associate Software Engineer Level 1",
+          "dates": "Mar 2026 – Sep 2026"
+        },
+        {
+          "title": "Trainee (Full Stack Development Program)",
+          "dates": "Sep 2025 – Mar 2026"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Led the migration of the company's legacy Training Feedback platform from ASP.NET Web Forms (.NET 4.0) to a FastAPI back end and React + TypeScript front end, porting 20 pages into 8 API modules.",
+          "tags": [
+            "all"
+          ]
+        },
+        {
+          "text": "Reused the existing SQL Server stored procedures and SOAP single sign-on, so the move needed no data migration and no change for users.",
+          "tags": [
+            "SDE",
+            "Java",
+            "Python",
+            "DevOps"
+          ]
+        },
+        {
+          "text": "Hardened the migrated app for production: role-based access for 4 user roles, login lockout, secure cookies, start-up configuration checks, health endpoint, and 59 automated pytest tests.",
+          "tags": [
+            "SDE",
+            "Python",
+            "DevOps"
+          ]
+        },
+        {
+          "text": "Built the Multi-Attendance Extractor (Vue 3) for the training support team: merges Microsoft Teams and Webex attendance exports, groups reconnects, applies a minimum-stay rule, matches nominations, and outputs a formatted Excel report. Running in production at Hexaware.",
+          "tags": [
+            "all"
+          ]
+        },
+        {
+          "text": "Built a QR-based in-person attendance system (Next.js, Prisma, PostgreSQL, JWT) with live check-in, admin approval and LMS-ready Excel export; running in production at Hexaware for training teams.",
+          "tags": [
+            "SDE",
+            "DevOps",
+            "Java"
+          ]
+        },
+        {
+          "text": "Promoted twice in 12 months (Trainee → Associate Software Engineer → Software Engineer L1); built a React + Spring Boot job portal as the Full Stack program capstone.",
+          "tags": [
+            "all"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TalentGuard – Employee Attrition Risk Predictor (Hackathon winner)",
+      "stack": "Python, Flask, scikit-learn, MLflow, React, Tailwind, Supabase, Vercel, Render",
+      "link": "github.com/venkynani1/Weekend-Hackathon-",
+      "tags": [
+        "AI/ML",
+        "Python",
+        "SDE"
+      ],
+      "bullets": [
+        "Compared logistic regression, random forest and gradient-boosted pipelines with 5-fold stratified cross-validation; best model reached ROC-AUC 0.821.",
+        "Top-50 risk list caught 44 real exits (88% precision, 5.46x lift over the 16.1% base rate), with three explainable risk drivers per employee.",
+        "Served models through a Flask API on Render with a React + Tailwind dashboard on Vercel; selected by Hexaware for further development."
+      ]
+    },
+    {
+      "name": "Maverick Event Control Hub",
+      "stack": "Next.js, TypeScript, Prisma, Neon Postgres, Vercel, email",
+      "link": "github.com/venkynani1/friendly-doodle",
+      "tags": [
+        "SDE",
+        "Java",
+        "DevOps"
+      ],
+      "bullets": [
+        "Built an HR event platform: registration links, emailed QR passes, and camera scanning at entry, food and goodies counters.",
+        "Enforced one-scan-per-counter and capacity limits with database unique keys and row locking, so concurrent scans and sign-up bursts stay correct.",
+        "Added a live dashboard and per-event CSV reports for HR."
+      ]
+    },
+    {
+      "name": "Prompt Compression for LLM Cost Reduction",
+      "stack": "JavaScript, React, Node.js test runner",
+      "link": "github.com/venkynani1/AI-Token-Optimization-Evaluation-Repo",
+      "tags": [
+        "AI/ML",
+        "SDE"
+      ],
+      "bullets": [
+        "Compressed a 220-token LLM prompt to 100 tokens (−54.7%) while keeping all 13 requirements, verified by a coverage checker.",
+        "Shipped a reference CSV-export component and 6 passing automated tests proving the compressed prompt is complete."
+      ]
+    },
+    {
+      "name": "Wavelength – Music Streaming PWA",
+      "stack": "JavaScript, YouTube Data API, Audius API, Vercel serverless, Service Worker",
+      "link": "github.com/venkynani1/wavelength-music-player",
+      "tags": [
+        "SDE"
+      ],
+      "bullets": [
+        "Built an installable Spotify-style music player with search, playlists, shuffle/repeat and lock-screen controls.",
+        "Kept the API key server-side behind a Vercel function and cached results for 6 hours to stay within the free YouTube API quota."
+      ]
+    }
+  ],
+  "certifications": [
+    "AWS Certified Cloud Practitioner",
+    "Java Programming",
+    "Web Development",
+    "C and C++ Programming"
+  ],
+  "education": [
+    {
+      "school": "Muthayammal Engineering College",
+      "degree": "B.E., Electronics and Communication Engineering",
+      "dates": "2021 – 2025",
+      "score": "CGPA 9.25 / 10"
+    }
+  ],
+  "achievements": [
+    "Winner, Gen AI Designathon and Mavericks.AI Hackathon at Hexaware; both solutions (incl. TalentGuard) taken forward by Hexaware for further development."
+  ]
+}

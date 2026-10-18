@@ -6,39 +6,12 @@ Tracks: SDE, Python, Java, DevOps, AI/ML.
 
 ## How it works
 
-- `index.html` — the dashboard. Search, filter by track, mark jobs as applied (saved in your browser).
-- `data/jobs.json` — the job list. A free **GitHub Action** (`.github/workflows/refresh-jobs.yml`) runs at **06:57 and 18:57 IST** every day, runs `scripts/fetch_jobs.py`, and commits the updated file. GitHub Pages then redeploys the site. No Claude subscription or API key is needed.
-- `config/sources.json` — the companies and feeds the fetcher checks: Amazon, Workday career sites, Greenhouse, Lever and SmartRecruiters boards, and RSS feeds from fresher job sites. Add or remove entries here.
+- `index.html` — the dashboard. Filters: role type (technical / non-technical), track, product vs service company, salary, new only, hide applied.
+- **Resume for this job** — every job has a button that builds a one-page, ATS-friendly resume tailored to that role (summary, skill order, experience bullets, best two projects) and downloads it as PDF or Word. It shows the keyword match, missing skills and a project idea for each gap. Runs in the browser; no server or API key.
+- `resume/resume.json` — your resume data. Edit this file to update the resume everywhere. `resume/resume-render.js` is the template.
+- `data/jobs.json` — the job list, rewritten by a free **GitHub Action** (`.github/workflows/refresh-jobs.yml`) at **06:57 and 18:57 IST** using `scripts/fetch_jobs.py`.
+- `config/sources.json` — companies and feeds the fetcher checks. `config/companies.json` — product / service labels.
 
-## Automatic refresh
+Salaries: when a posting states a figure it is shown as is; otherwise a typical fresher range for that company type is shown and marked *est.*
 
-1. **Settings → Actions → General → Workflow permissions:** choose *Read and write permissions* and save.
-2. **Actions tab → Refresh jobs → Run workflow** to test it once. The log shows `ok` or `FAIL` for each source.
-3. After that it runs on its own twice a day. Jobs that disappear from a company's site are removed; listing-site jobs drop off after 45 days.
-- Also includes pre-filtered "last 24 hours / entry level" searches on LinkedIn, Naukri and Indeed, plus official career portals for 30+ companies.
-
-## Run it
-
-- **GitHub Pages:** Settings → Pages → Deploy from branch → `main` / root. The site will be at `https://venkynani1.github.io/Jobs-Dashboard-/`.
-- **Locally:** `python3 -m http.server` in this folder, then open http://localhost:8000 (opening the file directly blocks loading `jobs.json`).
-
-## Job record format
-
-```json
-{
-  "id": "amazon-sde1-2026",
-  "company": "Amazon",
-  "role": "Software Dev Engineer I",
-  "location": "Bengaluru",
-  "experience": "Freshers",
-  "batch": "2026 grads only",
-  "tracks": ["SDE", "Java"],
-  "applyUrl": "https://...",
-  "careersUrl": "https://...",
-  "sourceType": "official | aggregator",
-  "foundOn": "14 Oct",
-  "isNew": true
-}
-```
-
-Links marked **VIA LISTING** point to fresher job-listing sites. Confirm on the company's own careers page before submitting anything.
+LinkedIn and Naukri don't allow automatic collection, so each job has LinkedIn / Naukri search links and the page has pre-filtered board searches.

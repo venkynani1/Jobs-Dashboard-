@@ -3,244 +3,365 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>Fresher Job Radar</title>
+<title>Fresher Job Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: one column control bar, then company-grouped job cards, then reference link shelves */
 :root{
-  --bg:#f3f5f8; --surface:#ffffff; --ink:#141b2b; --muted:#5b6578; --line:#dde2ea;
+  --bg:#f3f5f8; --surface:#fff; --ink:#141b2b; --muted:#5b6578; --line:#dde2ea;
   --accent:#2448d6; --accent-soft:#e6ecff; --fresh:#0a7a52; --fresh-soft:#dcf3e9; --warn:#9a5b00; --warn-soft:#fbefd9;
+  --plum:#7a2bb8; --plum-soft:#f1e6fb;
   --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
   --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+@media (prefers-color-scheme:dark){:root{
   --bg:#0f141e; --surface:#171e2b; --ink:#e8ecf4; --muted:#9aa4b8; --line:#283246;
-  --accent:#7d9bff; --accent-soft:#1f2b4d; --fresh:#4fd39e; --fresh-soft:#143528; --warn:#f0b35a; --warn-soft:#3a2b14; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0f141e; --surface:#171e2b; --ink:#e8ecf4; --muted:#9aa4b8; --line:#283246;
-  --accent:#7d9bff; --accent-soft:#1f2b4d; --fresh:#4fd39e; --fresh-soft:#143528; --warn:#f0b35a; --warn-soft:#3a2b14; color-scheme:dark}
+  --accent:#7d9bff; --accent-soft:#1f2b4d; --fresh:#4fd39e; --fresh-soft:#143528; --warn:#f0b35a; --warn-soft:#3a2b14;
+  --plum:#d3a6ff; --plum-soft:#2e1f40; color-scheme:dark}}
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
-.wrap{max-width:1040px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:flex;flex-direction:column;gap:22px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding:20px 16px 48px;display:flex;flex-direction:column;gap:20px}
 header{display:flex;flex-direction:column;gap:6px}
-h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,6vw,40px);letter-spacing:-.02em;margin:0;text-wrap:balance}
-h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0;text-wrap:balance}
-.sub{color:var(--muted);margin:0;max-width:65ch}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,6vw,40px);letter-spacing:-.02em;margin:0}
+h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0}
+.sub{color:var(--muted);margin:0;max-width:70ch}
 .stamp{font-family:var(--mono);font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px}
 .stamp b{color:var(--ink);font-weight:500}
-.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-direction:column;gap:10px;border-bottom:1px solid var(--line)}
+.btn{font:600 13px var(--body);border-radius:7px;padding:7px 12px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink);text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.plum{background:var(--plum-soft);border-color:transparent;color:var(--plum)}
+@media (prefers-color-scheme:dark){.btn.primary{color:#0f141e}}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid var(--line)}
 .search{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
-.search:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.chip{font:500 13px var(--body);padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font:500 13px var(--body);padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);margin-left:auto;cursor:pointer}
+.lbl{font-size:12px;color:var(--muted);margin-right:2px}
+select{font:500 13px var(--body);padding:5px 8px;border-radius:7px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.toggle{display:flex;align-items:center;gap:5px;font-size:13px;color:var(--muted);cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .count{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
-.companies{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:14px}
+.companies{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,480px),1fr));gap:14px}
 .co{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0}
-.co-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.co-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
 .co-name{font-family:var(--display);font-weight:600;font-size:18px}
-.co-portal{font-size:12.5px;color:var(--accent);text-decoration:none;white-space:nowrap}
-.co-portal:hover{text-decoration:underline}
-.job{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding-top:10px;border-top:1px dashed var(--line);min-width:0}
+.co-type{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-left:8px}
+.co-portal{font-size:12.5px;color:var(--accent);text-decoration:none}
+.job{display:flex;flex-direction:column;gap:5px;padding-top:10px;border-top:1px dashed var(--line);min-width:0}
 .job:first-of-type{border-top:0;padding-top:0}
 .job.applied .role{text-decoration:line-through;color:var(--muted)}
-.role{font-weight:600;min-width:0;overflow-wrap:anywhere}
-.meta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:13px;color:var(--muted)}
-.tags{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:5px}
+.role{font-weight:600;overflow-wrap:anywhere}
+.meta{display:flex;flex-wrap:wrap;gap:3px 10px;font-size:13px;color:var(--muted)}
+.meta .sal{color:var(--fresh);font-weight:500}
+.meta .sal.est{color:var(--muted);font-weight:400}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
 .tag{font:500 11.5px var(--mono);padding:2px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
 .tag.new{background:var(--fresh-soft);color:var(--fresh)}
 .tag.agg{background:var(--warn-soft);color:var(--warn)}
-.actions{display:flex;gap:8px;align-items:center;grid-row:1;grid-column:2}
-.apply{font:600 13px var(--body);background:var(--accent);color:#fff;text-decoration:none;padding:6px 12px;border-radius:6px;white-space:nowrap}
-:root[data-theme="dark"] .apply{color:#0f141e}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .apply{color:#0f141e}}
-.mark{font:500 12px var(--body);background:none;border:1px solid var(--line);color:var(--muted);padding:5px 9px;border-radius:6px;cursor:pointer;white-space:nowrap}
-.mark[aria-pressed="true"]{border-color:var(--fresh);color:var(--fresh)}
+.tag.nt{background:var(--plum-soft);color:var(--plum)}
+.actions{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.mini{font-size:12px;color:var(--muted);text-decoration:none}
+.mini:hover{color:var(--accent)}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:22px;color:var(--muted)}
 .shelf{display:flex;flex-direction:column;gap:10px}
-.shelf p{margin:0;color:var(--muted);font-size:13.5px;max-width:65ch}
+.shelf p{margin:0;color:var(--muted);font-size:13.5px}
 .links{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:8px}
-.lk{display:flex;flex-direction:column;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 12px;text-decoration:none;color:var(--ink);min-width:0}
-.lk:hover{border-color:var(--accent)}
+.lk{display:flex;flex-direction:column;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 12px;text-decoration:none;color:var(--ink)}
 .lk span{font-size:12px;color:var(--muted)}
-.lk strong{font-weight:600;font-size:14px}
 .note{font-size:12.5px;color:var(--muted)}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);padding:0;width:min(640px,calc(100vw - 24px));max-height:calc(100vh - 32px)}
+dialog::backdrop{background:rgba(10,14,24,.55)}
+.dlg{padding:18px;display:flex;flex-direction:column;gap:12px;overflow:auto;max-height:calc(100vh - 34px)}
+.dlg h3{font-family:var(--display);margin:0;font-size:20px}
+.score{font:600 28px var(--display)}
+.bar{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--fresh)}
+.kw{display:flex;flex-wrap:wrap;gap:5px}
+.kw span{font:500 12px var(--mono);padding:2px 7px;border-radius:4px}
+.kw .ok{background:var(--fresh-soft);color:var(--fresh)}
+.kw .no{background:var(--warn-soft);color:var(--warn)}
+.idea{background:var(--bg);border-radius:8px;padding:9px 12px;font-size:13.5px}
+.idea b{display:block}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Fresher Job Radar</h1>
-    <p class="sub">Software roles for 0–2 years of experience across India and remote, grouped by company. Python, Java, DevOps, AI/ML and general SDE tracks. Refreshed automatically every 12 hours.</p>
+    <div class="top">
+      <h1>Fresher Job Radar</h1>
+      <button class="btn plum" type="button" id="baseResume">⬇ My base resume</button>
+    </div>
+    <p class="sub">Jobs for 0–2 years of experience at software companies across India and remote. Filter technical vs non-technical, product vs service, and salary. Every job has a one-click resume tailored to it. Refreshed automatically at 06:57 and 18:57 IST.</p>
     <div class="stamp" id="stamp"><span>Loading latest list…</span></div>
   </header>
 
   <div class="controls">
     <input class="search" id="q" type="search" placeholder="Search company, role, city or skill" autocomplete="off">
-    <div class="chips" id="chips" role="group" aria-label="Track filter"></div>
+    <div class="row" id="catRow"></div>
+    <div class="row" id="trackRow"></div>
+    <div class="row">
+      <span class="lbl">Company</span>
+      <select id="ctype"><option value="all">All types</option><option value="product">Product-based</option><option value="service">Service-based</option><option value="unknown">Not labelled</option></select>
+      <span class="lbl">Salary</span>
+      <select id="sal"><option value="0">Any</option><option value="3">₹3+ LPA</option><option value="6">₹6+ LPA</option><option value="10">₹10+ LPA</option><option value="15">₹15+ LPA</option></select>
+      <span class="lbl">Sort</span>
+      <select id="sort"><option value="company">Company A–Z</option><option value="new">Newest first</option><option value="salary">Salary high → low</option></select>
+      <label class="toggle"><input type="checkbox" id="newOnly"> New only</label>
+      <label class="toggle"><input type="checkbox" id="hideApplied"> Hide applied</label>
+    </div>
   </div>
 
   <section style="display:flex;flex-direction:column;gap:12px">
-    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap">
-      <h2>Open roles by company</h2>
-      <span class="count" id="count"></span>
-    </div>
-    <div class="companies" id="companies">
-      <div class="empty">The job list appears here once the first refresh has saved it. Each company shows its roles with an Apply link and the date it was found.</div>
-    </div>
-    <p class="note">Tags: <span class="tag new">NEW</span> found in the latest refresh · <span class="tag agg">VIA LISTING</span> link goes to a job-listing site; confirm on the company's own careers page before submitting.</p>
+    <div class="row" style="justify-content:space-between"><h2>Open roles by company</h2><span class="count" id="count"></span></div>
+    <div class="companies" id="companies"><div class="empty">Loading…</div></div>
+    <p class="note"><span class="tag new">NEW</span> found in the latest refresh · <span class="tag agg">VIA LISTING</span> link goes to a job-listing site, confirm on the company's careers page · <span class="tag nt">NON-TECH</span> non-technical role · Salaries marked <i>est.</i> are typical fresher ranges for that company type, not the posting's figure.</p>
   </section>
 
   <section class="shelf">
-    <h2>Fresh-every-morning searches</h2>
-    <p>Pre-filtered searches on job boards, set to entry level and recent postings. Open these daily alongside the list above.</p>
+    <h2>Trusted job boards · fresh searches</h2>
+    <p>LinkedIn, Naukri and others don't allow automatic collection, so these open pre-filtered searches (entry level, recent) in one tap.</p>
     <div class="links" id="boards"></div>
   </section>
 
   <section class="shelf">
     <h2>Official career portals</h2>
-    <p>Each company's own careers site, opened to India or early-career searches where the site supports it.</p>
     <div class="links" id="portals"></div>
   </section>
 </div>
 
+<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+
+<script src="resume/resume-render.js"></script>
 <script>
 const BOARDS=[
- ["LinkedIn","SWE · entry level · last 24h","https://www.linkedin.com/jobs/search/?keywords=software%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
- ["LinkedIn","Python developer · last 24h","https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=India&f_E=1%2C2&f_TPR=r86400"],
- ["LinkedIn","Java developer · last 24h","https://www.linkedin.com/jobs/search/?keywords=java%20developer&location=India&f_E=1%2C2&f_TPR=r86400"],
- ["LinkedIn","DevOps engineer · last 24h","https://www.linkedin.com/jobs/search/?keywords=devops%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
- ["LinkedIn","AI / ML engineer · last 24h","https://www.linkedin.com/jobs/search/?keywords=machine%20learning%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
- ["Naukri","Software engineer · 0–2 yrs","https://www.naukri.com/software-engineer-jobs?experience=1"],
- ["Naukri","DevOps · 0–2 yrs","https://www.naukri.com/devops-engineer-jobs?experience=1"],
- ["Indeed India","SWE fresher · last day","https://in.indeed.com/jobs?q=software+engineer+fresher&fromage=1"],
+ ["LinkedIn","Software engineer · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=software%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
+ ["LinkedIn","Java developer · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=java%20developer&location=India&f_E=1%2C2&f_TPR=r86400"],
+ ["LinkedIn","Python developer · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=India&f_E=1%2C2&f_TPR=r86400"],
+ ["LinkedIn","DevOps / Cloud · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=devops%20cloud%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
+ ["LinkedIn","AI / ML · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=machine%20learning%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
+ ["LinkedIn","Non-tech at IT cos · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=associate%20analyst%20operations&location=India&f_E=1%2C2&f_TPR=r86400&f_I=4%2C96"],
+ ["Naukri","Software engineer · 0–2 yrs","https://www.naukri.com/software-engineer-jobs?experience=1&jobAge=3"],
+ ["Naukri","Java developer · 0–2 yrs","https://www.naukri.com/java-developer-jobs?experience=1&jobAge=3"],
+ ["Naukri","Python developer · 0–2 yrs","https://www.naukri.com/python-developer-jobs?experience=1&jobAge=3"],
+ ["Naukri","DevOps · 0–2 yrs","https://www.naukri.com/devops-engineer-jobs?experience=1&jobAge=3"],
+ ["Naukri","Fresher IT jobs","https://www.naukri.com/fresher-jobs?jobAge=3"],
+ ["Indeed India","Software fresher · last day","https://in.indeed.com/jobs?q=software+engineer+fresher&fromage=1"],
  ["Wellfound","Startup engineering roles","https://wellfound.com/role/l/software-engineer/india"],
  ["Instahyre","Fresher tech jobs","https://www.instahyre.com/search-jobs/"],
- ["Cutshort","Developer jobs India","https://cutshort.io/jobs"],
  ["Foundit","Software jobs 0–2 yrs","https://www.foundit.in/search/software-engineer-jobs"]
 ];
-const PORTALS=[
- ["Accenture","https://www.accenture.com/in-en/careers/jobsearch?jk=associate%20software%20engineer"],
- ["Adobe","https://careers.adobe.com/us/en/search-results?keywords=software%20engineer&location=India"],
- ["Amazon","https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND"],
- ["Atlassian","https://www.atlassian.com/company/careers/all-jobs?location=India"],
- ["Capgemini","https://www.capgemini.com/in-en/careers/job-search/"],
- ["Cisco","https://jobs.cisco.com/"],
- ["Cognizant","https://careers.cognizant.com/in-en/"],
- ["Deloitte India","https://www2.deloitte.com/in/en/careers.html"],
- ["Flipkart","https://www.flipkartcareers.com/"],
- ["Goldman Sachs","https://higher.gs.com/"],
- ["Google","https://www.google.com/about/careers/applications/jobs/results/?location=India&target_level=EARLY"],
- ["HCLTech","https://www.hcltech.com/careers"],
- ["HPE","https://careers.hpe.com/"],
- ["IBM","https://www.ibm.com/careers/search?field_keyword_05[0]=India"],
- ["Infosys","https://career.infosys.com/joblist"],
- ["Intuit","https://jobs.intuit.com/"],
- ["JPMorgan Chase","https://careers.jpmorgan.com/in/en/students/programs"],
- ["Microsoft","https://jobs.careers.microsoft.com/global/en/search?lc=India"],
- ["NVIDIA","https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"],
- ["Oracle","https://careers.oracle.com/"],
- ["PayPal","https://careers.pypl.com/"],
- ["Qualcomm","https://careers.qualcomm.com/"],
- ["Razorpay","https://razorpay.com/jobs/"],
- ["Salesforce","https://careers.salesforce.com/en/jobs/?country=India"],
- ["Siemens","https://jobs.siemens.com/careers"],
- ["Swiggy","https://careers.swiggy.com/"],
- ["TCS (NQT)","https://www.tcs.com/careers/india"],
- ["UnitedHealth / Optum","https://careers.unitedhealthgroup.com/"],
- ["Walmart Global Tech","https://careers.walmart.com/"],
- ["Wipro","https://careers.wipro.com/"],
- ["Zoho","https://www.zoho.com/careers/"]
-];
-const TRACKS=["All","SDE","Python","Java","DevOps","AI/ML"];
-const state={board:null,q:"",track:"All",hideApplied:false,applied:{},prefsRef:null};
+const PORTALS=[["Accenture","https://www.accenture.com/in-en/careers/jobsearch?jk=associate%20software%20engineer"],["Adobe","https://careers.adobe.com/us/en/search-results?keywords=software%20engineer&location=India"],["Amazon","https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND"],["Atlassian","https://www.atlassian.com/company/careers/all-jobs?location=India"],["Capgemini","https://www.capgemini.com/in-en/careers/job-search/"],["Cisco","https://jobs.cisco.com/"],["Cognizant","https://careers.cognizant.com/in-en/"],["Deloitte India","https://www2.deloitte.com/in/en/careers.html"],["Flipkart","https://www.flipkartcareers.com/"],["Goldman Sachs","https://higher.gs.com/"],["Google","https://www.google.com/about/careers/applications/jobs/results/?location=India&target_level=EARLY"],["HCLTech","https://www.hcltech.com/careers"],["IBM","https://www.ibm.com/careers/search?field_keyword_05[0]=India"],["Infosys","https://career.infosys.com/joblist"],["JPMorgan Chase","https://careers.jpmorgan.com/in/en/students/programs"],["Microsoft","https://jobs.careers.microsoft.com/global/en/search?lc=India"],["NVIDIA","https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"],["Oracle","https://careers.oracle.com/"],["PayPal","https://careers.pypl.com/"],["Qualcomm","https://careers.qualcomm.com/"],["Razorpay","https://razorpay.com/jobs/"],["Salesforce","https://careers.salesforce.com/en/jobs/?country=India"],["Swiggy","https://careers.swiggy.com/"],["TCS (NQT)","https://www.tcs.com/careers/india"],["Walmart Global Tech","https://careers.walmart.com/"],["Wipro","https://careers.wipro.com/"],["Zoho","https://www.zoho.com/careers/"]];
 
-function el(tag,attrs,...kids){const n=document.createElement(tag);for(const k in attrs||{}){if(k==="class")n.className=attrs[k];else if(k==="text")n.textContent=attrs[k];else n.setAttribute(k,attrs[k]);}for(const c of kids){if(c!=null)n.append(c);}return n;}
-function safeUrl(u){try{const x=new URL(u);return (x.protocol==="https:"||x.protocol==="http:")?x.href:null}catch(e){return null}}
-function fmt(iso){if(!iso)return "—";const d=new Date(iso);if(isNaN(d))return String(iso);return d.toLocaleString(undefined,{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"});}
+// ---- skill gaps -> honest project ideas
+const TRACK_SKILLS={SDE:["Data Structures","Algorithms","OOP","REST","Git"],Java:["Java","Spring Boot","Microservices","JUnit"],Python:["Python","FastAPI","pandas","pytest"],DevOps:["AWS","Docker","Kubernetes","CI/CD","Linux"],"AI/ML":["Machine Learning","scikit-learn","LLM","PyTorch"],"Non-tech":["Communication","Stakeholder management","Excel"]};
+const IDEAS={
+ "kubernetes":"Deploy TalentGuard's Flask API on a local k3s/minikube cluster with a Deployment, Service and HorizontalPodAutoscaler; add the manifests to the repo.",
+ "docker":"Add a Dockerfile and docker-compose (API + PostgreSQL) to the Training Feedback FastAPI app and document one-command startup.",
+ "ci/cd":"Add a GitHub Actions pipeline to one of your repos: lint, run pytest, build a Docker image and deploy on push to main.",
+ "jenkins":"Write a Jenkinsfile that builds and tests a Spring Boot service and publishes a Docker image.",
+ "terraform":"Provision an EC2 instance + security group + S3 bucket with Terraform and deploy one of your apps to it.",
+ "aws":"Host the Multi-Attendance Extractor on S3 + CloudFront and add a Lambda that emails the generated report.",
+ "azure":"Deploy the FastAPI Training Feedback demo to Azure App Service with a GitHub Actions workflow.",
+ "gcp":"Deploy TalentGuard's API to Google Cloud Run and store model artifacts in Cloud Storage.",
+ "linux":"Write bash scripts that back up a PostgreSQL database nightly with cron and rotate logs; document them in a repo.",
+ "kafka":"Build two Spring Boot microservices that talk over Kafka (order-placed → notification) with docker-compose.",
+ "microservices":"Split the job-portal app into user, job and application services behind a Spring Cloud Gateway.",
+ "spring boot":"Rebuild the attendance tool's API in Spring Boot with JPA, validation and JUnit tests.",
+ "junit":"Add JUnit 5 + Mockito tests (80%+ coverage) to a Spring Boot service and show the coverage badge.",
+ "angular":"Recreate the Multi-Attendance Extractor UI in Angular to show framework range.",
+ "node.js":"Write a small Express + PostgreSQL REST API (CRUD + JWT auth) with Jest tests.",
+ "mongodb":"Add a MongoDB-backed audit log to the Event Control Hub and a query page for HR.",
+ "redis":"Add Redis caching to TalentGuard's risk-score endpoint and measure the latency drop.",
+ "graphql":"Expose the Event Control Hub data through a GraphQL endpoint with Apollo.",
+ "pytorch":"Train a small PyTorch text classifier on training-feedback comments (positive/negative) and serve it with FastAPI.",
+ "tensorflow":"Rebuild TalentGuard's best model as a TensorFlow/Keras network and compare it with the scikit-learn results.",
+ "llm":"Build a RAG chatbot over Hexaware-style training docs using an open LLM, embeddings and a vector store.",
+ "rag":"Build a RAG Q&A app over PDFs with LangChain + a vector DB, with an evaluation set of 20 questions.",
+ "langchain":"Build a LangChain agent that answers questions about attendance reports by calling your extractor's output.",
+ "nlp":"Sentiment + topic extraction on training-feedback text with spaCy/transformers, shown in a dashboard.",
+ "spark":"Process a large public dataset with PySpark (aggregations, joins) and write results to Parquet.",
+ "airflow":"Schedule the attendance-report pipeline as an Airflow DAG with retries and email alerts.",
+ "etl":"Build an ETL that loads Teams/Webex attendance exports into PostgreSQL daily and powers a dashboard.",
+ "power bi":"Build a Power BI dashboard on training attendance and feedback data (trends, completion, ratings).",
+ "tableau":"Publish a Tableau Public dashboard on the IBM HR attrition dataset used in TalentGuard.",
+ "selenium":"Write a Selenium/Playwright end-to-end test suite for the QR attendance app's admin flow.",
+ "playwright":"Add Playwright end-to-end tests for the Event Control Hub registration and scan flow.",
+ "data structures":"Solve 100 LeetCode problems by topic (arrays, trees, graphs, DP) and keep notes in a public repo.",
+ "algorithms":"Solve 100 LeetCode problems by topic and add a write-up of 10 favourite solutions.",
+ "system design":"Write a design doc for scaling the Event Control Hub to 50,000 attendees (queues, caching, sharding).",
+ "go":"Rewrite the attendance CSV merger as a Go CLI with concurrency and benchmark it against the JS version.",
+ "c#":"Your ASP.NET migration work already shows C#/.NET reading skills; add a small .NET 8 Web API to make it explicit.",
+ ".net":"Build a .NET 8 minimal API with EF Core that mirrors one module of the Training Feedback app.",
+ "communication":"Write a short case-study post (LinkedIn/Medium) on the Training Feedback migration: problem, approach, result.",
+ "stakeholder management":"Describe how you gathered requirements from the training support team for the attendance tools.",
+ "excel":"Your exceljs reports already show this; add an Excel pivot/report template used by the training team to your portfolio."
+};
 
-function renderLinks(){
-  const b=document.getElementById("boards");
-  BOARDS.forEach(([n,d,u])=>b.append(el("a",{class:"lk",href:u,target:"_blank",rel:"noopener"},el("strong",{text:n}),el("span",{text:d}))));
-  const p=document.getElementById("portals");
-  PORTALS.forEach(([n,u])=>p.append(el("a",{class:"lk",href:u,target:"_blank",rel:"noopener"},el("strong",{text:n}),el("span",{text:new URL(u).hostname.replace(/^www\./,"")}))));
-}
-function renderChips(){
-  const c=document.getElementById("chips");c.textContent="";
-  TRACKS.forEach(t=>{const b=el("button",{class:"chip",type:"button","aria-pressed":String(state.track===t),text:t});b.onclick=()=>{state.track=t;renderChips();renderJobs();};c.append(b);});
-  const lab=el("label",{class:"toggle"});const cb=el("input",{type:"checkbox",id:"hideApplied"});cb.checked=state.hideApplied;cb.onchange=()=>{state.hideApplied=cb.checked;renderJobs();};lab.append(cb,"Hide applied");c.append(lab);
-}
-function renderStamp(){
-  const s=document.getElementById("stamp");s.textContent="";
-  const b=state.board;if(!b){s.append(el("span",{text:"Waiting for the first refresh."}));return;}
-  s.append(el("span",{},"Last refreshed ",el("b",{text:fmt(b.refreshedAt)})));
-  if(b.nextRefreshAt)s.append(el("span",{},"Next ",el("b",{text:fmt(b.nextRefreshAt)})));
-  s.append(el("span",{},el("b",{text:String((b.jobs||[]).length)})," roles"));
+const state={board:null,resume:null,q:"",cat:"all",track:"All",ctype:"all",sal:0,sort:"company",newOnly:false,hideApplied:false,applied:{}};
+const LS="jobRadarApplied";
+try{state.applied=JSON.parse(localStorage.getItem(LS)||"{}")||{};}catch(e){}
+const $=id=>document.getElementById(id);
+function el(tag,attrs,...kids){const n=document.createElement(tag);for(const k in attrs||{}){if(k==="class")n.className=attrs[k];else if(k==="text")n.textContent=attrs[k];else if(k.startsWith("on"))n[k]=attrs[k];else n.setAttribute(k,attrs[k]);}for(const c of kids)if(c!=null)n.append(c);return n;}
+function safeUrl(u){try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:null}catch(e){return null}}
+function fmt(iso){const d=new Date(iso);return isNaN(d)?"—":d.toLocaleString(undefined,{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"});}
+const catOf=j=>j.category||"technical";
+const typeOf=j=>j.companyType||"unknown";
+const salMax=j=>(j.salary&&j.salary.max)||0;
+
+function chipRow(box,label,opts,cur,set){box.textContent="";box.append(el("span",{class:"lbl",text:label}));opts.forEach(([v,t])=>box.append(el("button",{class:"chip",type:"button","aria-pressed":String(cur===v),text:t,onclick:()=>{set(v);renderControls();renderJobs();}})));}
+function renderControls(){
+  chipRow($("catRow"),"Role type",[["all","All"],["technical","Technical"],["non-technical","Non-technical"]],state.cat,v=>{state.cat=v;if(v==="non-technical")state.track="All";});
+  const tr=$("trackRow");
+  if(state.cat==="non-technical"){tr.hidden=true;return;}
+  tr.hidden=false;
+  chipRow(tr,"Track",["All","SDE","Python","Java","DevOps","AI/ML"].map(t=>[t,t]),state.track,v=>state.track=v);
 }
 function matches(j){
+  if(state.cat!=="all"&&catOf(j)!==state.cat)return false;
   if(state.track!=="All"&&!(j.tracks||[]).includes(state.track))return false;
+  if(state.ctype!=="all"&&typeOf(j)!==state.ctype)return false;
+  if(state.sal>0&&salMax(j)<state.sal)return false;
+  if(state.newOnly&&!j.isNew)return false;
   if(state.hideApplied&&state.applied[j.id])return false;
   if(!state.q)return true;
-  const hay=[j.company,j.role,j.location,j.experience,(j.skills||[]).join(" "),(j.tracks||[]).join(" ")].join(" ").toLowerCase();
+  const hay=[j.company,j.role,j.location,j.experience,(j.keywords||[]).join(" "),(j.tracks||[]).join(" "),typeOf(j),catOf(j)].join(" ").toLowerCase();
   return state.q.split(/\s+/).every(w=>hay.includes(w));
 }
+function renderStamp(){
+  const s=$("stamp");s.textContent="";const b=state.board;
+  if(!b){s.append(el("span",{text:"Could not load the job list."}));return;}
+  const J=b.jobs||[];
+  s.append(el("span",{},"Refreshed ",el("b",{text:fmt(b.refreshedAt)})));
+  if(b.nextRefreshAt)s.append(el("span",{},"Next ",el("b",{text:fmt(b.nextRefreshAt)})));
+  s.append(el("span",{},el("b",{text:String(J.length)})," roles"));
+  s.append(el("span",{},el("b",{text:String(J.filter(j=>j.isNew).length)})," new"));
+  s.append(el("span",{},el("b",{text:String(J.filter(j=>catOf(j)==="non-technical").length)})," non-tech"));
+}
 function renderJobs(){
-  const box=document.getElementById("companies");const cnt=document.getElementById("count");
-  const jobs=(state.board&&state.board.jobs)||[];
-  if(!jobs.length){box.textContent="";box.append(el("div",{class:"empty",text:"No roles saved yet. The job list appears here after the first refresh."}));cnt.textContent="";return;}
-  const shown=jobs.filter(matches);
-  cnt.textContent=shown.length+" of "+jobs.length+" roles";
+  const box=$("companies"),cnt=$("count");const jobs=(state.board&&state.board.jobs)||[];
   box.textContent="";
-  if(!shown.length){box.append(el("div",{class:"empty",text:"Nothing matches this filter. Try another track or clear the search."}));return;}
-  const groups=new Map();
-  shown.forEach(j=>{const k=j.company||"Other";if(!groups.has(k))groups.set(k,[]);groups.get(k).push(j);});
-  const latest=state.board.refreshedAt;
-  [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0])).forEach(([co,list])=>{
+  if(!jobs.length){box.append(el("div",{class:"empty",text:"No roles saved yet."}));cnt.textContent="";return;}
+  const shown=jobs.filter(matches);cnt.textContent=shown.length+" of "+jobs.length+" roles";
+  if(!shown.length){box.append(el("div",{class:"empty",text:"Nothing matches these filters. Loosen one of them."}));return;}
+  const groups=new Map();shown.forEach(j=>{const k=j.company||"Other";if(!groups.has(k))groups.set(k,[]);groups.get(k).push(j);});
+  let entries=[...groups.entries()];
+  if(state.sort==="company")entries.sort((a,b)=>a[0].localeCompare(b[0]));
+  if(state.sort==="new")entries.sort((a,b)=>(b[1].some(j=>j.isNew)-a[1].some(j=>j.isNew))||a[0].localeCompare(b[0]));
+  if(state.sort==="salary")entries.sort((a,b)=>Math.max(...b[1].map(salMax))-Math.max(...a[1].map(salMax)));
+  entries.forEach(([co,list])=>{
     const card=el("article",{class:"co"});
-    const head=el("div",{class:"co-head"},el("div",{class:"co-name",text:co}));
-    const portal=list.find(j=>j.careersUrl&&safeUrl(j.careersUrl));
+    const t=typeOf(list[0]);
+    const head=el("div",{class:"co-head"},el("div",{},el("span",{class:"co-name",text:co}),t!=="unknown"?el("span",{class:"co-type",text:t+"-based"}):null));
+    const portal=list.find(j=>safeUrl(j.careersUrl||""));
     if(portal)head.append(el("a",{class:"co-portal",href:safeUrl(portal.careersUrl),target:"_blank",rel:"noopener",text:"Careers site ↗"}));
     card.append(head);
-    list.forEach(j=>{
-      const done=!!state.applied[j.id];
-      const row=el("div",{class:"job"+(done?" applied":"")});
-      row.append(el("div",{class:"role",text:j.role||"Role"}));
-      const act=el("div",{class:"actions"});
-      const url=safeUrl(j.applyUrl);
-      if(url)act.append(el("a",{class:"apply",href:url,target:"_blank",rel:"noopener",text:"Apply"}));
-      const mk=el("button",{class:"mark",type:"button","aria-pressed":String(done),text:done?"Applied ✓":"Mark applied"});
-      mk.onclick=()=>toggleApplied(j.id);
-      if(state.prefsRef)act.append(mk);
-      row.append(act);
-      const meta=el("div",{class:"meta"});
-      [j.location,j.experience,j.batch,j.foundOn?("Found "+j.foundOn):null].filter(Boolean).forEach(t=>meta.append(el("span",{text:t})));
-      row.append(meta);
-      const tags=el("div",{class:"tags"});
-      if(j.isNew)tags.append(el("span",{class:"tag new",text:"NEW"}));
-      if(j.sourceType==="aggregator")tags.append(el("span",{class:"tag agg",text:"VIA LISTING"}));
-      (j.tracks||[]).forEach(t=>tags.append(el("span",{class:"tag",text:t})));
-      row.append(tags);
-      card.append(row);
-    });
+    list.forEach(j=>card.append(jobRow(j)));
     box.append(card);
   });
 }
-async function toggleApplied(id){
-  const next=Object.assign({},state.applied);if(next[id])delete next[id];else next[id]=true;
-  state.applied=next;renderJobs();
-  try{await state.prefsRef.set({applied:next});}catch(e){}
+function jobRow(j){
+  const done=!!state.applied[j.id];
+  const row=el("div",{class:"job"+(done?" applied":"")});
+  row.append(el("div",{class:"role",text:j.role||"Role"}));
+  const meta=el("div",{class:"meta"});
+  [j.location,j.experience,j.batch,j.foundOn?"Found "+j.foundOn:null].filter(Boolean).forEach(t=>meta.append(el("span",{text:t})));
+  if(j.salary&&j.salary.text)meta.append(el("span",{class:"sal"+(j.salary.estimated?" est":""),text:j.salary.text}));
+  row.append(meta);
+  const tags=el("div",{class:"tags"});
+  if(j.isNew)tags.append(el("span",{class:"tag new",text:"NEW"}));
+  if(j.sourceType==="aggregator")tags.append(el("span",{class:"tag agg",text:"VIA LISTING"}));
+  if(catOf(j)==="non-technical")tags.append(el("span",{class:"tag nt",text:"NON-TECH"}));
+  (j.tracks||[]).filter(t=>t!=="Non-tech").forEach(t=>tags.append(el("span",{class:"tag",text:t})));
+  row.append(tags);
+  const act=el("div",{class:"actions"});
+  const url=safeUrl(j.applyUrl);
+  if(url)act.append(el("a",{class:"btn primary",href:url,target:"_blank",rel:"noopener",text:"Apply"}));
+  act.append(el("button",{class:"btn plum",type:"button",text:"📄 Resume for this job",onclick:()=>openResume(j)}));
+  act.append(el("button",{class:"btn",type:"button",text:done?"Applied ✓":"Mark applied",onclick:()=>{if(state.applied[j.id])delete state.applied[j.id];else state.applied[j.id]=true;try{localStorage.setItem(LS,JSON.stringify(state.applied));}catch(e){}renderJobs();}}));
+  const q=encodeURIComponent(((j.role||"").replace(/\(.*?\)/g,"")+" "+j.company).trim());
+  act.append(el("a",{class:"mini",href:"https://www.linkedin.com/jobs/search/?keywords="+q+"&location=India",target:"_blank",rel:"noopener",text:"LinkedIn"}));
+  act.append(el("a",{class:"mini",href:"https://www.naukri.com/"+encodeURIComponent((j.company||"").toLowerCase().replace(/[^a-z0-9]+/g,"-"))+"-jobs?k="+q,target:"_blank",rel:"noopener",text:"Naukri"}));
+  row.append(act);
+  return row;
 }
 
-document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value.trim().toLowerCase();renderJobs();});
-renderLinks();renderChips();renderJobs();
+// ---------------- resume tailoring
+function resumeText(r){return JSON.stringify(r).toLowerCase();}
+const ALIAS={"rest":["rest apis","rest api"],"spring":["spring boot"],"vue":["vue.js","vue 3"],"llm":["llm prompt"],"genai":["gen ai","llm"],"prompt engineering":["prompt"],"machine learning":["scikit-learn","machine-learning"],"ci/cd":["ci/cd"],"oop":["java"],"git":["github"],"pytest":["pytest"]};
+function hasSkill(txt,k){const l=k.toLowerCase();if(txt.includes(l))return true;return (ALIAS[l]||[]).some(a=>txt.includes(a));}
+function analyse(j){
+  const r=state.resume;const txt=resumeText(r);
+  let kws=(j.keywords||[]).slice();
+  (j.tracks||[]).forEach(t=>(TRACK_SKILLS[t]||[]).forEach(s=>{if(!kws.some(k=>k.toLowerCase()===s.toLowerCase()))kws.push(s);}));
+  if(catOf(j)==="non-technical"&&!kws.length)kws=TRACK_SKILLS["Non-tech"].slice();
+  kws=[...new Set(kws)].slice(0,18);
+  const have=kws.filter(k=>hasSkill(txt,k)),miss=kws.filter(k=>!hasSkill(txt,k));
+  return {kws,have,miss,score:kws.length?Math.round(100*have.length/kws.length):100};
+}
+function headlineFor(j,have){
+  const role=(j.role||"").toLowerCase();let t="Software Engineer";
+  if(catOf(j)==="non-technical")t="Technology Professional";
+  else if(/data eng/.test(role))t="Data Engineer";
+  else if(/devops|cloud|sre|platform/.test(role))t="Cloud / DevOps Engineer";
+  else if(/machine learning|\bml\b|\bai\b|genai|data scien/.test(role))t="AI / ML Engineer";
+  else if(/qa|test|sdet|automation/.test(role))t="Software Engineer (QA Automation)";
+  else if(/full ?stack/.test(role))t="Full Stack Engineer";
+  else if(/front ?end|ui/.test(role))t="Frontend Engineer";
+  else if(/back ?end|java|python/.test(role))t="Backend Engineer";
+  const top=have.filter(k=>!/communication|stakeholder|excel|oop|git$/i.test(k)).slice(0,4);
+  return t+(top.length?" | "+top.join(", "):"")+" | AWS Certified";
+}
+function tailoredJob(j,a,addLearning){
+  return {role:j.role,company:j.company,tracks:catOf(j)==="non-technical"?[]:(j.tracks||[]),category:catOf(j),
+    keywords:a.have.concat(a.miss),headline:headlineFor(j,a.have),extraSkills:addLearning?a.miss.slice(0,5):[]};
+}
+function fileBase(j){return ("Venkatesh_Ragipati_Resume_"+(j?j.company:"")).replace(/[^A-Za-z0-9_]+/g,"_").replace(/_+$/,"");}
+function downloadPDF(html,name){
+  const w=window.open("","_blank");
+  if(!w){alert("Allow pop-ups for this site to download the PDF.");return;}
+  w.document.open();w.document.write(html.replace(/<title>.*?<\/title>/,"<title>"+name+"</title>").replace("</body>","<script>window.onload=()=>setTimeout(()=>window.print(),300)<\/script></body>"));w.document.close();
+}
+function downloadWord(html,name){
+  const doc="<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word'>"+html.replace(/^<!doctype html><html>/i,"").replace(/<\/html>\s*$/,"")+"</html>";
+  const a=el("a",{href:URL.createObjectURL(new Blob(["﻿"+doc],{type:"application/msword"})),download:name+".doc"});
+  document.body.append(a);a.click();a.remove();
+}
+function openResume(j){
+  const d=$("dlg"),b=$("dlgBody");b.textContent="";
+  if(!state.resume||!window.renderResume){b.append(el("p",{text:"Resume data is still loading. Try again in a moment."}));d.showModal();return;}
+  const a=analyse(j);
+  b.append(el("div",{class:"row",style:"justify-content:space-between"},el("h3",{text:"Resume for "+j.company}),el("button",{class:"btn",type:"button",text:"✕",onclick:()=>d.close()})));
+  b.append(el("div",{class:"note",text:j.role}));
+  b.append(el("div",{},el("span",{class:"score",text:a.score+"% "}),el("span",{class:"note",text:"keyword match with your resume"})));
+  const bar=el("div",{class:"bar"});const i=el("i");i.style.width=a.score+"%";bar.append(i);b.append(bar);
+  if(a.have.length){b.append(el("b",{text:"Matched — moved to the top of your resume"}));const k=el("div",{class:"kw"});a.have.forEach(s=>k.append(el("span",{class:"ok",text:s})));b.append(k);}
+  const chk=el("input",{type:"checkbox"});chk.checked=true;
+  if(a.miss.length){
+    b.append(el("b",{text:"Missing — skills this job asks for"}));const k=el("div",{class:"kw"});a.miss.forEach(s=>k.append(el("span",{class:"no",text:s})));b.append(k);
+    b.append(el("label",{class:"toggle",style:"color:var(--ink)"},chk," Add the top missing skills as \"Currently learning\" on this resume"));
+    b.append(el("div",{class:"note",text:"They're labelled as learning, not as experience, so the resume stays honest in interviews. Build one of these to turn a gap into a real project:"}));
+    a.miss.slice(0,4).forEach(s=>{const idea=IDEAS[s.toLowerCase()]||("Build a small project using "+s+" (e.g. add it to TalentGuard or the Event Control Hub), push it to GitHub and link it in your resume.");b.append(el("div",{class:"idea"},el("b",{text:s}),idea));});
+  }
+  b.append(el("div",{class:"note",text:"The resume puts the summary, skills, experience bullets and the two most relevant projects for this role first. It stays one page and ATS-readable."}));
+  const go=fn=>()=>{const html=renderResume(state.resume,tailoredJob(j,a,chk.checked));fn(html,fileBase(j));};
+  b.append(el("div",{class:"actions"},el("button",{class:"btn primary",type:"button",text:"⬇ Download PDF",onclick:go(downloadPDF)}),el("button",{class:"btn",type:"button",text:"⬇ Download Word",onclick:go(downloadWord)})));
+  b.append(el("div",{class:"note",text:"PDF opens your browser's print window — choose \"Save as PDF\"."}));
+  d.showModal();
+}
 
-const LS="jobRadarApplied";
-try{state.applied=JSON.parse(localStorage.getItem(LS)||"{}")||{};}catch(e){state.applied={};}
-state.prefsRef={set:async(d)=>{try{localStorage.setItem(LS,JSON.stringify(d.applied));}catch(e){}}};
+// ---------------- boot
+["ctype","sal","sort"].forEach(id=>$(id).onchange=e=>{state[id]=id==="sal"?Number(e.target.value):e.target.value;renderJobs();});
+$("newOnly").onchange=e=>{state.newOnly=e.target.checked;renderJobs();};
+$("hideApplied").onchange=e=>{state.hideApplied=e.target.checked;renderJobs();};
+$("q").addEventListener("input",e=>{state.q=e.target.value.trim().toLowerCase();renderJobs();});
+$("baseResume").onclick=()=>{if(state.resume)downloadPDF(renderResume(state.resume,null),fileBase(null));};
+BOARDS.forEach(([n,d,u])=>$("boards").append(el("a",{class:"lk",href:u,target:"_blank",rel:"noopener"},el("strong",{text:n}),el("span",{text:d}))));
+PORTALS.forEach(([n,u])=>$("portals").append(el("a",{class:"lk",href:u,target:"_blank",rel:"noopener"},el("strong",{text:n}),el("span",{text:new URL(u).hostname.replace(/^www\./,"")}))));
+renderControls();
+fetch("resume/resume.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(r=>{state.resume=r;}).catch(()=>{});
 fetch("data/jobs.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(b=>{state.board=b;renderStamp();renderJobs();}).catch(()=>{state.board=null;renderStamp();renderJobs();});
 </script>
 </body>

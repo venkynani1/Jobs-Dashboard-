@@ -1,0 +1,29 @@
+{
+  "_help": "Labels for the Product / Service filter. Names are matched case-insensitively and by prefix (\"IBM\" also covers \"IBM Research\"). Anything not listed shows as Unknown.",
+  "product": [
+    "Google", "Microsoft", "Amazon", "Apple", "Meta", "Adobe", "Salesforce", "Atlassian", "NVIDIA", "Intel", "Qualcomm",
+    "Oracle", "SAP", "VMware", "Broadcom", "Cisco", "Juniper", "Arista", "NetApp", "Nutanix", "Rubrik", "Databricks",
+    "Snowflake", "MongoDB", "Postman", "Cloudflare", "Intuit", "PayPal", "Visa", "Mastercard", "American Express", "Uber",
+    "Flipkart", "Walmart Global Tech", "Walmart", "Target", "Swiggy", "Zomato", "PhonePe", "Paytm", "Razorpay", "CRED",
+    "Meesho", "Zeta", "Juspay", "Groww", "Zoho", "Freshworks", "Chargebee", "BrowserStack", "HackerRank", "Smarsh",
+    "SolarWinds", "ServiceNow", "Workday", "Autodesk", "Synopsys", "Cadence", "Texas Instruments", "Analog Devices",
+    "Micron Technology", "Seagate", "Dell", "HPE", "HP", "Samsung", "Sony", "Siemens", "Bosch", "Honeywell", "GE HealthCare",
+    "GE Vernova", "Philips", "Johnson Controls", "Emerson", "Caterpillar", "Ford", "Volvo Group", "HARMAN", "Altera",
+    "Kaleris", "Thermo Fisher Scientific", "Goldman Sachs", "JPMorgan", "Morgan Stanley", "Bank of America", "Wells Fargo",
+    "Citi", "DBS Tech India", "Deutsche Bank", "Franklin Templeton", "S&P Global", "MetLife", "TransUnion", "Equifax",
+    "Experian", "Lowe's", "Maersk", "JioStar", "Electronic Arts", "Wayfair", "Red Hat", "Light & Wonder", "Finastra",
+    "ION Group", "Signzy", "AryaXAI", "Juspay", "Optum", "UnitedHealth", "Enphase Energy", "Infineon", "NCR Atleos",
+    "Medpace", "Lam Research", "Eaton", "Panasonic", "F5", "CDK Global", "Rubrik", "SymphonyAI", "Copado", "Seagate",
+    "Pearson", "Zimmer Biomet", "Cargill", "Sony Research India", "IBM Research", "Impact Analytics", "Mico", "BT Group",
+    "Appian", "Okta", "Twilio", "Zscaler", "Palo Alto Networks", "Akamai", "Infoblox", "Druva", "InMobi", "Ola"
+  ],
+  "service": [
+    "TCS", "Infosys", "Wipro", "HCLTech", "HCL", "Tech Mahindra", "Cognizant", "Accenture", "Capgemini", "LTIMindtree",
+    "Hexaware", "Mphasis", "Persistent", "Zensar", "Coforge", "Birlasoft", "Sonata Software", "Cyient", "KPIT Technologies",
+    "L&T Technology Services", "Larsen & Toubro", "L&T EduTech", "Deloitte", "EY", "PwC", "KPMG", "IBM", "IBM ISDL",
+    "DXC", "NTT DATA", "Fujitsu", "Virtusa", "Mindtree", "Mastech", "Happiest Minds", "Nagarro", "Thoughtworks",
+    "Publicis Sapient", "EPAM", "Globant", "UST", "Concentrix", "Genpact", "CGI", "Atos", "Unisys", "Kyndryl", "Movate",
+    "Hinduja Global Solutions", "QuEST Global", "Tata Elxsi", "Mphasis", "NIIT", "Appinventiv", "Wissen Technology",
+    "SecPod", "Ansira", "Worldline", "Dentsu", "Marsh", "TriNet", "Flex", "C-DAC", "Vantiva"
+  ]
+}
