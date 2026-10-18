@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Fresher Job Radar</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2448d6">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Job Radar">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -117,7 +125,7 @@ details ol{margin:6px 0;padding-left:20px;font-size:13.5px}
   <header>
     <div class="top">
       <h1>Fresher Job Radar</h1>
-      <button class="btn plum" type="button" id="baseResume">⬇ Base resume</button>
+      <div class="row"><button class="btn primary" type="button" id="installBtn" hidden>📲 Install app</button><button class="btn plum" type="button" id="baseResume">⬇ Base resume</button></div>
     </div>
     <p class="sub">Jobs for 0–2 years of experience at software companies across India and remote. Filter by role type, company type, salary and city, get a resume tailored to each job, and track every application. Jobs refresh automatically at 06:57 and 18:57 IST.</p>
     <div class="stamp" id="stamp"><span>Loading latest list…</span></div>

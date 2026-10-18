@@ -579,3 +579,22 @@ Promise.all([
   (b.jobs || []).forEach(enrich);
   state.board = b; renderStamp(); renderCityOptions(); renderJobs();
 }).catch(() => { state.board = null; renderStamp(); renderJobs(); });
+
+// ======================================================================
+// installable app (PWA)
+if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => { }));
+let installEvt = null;
+const standalone = () => window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); installEvt = e; if (!standalone()) $("installBtn").hidden = false; });
+window.addEventListener("appinstalled", () => { $("installBtn").hidden = true; installEvt = null; });
+if (!standalone() && /iphone|ipad|ipod/i.test(navigator.userAgent)) $("installBtn").hidden = false;
+$("installBtn").onclick = async () => {
+  if (installEvt) { installEvt.prompt(); await installEvt.userChoice; installEvt = null; $("installBtn").hidden = true; return; }
+  const d = $("dlg"), b = $("dlgBody"); b.textContent = "";
+  b.append(el("h3", { text: "Install Job Radar" }),
+    el("p", { text: /iphone|ipad|ipod/i.test(navigator.userAgent) ? "In Safari, tap the Share button (square with an arrow), then \"Add to Home Screen\"." : "Open your browser menu (⋮) and choose \"Install app\" or \"Add to Home screen\"." }),
+    el("button", { class: "btn", type: "button", text: "OK", onclick: () => d.close() }));
+  d.showModal();
+};
+// open a tab from the app shortcut (?tab=tracker / ?tab=profile)
+{ const t = new URLSearchParams(location.search).get("tab"); if (["tracker", "profile", "jobs"].includes(t)) showTab(t); }

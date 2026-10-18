@@ -17,3 +17,13 @@ Tracks: SDE, Python, Java, DevOps, AI/ML.
 Files: `index.html` + `app.js` (the app), `resume/` (resume template and LinkedIn parser), `data/jobs.json` (refreshed by the GitHub Action at 06:57 / 18:57 IST via `scripts/fetch_jobs.py`), `config/sources.json` (companies checked), `config/companies.json` (product / service labels).
 
 Salaries: a figure stated in the posting is shown as is; otherwise a typical fresher range for that company type, marked *est.*
+
+## Install as an app
+
+The site is a Progressive Web App: it installs to the home screen / desktop, opens full-screen with its own icon, and works offline with the last job list it downloaded.
+
+- **Android (Chrome):** tap **Install app** at the top, or ⋮ → *Install app*.
+- **iPhone (Safari):** Share → *Add to Home Screen*.
+- **Windows / Mac (Chrome or Edge):** the install icon in the address bar, or the **Install app** button.
+
+Updates arrive automatically whenever the repo changes. `manifest.webmanifest`, `sw.js` and `icons/` make this work.
