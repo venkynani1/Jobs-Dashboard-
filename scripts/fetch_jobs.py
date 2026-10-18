@@ -4,7 +4,7 @@ Fresher Job Radar - automatic refresher (no Claude, no API keys needed).
 
 Runs in GitHub Actions twice a day. Pulls openings from public job APIs
 (Amazon, Workday, Greenhouse, Lever, SmartRecruiters) and fresher job-listing
-RSS feeds, keeps roles for 0-2 years of experience in India / India-remote at
+RSS feeds, keeps roles needing at most 3 years of experience in India / India-remote at
 software-industry employers, and writes data/jobs.json.
 
 Every job is tagged with:
@@ -39,6 +39,7 @@ IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 NOW = dt.datetime.now(IST)
 TODAY_LABEL = f"{NOW.day} {NOW.strftime('%b')}"
 MAX_AGE_DAYS = 45
+MAX_YEARS = 3  # keep only roles whose minimum requirement is 0-3 years
 CAP = 220
 UA = "Mozilla/5.0 (FresherJobRadar; +https://github.com/venkynani1/Jobs-Dashboard-)"
 
@@ -56,9 +57,9 @@ ENTRY = re.compile(
     r"off[- ]campus|batch|get|pget)\b", re.I)
 SENIOR = re.compile(
     r"\b(senior|sr\.?|staff|principal|lead|manager|director|architect|head|vp|avp|"
-    r"vice president|chief|distinguished|expert|ii|iii|iv|sde[- ]?(2|3)|l[4-9]|"
-    r"[3-9]\+?\s*(yrs?|years?)|1\d\+?\s*(yrs?|years?))\b", re.I)
-RANGE = re.compile(r"\b0\s*(-|–|to)\s*[1-3]\s*(yrs?|years?)\b", re.I)
+    r"vice president|chief|distinguished|expert|iii|iv|sde[- ]?3|l[5-9]|"
+    r"[4-9]\+?\s*(yrs?|years?)|1\d\+?\s*(yrs?|years?))\b", re.I)
+RANGE = re.compile(r"\b[0-3]\s*(-|–|to)\s*[1-5]\s*(yrs?|years?)\b", re.I)
 TECH = re.compile(
     r"(software|developer|engineer|sde|swe|devops|cloud|sre|site reliability|platform|"
     r"data|machine learning|\bml\b|\bai\b|genai|llm|python|java|full[- ]?stack|"
@@ -163,9 +164,9 @@ def accept(title, text=""):
     if DROP.search(title) or too_senior(title):
         return None
     yrs = years_required(RANGE.sub(" ", text)) if text else None
-    if yrs is not None and yrs >= 3:
+    if yrs is not None and yrs > MAX_YEARS:
         return None
-    if not (ENTRY.search(title) or RANGE.search(title) or RANGE.search(text) or (yrs is not None and yrs <= 1)):
+    if not (ENTRY.search(title) or RANGE.search(title) or RANGE.search(text) or (yrs is not None and yrs <= MAX_YEARS)):
         return None
     return category_of(title)
 
@@ -254,7 +255,7 @@ def src_amazon(cfg):
             if DROP.search(title) or too_senior(title):
                 continue
             yrs = years_required(quals)
-            if yrs is not None and yrs >= 3:
+            if yrs is not None and yrs > MAX_YEARS:
                 continue
             if not (ENTRY.search(title) or yrs is None or yrs <= 1 or re.search(r"currently enrolled|graduat", quals, re.I)):
                 continue
@@ -398,7 +399,7 @@ def src_rss(cfg):
         if DROP.search(title):
             continue
         yrs = years_required(RANGE.sub(" ", title))
-        if yrs is not None and yrs >= 3:
+        if yrs is not None and yrs > MAX_YEARS:
             continue
         company = COMPANY_SPLIT.split(title)[0].strip(" |:-–")
         if not company or len(company) > 40:
@@ -559,7 +560,16 @@ def main():
         seen.add(k)
 
     new.sort(key=lambda j: (j["sourceType"] != "official", j["category"] != "technical"))
-    jobs = [enrich(j, cmap) for j in (new + result)[:CAP]]
+    def too_much_exp(j):
+        if j.get("expMin") is not None and j["expMin"] > MAX_YEARS:
+            return True
+        y = years_required(j.get("experience", "") or "")
+        if y is not None:  # an explicit number in the posting wins over title words
+            return y > MAX_YEARS
+        return too_senior(j.get("role", ""))
+    pool = [j for j in (new + result) if not too_much_exp(j)]
+    log(f"dropped {len(new) + len(result) - len(pool)} roles needing more than {MAX_YEARS} years")
+    jobs = [enrich(j, cmap) for j in pool[:CAP]]
     # flag the same role listed several times (other cities / another site)
     norm_role = lambda r: re.sub(r"\(.*?\)|\b(job|req|r)\s*[-#:]?\s*\w*\d\w*|[^a-z ]", " ", (r or "").lower()).split()
     groups = {}

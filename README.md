@@ -1,6 +1,6 @@
 # Fresher Job Radar
 
-A one-page dashboard of software job openings for 0–2 years of experience (SDE-1 / Associate / Junior roles) in India and India-eligible remote, grouped by company, with direct apply links.
+A one-page dashboard of software job openings for 0–3 years of experience (SDE-1 / Associate / Junior roles) in India and India-eligible remote, grouped by company, with direct apply links.
 
 Tracks: SDE, Python, Java, DevOps, AI/ML.
 

@@ -6,15 +6,15 @@ const BOARDS=[
  ["LinkedIn","DevOps / Cloud · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=devops%20cloud%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
  ["LinkedIn","AI / ML · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=machine%20learning%20engineer&location=India&f_E=1%2C2&f_TPR=r86400"],
  ["LinkedIn","Non-tech at IT cos · entry · 24h","https://www.linkedin.com/jobs/search/?keywords=associate%20analyst%20operations&location=India&f_E=1%2C2&f_TPR=r86400&f_I=4%2C96"],
- ["Naukri","Software engineer · 0–2 yrs","https://www.naukri.com/software-engineer-jobs?experience=1&jobAge=3"],
- ["Naukri","Java developer · 0–2 yrs","https://www.naukri.com/java-developer-jobs?experience=1&jobAge=3"],
- ["Naukri","Python developer · 0–2 yrs","https://www.naukri.com/python-developer-jobs?experience=1&jobAge=3"],
- ["Naukri","DevOps · 0–2 yrs","https://www.naukri.com/devops-engineer-jobs?experience=1&jobAge=3"],
+ ["Naukri","Software engineer · 0–3 yrs","https://www.naukri.com/software-engineer-jobs?experience=2&jobAge=3"],
+ ["Naukri","Java developer · 0–3 yrs","https://www.naukri.com/java-developer-jobs?experience=1&jobAge=3"],
+ ["Naukri","Python developer · 0–3 yrs","https://www.naukri.com/python-developer-jobs?experience=1&jobAge=3"],
+ ["Naukri","DevOps · 0–3 yrs","https://www.naukri.com/devops-engineer-jobs?experience=1&jobAge=3"],
  ["Naukri","Fresher IT jobs","https://www.naukri.com/fresher-jobs?jobAge=3"],
  ["Indeed India","Software fresher · last day","https://in.indeed.com/jobs?q=software+engineer+fresher&fromage=1"],
  ["Wellfound","Startup engineering roles","https://wellfound.com/role/l/software-engineer/india"],
  ["Instahyre","Fresher tech jobs","https://www.instahyre.com/search-jobs/"],
- ["Foundit","Software jobs 0–2 yrs","https://www.foundit.in/search/software-engineer-jobs"]
+ ["Foundit","Software jobs 0–3 yrs","https://www.foundit.in/search/software-engineer-jobs"]
 ];
 
 const PORTALS=[["Accenture","https://www.accenture.com/in-en/careers/jobsearch?jk=associate%20software%20engineer"],["Adobe","https://careers.adobe.com/us/en/search-results?keywords=software%20engineer&location=India"],["Amazon","https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND"],["Atlassian","https://www.atlassian.com/company/careers/all-jobs?location=India"],["Capgemini","https://www.capgemini.com/in-en/careers/job-search/"],["Cisco","https://jobs.cisco.com/"],["Cognizant","https://careers.cognizant.com/in-en/"],["Deloitte India","https://www2.deloitte.com/in/en/careers.html"],["Flipkart","https://www.flipkartcareers.com/"],["Goldman Sachs","https://higher.gs.com/"],["Google","https://www.google.com/about/careers/applications/jobs/results/?location=India&target_level=EARLY"],["HCLTech","https://www.hcltech.com/careers"],["IBM","https://www.ibm.com/careers/search?field_keyword_05[0]=India"],["Infosys","https://career.infosys.com/joblist"],["JPMorgan Chase","https://careers.jpmorgan.com/in/en/students/programs"],["Microsoft","https://jobs.careers.microsoft.com/global/en/search?lc=India"],["NVIDIA","https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"],["Oracle","https://careers.oracle.com/"],["PayPal","https://careers.pypl.com/"],["Qualcomm","https://careers.qualcomm.com/"],["Razorpay","https://razorpay.com/jobs/"],["Salesforce","https://careers.salesforce.com/en/jobs/?country=India"],["Swiggy","https://careers.swiggy.com/"],["TCS (NQT)","https://www.tcs.com/careers/india"],["Walmart Global Tech","https://careers.walmart.com/"],["Wipro","https://careers.wipro.com/"],["Zoho","https://www.zoho.com/careers/"]];
@@ -90,7 +90,16 @@ function companyType(name) {
   for (const k in COMPANY_MAP) if (n.startsWith(k + " ") || n.startsWith(k + "(") || n === k) return COMPANY_MAP[k];
   return "unknown";
 }
+const MAX_YEARS = 3;
+function minYears(j) {
+  if (j.expMin != null) return j.expMin;
+  const t = String(j.experience || "").replace(/–/g, "-");
+  const m = t.match(/(\d{1,2})\s*(?:\+|-|to|yrs?|years?)/i);
+  return m ? Number(m[1]) : null;
+}
 function enrich(j) {
+  const y = minYears(j);
+  j._tooSenior = y != null ? y > MAX_YEARS : /\b(senior|sr\.?|staff|principal|lead|manager|director|architect|head of|vice president|iii|iv)\b/i.test(j.role || "");
   if (!j.category) j.category = TECH_RX.test(j.role || "") ? "technical" : "non-technical";
   if (!j.companyType || j.companyType === "unknown") j.companyType = companyType(j.company);
   if (!j.salary) {
@@ -143,6 +152,7 @@ function renderCityOptions() {
   sel.value = [...sel.options].some(o => o.value === cur) ? cur : "all";
 }
 function matches(j) {
+  if (j._tooSenior) return false;
   if (state.cat !== "all" && j.category !== state.cat) return false;
   if (state.track !== "All" && !(j.tracks || []).includes(state.track)) return false;
   if (state.ctype !== "all" && j.companyType !== state.ctype) return false;
