@@ -1,7 +1,369 @@
 {
-  "refreshedAt": "2026-10-20T00:54:33+05:30",
-  "nextRefreshAt": "2026-10-20T06:57:00+05:30",
+  "refreshedAt": "2026-10-20T11:38:46+05:30",
+  "nextRefreshAt": "2026-10-20T18:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-data-center-technician-data-center-operations-dco-job-10583616-mumbai",
+      "company": "Amazon",
+      "role": "Data Center Technician, Data Center Operations (DCO) (Job 10583616)",
+      "location": "Mumbai, Maharashtra, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "DevOps"
+      ],
+      "keywords": [
+        "AWS"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10583616/data-center-technician-data-center-operations-dco",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-20",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 5
+    },
+    {
+      "id": "salesforce-systems-engineer-workday-platform-2-locations",
+      "company": "Salesforce",
+      "role": "Systems Engineer -  Workday Platform",
+      "location": "2 Locations",
+      "experience": "3-5 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Git",
+        "Agile",
+        "Scrum",
+        "Prompt Engineering",
+        "Salesforce"
+      ],
+      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Systems-Engineer----Workday-Platform_JR364391",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-17",
+      "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "salesforce-technical-support-engineer-commerce-cloud-2-locations",
+      "company": "Salesforce",
+      "role": "Technical Support Engineer - Commerce Cloud",
+      "location": "2 Locations",
+      "experience": "3-4 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps"
+      ],
+      "keywords": [
+        "Java",
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS",
+        "SQL",
+        "Oracle",
+        "MongoDB",
+        "REST",
+        "Salesforce"
+      ],
+      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Technical-Support-Engineer---Commerce-Cloud_JR353944-1",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "salesforce-associate-success-guide-india-hyderabad",
+      "company": "Salesforce",
+      "role": "Associate Success Guide",
+      "location": "India - Hyderabad",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Agile",
+        "Salesforce",
+        "Communication"
+      ],
+      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Associate-Success-Guide_JR323434",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-16",
+      "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-formal-verification-engineer-india",
+      "company": "Intel",
+      "role": "Formal Verification Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Communication"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Formal-Verification-Engineer_JR0287328",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-09-29",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "micron-technology-engineer-sanand-303c-facilities-construction",
+      "company": "Micron Technology",
+      "role": "Engineer",
+      "location": "Sanand - 303C - Facilities/Construction, India",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Communication",
+        "MS Office"
+      ],
+      "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Sanand---303C---FacilitiesConstruction-India/Engineer_JR111945-1",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-20",
+      "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-catalog-specialist-wwrr-science-annotation-team-job-10583235-hyderabad",
+      "company": "Amazon",
+      "role": "Catalog Specialist, WWRR Science Annotation Team (Job 10583235)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Machine Learning",
+        "Algorithms",
+        "Communication"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10583235/catalog-specialist-wwrr-science-annotation-team",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-19",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "target-marketplace-support-capability-development-specialist-bangalore",
+      "company": "Target",
+      "role": "Marketplace Support & Capability Development Specialist",
+      "location": "Bangalore,India",
+      "experience": "2–3 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Agile",
+        "Excel",
+        "Communication",
+        "MS Office"
+      ],
+      "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Marketplace-Support---Capability-Development-Specialist_R0000476721",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-10-20",
+      "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "india-india-job-market-today-psu-it-fresher-openings-20-oct-2026-india",
+      "company": "India",
+      "role": "India Job Market Today: PSU & IT Fresher Openings — 20 Oct 2026",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-20-oct-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-20",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 4,
+        "max": 10,
+        "estimated": true,
+        "text": "₹4–10 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "kulfi-kulfi-recruitment-2026-software-engineer-i-full-stack-india",
+      "company": "Kulfi",
+      "role": "Kulfi Recruitment 2026: Software Engineer I – Full-Stack",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/kulfi-recruitment-2026-software-engineer-full-stack/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-20",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 4,
+        "max": 10,
+        "estimated": true,
+        "text": "₹4–10 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "walmart-walmart-off-campus-drive-2026-software-engineer-ii-bangalore-r-2533616-b",
+      "company": "Walmart",
+      "role": "Walmart Off Campus Drive 2026 – Software Engineer II, Bangalore | R-2533616",
+      "location": "Bangalore",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/walmart-off-campus-drive-2026-software-engineer-ii-2/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-20",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "akamai-akamai-recruitment-2026-software-engineer-bangalore-bangalore",
+      "company": "Akamai",
+      "role": "Akamai Recruitment 2026: Software Engineer | Bangalore",
+      "location": "Bangalore",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/akamai-recruitment-2026-software-engineer-bangalore/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-20",
+      "foundOn": "20 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
     {
       "id": "amazon-data-engineer-i-job-10582732-bengaluru",
       "company": "Amazon",
@@ -28,7 +390,7 @@
       "postedOn": "2026-10-19",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -57,7 +419,7 @@
       "postedOn": "2026-10-19",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -91,7 +453,7 @@
       "postedOn": "2026-10-20",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -134,7 +496,7 @@
       "postedOn": "2026-10-20",
       "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -161,7 +523,7 @@
       "postedOn": "2026-10-20",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -198,7 +560,7 @@
       "postedOn": "2026-10-20",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -224,7 +586,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-19",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -253,7 +615,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-19",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -281,7 +643,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-19",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -299,23 +661,19 @@
       "experience": "Entry level",
       "category": "technical",
       "tracks": [
-        "SDE"
+        "SDE",
+        "Python"
       ],
       "keywords": [
-        "Python",
-        "SQL",
-        "Machine Learning",
-        "Power BI",
-        "Tableau",
         "Communication"
       ],
-      "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Sanand---303A---ATSSDMOD-India/Graduate-Engineering-Technician_JR105972",
+      "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Sanand---303A---ATSSDMOD-India/Graduate-Engineering-Technician_JR105829",
       "sourceType": "official",
       "source": "workday",
       "postedOn": "2026-10-20",
       "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -344,7 +702,7 @@
       "postedOn": "2026-10-20",
       "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -376,7 +734,7 @@
       "postedOn": "2026-10-20",
       "careersUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
@@ -408,7 +766,7 @@
         "text": "₹9–15 LPA"
       },
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "similar": 0
     },
@@ -428,7 +786,7 @@
       "source": "rss:enggwave",
       "postedOn": "2026-10-19",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -456,7 +814,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-10-20",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -482,7 +840,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-10-20",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -514,7 +872,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-10-20",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -540,7 +898,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-10-20",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -566,7 +924,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-10-20",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -592,7 +950,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-10-19",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -618,7 +976,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-10-19",
       "foundOn": "20 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 3,
@@ -2494,13 +2852,12 @@
         "MongoDB",
         "AWS",
         "Azure",
-        "Agile",
-        "Communication"
+        "Agile"
       ],
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8246377",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8173777",
       "sourceType": "official",
       "source": "greenhouse",
-      "postedOn": "2026-10-07",
+      "postedOn": "2026-09-04",
       "foundOn": "18 Oct",
       "isNew": false,
       "companyType": "product",
@@ -3272,7 +3629,7 @@
         "text": "₹15–35 LPA (est.)"
       },
       "postedOn": "2026-10-15",
-      "similar": 4
+      "similar": 5
     },
     {
       "id": "amazon-data-center-operations-tech-data-center-operations-dco-job-10568655-mumba",
@@ -3333,37 +3690,6 @@
       "similar": 1
     },
     {
-      "id": "amazon-controls-engineer-controls-deployment-service-india-job-10529689-hyderaba",
-      "company": "Amazon",
-      "role": "Controls Engineer, Controls Deployment & Service India (Job 10529689)",
-      "location": "Hyderabad, Telangana, IND",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps"
-      ],
-      "keywords": [
-        "AWS",
-        "Excel"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10529689/controls-engineer-controls-deployment-service-india",
-      "sourceType": "official",
-      "source": "amazon",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "postedOn": "2026-09-04",
-      "similar": 0
-    },
-    {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10535692-mumbai",
       "company": "Amazon",
       "role": "Data Center Technician, Data Center Operations (DCO) (Job 10535692)",
@@ -3390,7 +3716,7 @@
         "text": "₹15–35 LPA (est.)"
       },
       "postedOn": "2026-09-10",
-      "similar": 4
+      "similar": 5
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10535690-mumbai",
@@ -3419,7 +3745,7 @@
         "text": "₹15–35 LPA (est.)"
       },
       "postedOn": "2026-09-10",
-      "similar": 4
+      "similar": 5
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10544310-mumbai",
@@ -3448,7 +3774,7 @@
         "text": "₹15–35 LPA (est.)"
       },
       "postedOn": "2026-09-16",
-      "similar": 4
+      "similar": 5
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10544309-mumbai",
@@ -3477,7 +3803,7 @@
         "text": "₹15–35 LPA (est.)"
       },
       "postedOn": "2026-09-16",
-      "similar": 4
+      "similar": 5
     },
     {
       "id": "amazon-system-development-engineer-edgeai-hw-compute-group-job-10573481-bengalur",
@@ -3573,41 +3899,6 @@
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      },
-      "postedOn": "2026-09-22",
-      "similar": 0
-    },
-    {
-      "id": "amazon-business-intel-engineer-go-ai-job-10556820-hyderabad",
-      "company": "Amazon",
-      "role": "Business Intel Engineer, GO-AI (Job 10556820)",
-      "location": "Hyderabad, Telangana, IND",
-      "experience": "1+ yrs",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "AI/ML"
-      ],
-      "keywords": [
-        "Python",
-        "Go",
-        "SQL",
-        "Oracle",
-        "ETL",
-        "Tableau"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10556820/business-intel-engineer-go-ai",
-      "sourceType": "official",
-      "source": "amazon",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
       },
       "postedOn": "2026-09-22",
       "similar": 0
@@ -5284,38 +5575,6 @@
       "similar": 0
     },
     {
-      "id": "amazon-business-analyst-i-cmt-job-10561075-bengaluru",
-      "company": "Amazon",
-      "role": "Business Analyst I, CMT (Job 10561075)",
-      "location": "Bengaluru, Karnataka, IND",
-      "experience": "Entry level",
-      "tracks": [
-        "Non-tech"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10561075/business-analyst-i-cmt",
-      "sourceType": "official",
-      "source": "amazon",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "keywords": [
-        "SQL",
-        "ETL",
-        "Tableau",
-        "Excel"
-      ],
-      "category": "non-technical",
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "postedOn": "2026-09-28",
-      "similar": 0
-    },
-    {
       "id": "dbs-tech-india-associate-application-developer-future-ready-hyderabad-dti-skyvie",
       "company": "DBS Tech India",
       "role": "Associate, Application Developer, Future Ready",
@@ -6469,247 +6728,6 @@
         "max": 35,
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "google-swe3-fullstack",
-      "company": "Google",
-      "role": "Software Engineer III, Full Stack",
-      "location": "Bengaluru / Hyderabad",
-      "experience": "2 yrs (1 with adv. degree)",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/118404496526058182-software-engineer-iii-full-stack",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY",
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "google-swe3-payments",
-      "company": "Google",
-      "role": "Software Engineer III, Payments",
-      "location": "Hyderabad",
-      "experience": "2 yrs Java (1 with adv. degree)",
-      "tracks": [
-        "SDE",
-        "Java"
-      ],
-      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/111602324891148998-software-engineer-iii-payments",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY",
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "google-swe3-aiml",
-      "company": "Google",
-      "role": "Software Engineer III, AI/ML",
-      "location": "Hyderabad",
-      "experience": "2 yrs + 1 yr ML",
-      "tracks": [
-        "SDE",
-        "AI/ML"
-      ],
-      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/83807658246578886-software-engineer-iii-aiml",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY",
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "google-swe-youtube-fs",
-      "company": "Google",
-      "role": "Software Engineer, YouTube, Full Stack",
-      "location": "Bengaluru",
-      "experience": "2 yrs (1 with adv. degree)",
-      "tracks": [
-        "SDE",
-        "Java",
-        "Python"
-      ],
-      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/74698303731573446-software-engineer-youtube-full-stack",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?location=India&target_level=EARLY",
-      "category": "technical",
-      "keywords": [
-        "Java",
-        "Python"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "phonepe-swe-android",
-      "company": "PhonePe",
-      "role": "Software Engineer, Android",
-      "location": "Bengaluru",
-      "experience": "1–2 yrs",
-      "tracks": [
-        "SDE",
-        "Java"
-      ],
-      "applyUrl": "https://job-boards.greenhouse.io/phonepe/jobs/7799494003",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "juspay-sde-backend",
-      "company": "Juspay",
-      "role": "Software Development Engineer – Backend (DEV-BE01)",
-      "location": "Bengaluru",
-      "experience": "Entry level",
-      "tracks": [
-        "SDE"
-      ],
-      "applyUrl": "https://joinus.juspay.in?jobId=DEV-BE01",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "careersUrl": "https://juspay.io/careers/DEV-BE01",
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "swiggy-sde1",
-      "company": "Swiggy",
-      "role": "Software Development Engineer I",
-      "location": "Bengaluru",
-      "experience": "1–3 yrs",
-      "tracks": [
-        "SDE",
-        "Java"
-      ],
-      "applyUrl": "https://jobs.smartrecruiters.com/SWIGGY/6000000001469588-software-development-engineer-i",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [
-        "Java"
-      ],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "netapp-se",
-      "company": "NetApp",
-      "role": "Software Engineer",
-      "location": "Bengaluru",
-      "experience": "1–2 yrs",
-      "tracks": [
-        "SDE"
-      ],
-      "applyUrl": "https://careers.netapp.com/job/-/-/27600/97816764512",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "franklin-ase",
-      "company": "Franklin Templeton",
-      "role": "Associate Software Engineer (Req 869678)",
-      "location": "Hyderabad",
-      "experience": "Fresher / early career",
-      "tracks": [
-        "SDE"
-      ],
-      "applyUrl": "https://careers.franklintempleton.com/us/en/job/FTGFTMUS869678EXTERNALENUS/Associate-Software-Engineer",
-      "sourceType": "official",
-      "foundOn": "18 Oct",
-      "isNew": false,
-      "category": "technical",
-      "keywords": [],
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
       },
       "similar": 0
     }
