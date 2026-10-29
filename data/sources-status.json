@@ -1,22 +1,22 @@
 {
- "checkedAt": "2026-10-29T12:45:41+05:30",
+ "checkedAt": "2026-10-30T00:35:09+05:30",
  "sources": [
   {
    "name": "Amazon",
    "type": "amazon",
    "ok": true,
-   "count": 30,
+   "count": 28,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "Visa",
    "type": "workday",
    "ok": true,
-   "count": 7,
+   "count": 6,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -25,16 +25,16 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "Target",
    "type": "workday",
    "ok": true,
-   "count": 3,
+   "count": 4,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -53,7 +53,7 @@
    "count": 0,
    "error": "HTTPError: HTTP Error 422: Unprocessable Entity",
    "lastOk": null,
-   "failStreak": 23
+   "failStreak": 24
   },
   {
    "name": "Dell",
@@ -62,7 +62,7 @@
    "count": 0,
    "error": "HTTPError: HTTP Error 422: Unprocessable Entity",
    "lastOk": null,
-   "failStreak": 23
+   "failStreak": 24
   },
   {
    "name": "Intel",
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -79,25 +79,25 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "Mastercard",
    "type": "workday",
    "ok": true,
-   "count": 7,
+   "count": 8,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "DBS Tech India",
    "type": "workday",
    "ok": true,
-   "count": 8,
+   "count": 6,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -106,16 +106,16 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "Altera",
    "type": "workday",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -124,7 +124,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -134,7 +134,7 @@
    "count": 0,
    "error": "HTTPError: HTTP Error 404: Not Found",
    "lastOk": null,
-   "failStreak": 23
+   "failStreak": 24
   },
   {
    "name": "Rubrik",
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -151,7 +151,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -161,7 +161,7 @@
    "count": 0,
    "error": "HTTPError: HTTP Error 404: Not Found",
    "lastOk": null,
-   "failStreak": 23
+   "failStreak": 24
   },
   {
    "name": "MongoDB",
@@ -169,7 +169,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -178,7 +178,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -187,7 +187,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -196,7 +196,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -205,7 +205,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -214,7 +214,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -223,16 +223,16 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "Swiggy",
    "type": "smartrecruiters",
    "ok": true,
-   "count": 2,
+   "count": 3,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -241,16 +241,16 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "Bosch",
    "type": "smartrecruiters",
    "ok": true,
-   "count": 45,
+   "count": 49,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -259,7 +259,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -268,7 +268,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -277,7 +277,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -286,7 +286,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -295,16 +295,16 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "Micron Technology",
    "type": "workday",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -313,7 +313,7 @@
    "ok": true,
    "count": 8,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -322,7 +322,7 @@
    "ok": true,
    "count": 5,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -331,7 +331,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -340,7 +340,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -349,7 +349,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -358,7 +358,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -367,16 +367,16 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
    "name": "ServiceNow",
    "type": "smartrecruiters",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -385,7 +385,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -395,7 +395,7 @@
    "count": 0,
    "error": "ParseError: syntax error: line 1, column 0",
    "lastOk": null,
-   "failStreak": 23
+   "failStreak": 24
   },
   {
    "name": "enggwave",
@@ -403,7 +403,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -412,7 +412,7 @@
    "ok": true,
    "count": 10,
    "error": "",
-   "lastOk": "2026-10-29T12:45:41+05:30",
+   "lastOk": "2026-10-30T00:35:09+05:30",
    "failStreak": 0
   },
   {
@@ -422,7 +422,7 @@
    "count": 0,
    "error": "URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>",
    "lastOk": null,
-   "failStreak": 23
+   "failStreak": 24
   }
  ]
 }
