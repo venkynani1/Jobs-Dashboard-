@@ -1,7 +1,439 @@
 {
-  "refreshedAt": "2026-10-31T00:12:11+05:30",
-  "nextRefreshAt": "2026-10-31T06:57:00+05:30",
+  "refreshedAt": "2026-10-31T12:35:57+05:30",
+  "nextRefreshAt": "2026-10-31T18:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-software-development-engineer-i-job-10580008-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I (Job 10580008)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580008/software-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 2
+    },
+    {
+      "id": "amazon-software-development-engineer-i-ftc-job-10580010-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I FTC (Job 10580010)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "amazon-software-development-engineer-i-ftc-job-10580009-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I FTC (Job 10580009)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580009/software-development-engineer-i-ftc",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "amazon-software-development-engineer-i-job-10580013-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I (Job 10580013)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580013/software-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 2
+    },
+    {
+      "id": "amazon-software-development-engineer-i-job-10580011-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer I (Job 10580011)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10580011/software-development-engineer-i",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 2
+    },
+    {
+      "id": "amazon-data-center-operations-technician-data-center-operations-dco-job-10568703",
+      "company": "Amazon",
+      "role": "Data Center Operations Technician, Data Center Operations (DCO) (Job 10568703)",
+      "location": "Mumbai, Maharashtra, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "DevOps"
+      ],
+      "keywords": [
+        "AWS",
+        "Networking"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10568703/data-center-operations-technician-data-center-operations-dco",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-05",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "p-g-p-g-internship-2026-information-technology-intern-mumbai-mumbai",
+      "company": "P&G",
+      "role": "P&G Internship 2026 – Information Technology Intern, Mumbai",
+      "location": "Mumbai",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps",
+        "Python"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/p-g-internship-2026-information-technology-intern/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": null,
+        "max": null,
+        "estimated": true,
+        "text": "Stipend (internship)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "ntt-data-banking-operation-analyst-ntt-data-banking-operation-analyst-recruitmen",
+      "company": "NTT DATA Banking Operation Analyst",
+      "role": "NTT DATA Banking Operation Analyst Recruitment 2026 – Gurgaon",
+      "location": "Gurgaon",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/ntt-data-banking-operation-analyst-2026-gurgaon/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "service",
+      "salary": {
+        "min": 3.5,
+        "max": 7,
+        "estimated": true,
+        "text": "₹3.5–7 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "google-google-recruitment-2026-associate-product-manager-bengaluru-bengaluru",
+      "company": "Google",
+      "role": "Google Recruitment 2026: Associate Product Manager – Bengaluru",
+      "location": "Bengaluru",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/google-recruitment-2026-associate-product-manager-bengaluru/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "deloitte-deloitte-recruitment-2026-am-non-it-recruiter-hyderabad-hyderabad",
+      "company": "Deloitte",
+      "role": "Deloitte Recruitment 2026 – AM Non-IT Recruiter Hyderabad",
+      "location": "Hyderabad",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/deloitte-recruitment-2026-am-non-it-recruiter-volume-hiring/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "service",
+      "salary": {
+        "min": 3.5,
+        "max": 7,
+        "estimated": true,
+        "text": "₹3.5–7 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "accuris-accuris-recruitment-2026-associate-developer-bangalore-bangalore",
+      "company": "Accuris",
+      "role": "Accuris Recruitment 2026 – Associate Developer Bangalore",
+      "location": "Bangalore",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/accuris-recruitment-2026-associate-developer-bangalore/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 4,
+        "max": 10,
+        "estimated": true,
+        "text": "₹4–10 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "lseg-lseg-recruitment-2026-associate-software-engineer-bangalore-freshers-bangal",
+      "company": "LSEG",
+      "role": "LSEG Recruitment 2026: Associate Software Engineer | Bangalore (Freshers)",
+      "location": "Bangalore",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "keywords": [
+        "C#",
+        ".NET"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/lseg-recruitment-2026-associate-software-engineer-bangalore/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 4,
+        "max": 10,
+        "estimated": true,
+        "text": "₹4–10 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-amazon-recruitment-2026-it-support-associate-bengaluru-bengaluru",
+      "company": "Amazon",
+      "role": "Amazon Recruitment 2026: IT Support Associate | Bengaluru",
+      "location": "Bengaluru",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/amazon-recruitment-2026-it-support-associate-bengaluru/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "cognizant-service-desk-cognizant-service-desk-off-campus-2027-digital-workplace-",
+      "company": "Cognizant Service Desk",
+      "role": "Cognizant Service Desk Off Campus 2027 | Digital Workplace Practice | 2024–26 Grads, PAN India — Apply Now",
+      "location": "Pan India",
+      "experience": "Freshers",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://freshershunt.in/cognizant-service-desk-off-campus-2027/",
+      "sourceType": "aggregator",
+      "source": "rss:freshershunt",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "service",
+      "salary": {
+        "min": 2.5,
+        "max": 5,
+        "estimated": true,
+        "text": "₹2.5–5 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "india-india-job-market-today-layoffs-routine-freshers-squeezed-31-oct-2026-india",
+      "company": "India",
+      "role": "India Job Market Today: Layoffs routine, freshers squeezed — 31 Oct 2026",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-31-oct-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 3,
+        "max": 6,
+        "estimated": true,
+        "text": "₹3–6 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "paytm-paytm-internship-2026-hr-intern-6-months-india",
+      "company": "Paytm",
+      "role": "Paytm Internship 2026 – HR Intern | 6 Months",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/paytm-internship-2026-hr-intern/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-10-31",
+      "foundOn": "31 Oct",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": null,
+        "max": null,
+        "estimated": true,
+        "text": "Stipend (internship)"
+      },
+      "similar": 0
+    },
     {
       "id": "amazon-data-engineer-i-dsp-analytics-job-10551531-hyderabad",
       "company": "Amazon",
@@ -26,7 +458,7 @@
       "postedOn": "2026-09-17",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -65,7 +497,7 @@
       "postedOn": "2026-10-13",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -95,10 +527,10 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Technical-Writing-Analyst_JR366429",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-31",
+      "postedOn": "2026-10-30",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -141,7 +573,7 @@
       "postedOn": "2026-10-24",
       "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -176,7 +608,7 @@
       "postedOn": "2026-10-31",
       "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -211,7 +643,7 @@
       "postedOn": "2026-10-31",
       "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -250,7 +682,7 @@
       "postedOn": "2026-10-31",
       "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -287,7 +719,7 @@
       "postedOn": "2026-10-31",
       "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -328,7 +760,7 @@
       "source": "greenhouse",
       "postedOn": "2026-09-30",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -370,7 +802,7 @@
       "source": "lever",
       "postedOn": "2026-10-28",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -397,7 +829,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-21",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -423,7 +855,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-16",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -449,7 +881,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-16",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -485,7 +917,7 @@
       "postedOn": "2026-10-25",
       "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -515,7 +947,7 @@
       "postedOn": "2026-10-09",
       "careersUrl": "https://altera.wd1.myworkdayjobs.com/en-US/Altera",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
@@ -543,7 +975,7 @@
       "source": "greenhouse",
       "postedOn": "2026-10-13",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -573,7 +1005,7 @@
       "source": "greenhouse",
       "postedOn": "2026-10-08",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -599,7 +1031,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-30",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -625,7 +1057,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-16",
       "foundOn": "31 Oct",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -935,7 +1367,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Accountant_JR362536",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-31",
+      "postedOn": "2026-10-30",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "30 Oct",
       "isNew": false,
@@ -2358,36 +2790,6 @@
       "similar": 0
     },
     {
-      "id": "visa-analyst-client-success-api-payments-nps-csat-in-bengaluru",
-      "company": "Visa",
-      "role": "Analyst, Client Success (API, Payments, NPS, CSAT)",
-      "location": "IN - Bengaluru, India",
-      "experience": "3+ yrs",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Communication",
-        "Stakeholder management"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Analyst--Client-Success_REF089066W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-23",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "29 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "bosch-b2r-associate-bangalore",
       "company": "Bosch",
       "role": "B2R Associate",
@@ -3457,7 +3859,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Associate-Technical-Support-Engineer_JR356515",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-28",
+      "postedOn": "2026-10-27",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "27 Oct",
       "isNew": false,
@@ -3964,44 +4366,6 @@
       "source": "amazon",
       "postedOn": "2026-09-28",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "27 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "visa-safety-security-specialist-1-3-years-experience-in-bengaluru",
-      "company": "Visa",
-      "role": "Safety/Security Specialist (1-3 years experience)",
-      "location": "IN - Bengaluru, India",
-      "experience": "1-3 years",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "SQL",
-        "PostgreSQL",
-        "MongoDB",
-        "CI/CD",
-        "Linux",
-        "REST",
-        "Postman",
-        "Jira",
-        "Grafana",
-        "Networking"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Safety-Security-Specialist--1-3-years-experience-_REF088924W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-02",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "27 Oct",
       "isNew": false,
       "companyType": "product",
@@ -4845,72 +5209,6 @@
       "similar": 0
     },
     {
-      "id": "visa-accountant-exp-in-t-e-card-program-in-bengaluru",
-      "company": "Visa",
-      "role": "Accountant (Exp in T&E card program)",
-      "location": "IN - Bengaluru, India",
-      "experience": "2+ yrs",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Oracle",
-        "Excel",
-        "SAP",
-        "Communication",
-        "MS Office"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Accountant--Exp-in-T-E-card-program-_REF089033W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-04",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "visa-portfolio-specialist-in-bengaluru",
-      "company": "Visa",
-      "role": "Portfolio Specialist",
-      "location": "IN - Bengaluru, India",
-      "experience": "2-5 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Power BI",
-        "Tableau",
-        "Excel",
-        "Communication",
-        "Stakeholder management"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Portfolio-Specialist_REF089167W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-14",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "target-analyst-pim-ops-bangalore",
       "company": "Target",
       "role": "Analyst PIM Ops",
@@ -5467,38 +5765,7 @@
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
       },
-      "similar": 2
-    },
-    {
-      "id": "amazon-software-development-engineer-time-pay-innovation-job-10561001-hyderabad",
-      "company": "Amazon",
-      "role": "Software Development Engineer, Time & Pay Innovation (Job 10561001)",
-      "location": "Hyderabad, Telangana, IND",
-      "experience": "1+ yrs",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Java",
-        "C++",
-        "C#"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10561001/software-development-engineer-time-pay-innovation",
-      "sourceType": "official",
-      "source": "amazon",
-      "postedOn": "2026-09-26",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 2
+      "similar": 1
     },
     {
       "id": "amazon-software-development-engineer-time-pay-innovation-job-10561007-hyderabad",
@@ -5529,7 +5796,7 @@
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
       },
-      "similar": 2
+      "similar": 1
     },
     {
       "id": "amazon-data-center-technician-data-center-operations-dco-job-10579674-mumbai",
@@ -6021,44 +6288,6 @@
       "similar": 0
     },
     {
-      "id": "visa-analyst-client-consulting-ai-in-mumbai",
-      "company": "Visa",
-      "role": "Analyst, Client Consulting - AI",
-      "location": "IN - Mumbai, India",
-      "experience": "2+ yrs",
-      "category": "technical",
-      "tracks": [
-        "AI/ML"
-      ],
-      "keywords": [
-        "Python",
-        "SQL",
-        "Spark",
-        "Hadoop",
-        "Git",
-        "Agile",
-        "Power BI",
-        "Tableau",
-        "Excel",
-        "Communication"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Mumbai-India/Analyst--Client-Consulting---AI_REF089295W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-15",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "dbs-tech-india-associate-application-developer-institutional-banking-group-techn",
       "company": "DBS Tech India",
       "role": "Associate, Application Developer, Institutional Banking Group Technology",
@@ -6221,33 +6450,6 @@
       "similar": 0
     },
     {
-      "id": "visa-irf-compliance-analyst-in-mumbai",
-      "company": "Visa",
-      "role": "IRF Compliance Analyst",
-      "location": "IN - Mumbai, India",
-      "experience": "2-4 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Mumbai-India/IRF-Compliance-Analyst_REF088377W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-07",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "mastercard-associate-specialist-implementation-pune",
       "company": "Mastercard",
       "role": "Associate Specialist, Implementation",
@@ -6338,246 +6540,6 @@
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "genesis-technologies-genesis-technologies-recruitment-2026-associate-software-en",
-      "company": "Genesis Technologies",
-      "role": "Genesis Technologies Recruitment 2026: Associate Software Engineer – Indore",
-      "location": "Indore",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/genesis-technologies-recruitment-2026-associate-software-engineer/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "metlife-metlife-recruitment-2026-software-engineer-i-hyderabad-hyderabad",
-      "company": "MetLife",
-      "role": "MetLife Recruitment 2026: Software Engineer I – Hyderabad",
-      "location": "Hyderabad",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/metlife-recruitment-2026-software-engineer-i-hyderabad/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "commure-commure-recruitment-2026-software-engineer-bengaluru-bengaluru",
-      "company": "Commure",
-      "role": "Commure Recruitment 2026: Software Engineer – Bengaluru",
-      "location": "Bengaluru",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/commure-recruitment-2026-software-engineer-india/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "wipro-wipro-recruitment-2026-graduate-engineer-trainee-manual-testing-india",
-      "company": "Wipro",
-      "role": "Wipro Recruitment 2026: Graduate Engineer Trainee – Manual Testing",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "SQL"
-      ],
-      "applyUrl": "https://offcampusjobs4u.com/wipro-recruitment-2026-graduate-engineer-trainee-manual-testing/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "amber-amber-internship-2026-ai-software-engineering-intern-pune-pune",
-      "company": "Amber",
-      "role": "Amber Internship 2026: AI + Software Engineering Intern – Pune",
-      "location": "Pune",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "AI/ML"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/amber-internship-2026-ai-software-engineering-intern-pune/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "trinet-associate-software-engineer-trinet-associate-software-engineer-recruitmen",
-      "company": "TriNet Associate Software Engineer",
-      "role": "TriNet Associate Software Engineer Recruitment 2026 – Hyderabad | Freshers & 0–2 Years",
-      "location": "Hyderabad",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/trinet-associate-software-engineer-hyderabad/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "jll-jll-recruitment-2026-software-engineer-i-bengaluru-bengaluru",
-      "company": "JLL",
-      "role": "JLL Recruitment 2026: Software Engineer I | Bengaluru",
-      "location": "Bengaluru",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/jll-recruitment-2026-software-engineer-i-bengaluru/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "wipro-wipro-recruitment-2026-service-desk-analyst-india",
-      "company": "Wipro",
-      "role": "Wipro Recruitment 2026: Service Desk Analyst",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/wipro-recruitment-2026-service-desk-analyst-developer-chennai-mumbai/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-25",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "amazon-software-development-engineer-i-job-10580014-hyderabad",
-      "company": "Amazon",
-      "role": "Software Development Engineer I (Job 10580014)",
-      "location": "Hyderabad, Telangana, IND",
-      "experience": "1+ yrs",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10580014/software-development-engineer-i",
-      "sourceType": "official",
-      "source": "amazon",
-      "postedOn": "2026-10-15",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "24 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
       },
       "similar": 0
     }
