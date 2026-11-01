@@ -1,7 +1,417 @@
 {
-  "refreshedAt": "2026-11-01T13:10:19+05:30",
-  "nextRefreshAt": "2026-11-01T18:57:00+05:30",
+  "refreshedAt": "2026-11-01T23:59:10+05:30",
+  "nextRefreshAt": "2026-11-02T06:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-software-development-engineer-time-pay-innovation-job-10561007-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer, Time & Pay Innovation (Job 10561007)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Java",
+        "C++",
+        "C#"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10561007/software-development-engineer-time-pay-innovation",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-09-26",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-data-center-technician-data-center-operations-dco-job-10579674-mumbai",
+      "company": "Amazon",
+      "role": "Data Center Technician, Data Center Operations (DCO) (Job 10579674)",
+      "location": "Mumbai, Maharashtra, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "DevOps"
+      ],
+      "keywords": [
+        "AWS"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10579674/data-center-technician-data-center-operations-dco",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-15",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "amazon-data-center-operations-tech-data-center-operations-dco-job-10568655-mumba",
+      "company": "Amazon",
+      "role": "Data Center Operations Tech, Data Center Operations (DCO) (Job 10568655)",
+      "location": "Mumbai, Maharashtra, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "DevOps"
+      ],
+      "keywords": [
+        "AWS"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10568655/data-center-operations-tech-data-center-operations-dco",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-05",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-system-development-engineer-edgeai-hw-compute-group-job-10573481-bengalur",
+      "company": "Amazon",
+      "role": "System Development Engineer - EdgeAI, HW Compute Group (Job 10573481)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "AI/ML",
+        "DevOps",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "C++",
+        "CI/CD",
+        "Linux"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10573481/system-development-engineer-edgeai-hw-compute-group",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-08",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-she-builds-1-1-resume-interview-coaching-india-job-10557386-bengaluru",
+      "company": "Amazon",
+      "role": "She Builds 1:1 Resume & Interview Coaching, India (Job 10557386)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10557386/she-builds-1-1-resume-interview-coaching-india",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-09-23",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "gitlab-benefits-analyst-bangalore",
+      "company": "GitLab",
+      "role": "Benefits Analyst",
+      "location": "Bangalore, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Go",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8864819002",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-09",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "elastic-marketing-coordinators-amer-fixed-term-bangalore",
+      "company": "Elastic",
+      "role": "Marketing Coordinators, AMER (Fixed Term)",
+      "location": "Bangalore, India",
+      "experience": "2-3 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "CSS",
+        "Elasticsearch",
+        "Tableau",
+        "Salesforce",
+        "Communication"
+      ],
+      "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8263255&gh_jid=8263255",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-08",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "twilio-people-generalist-remote-india",
+      "company": "Twilio",
+      "role": "People Generalist",
+      "location": "Remote - India",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "ServiceNow",
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8256431",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-09",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-bengaluru-bengaluru",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Bengaluru",
+      "location": "Bengaluru, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8003027?gh_jid=8003027",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-delhi-new-delhi",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Delhi",
+      "location": "New Delhi, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8248830?gh_jid=8248830",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-mumbai-mumbai",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Mumbai",
+      "location": "Mumbai, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8248800?gh_jid=8248800",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "servicenow-customer-success-executive-bangalore",
+      "company": "ServiceNow",
+      "role": "Customer Success Executive",
+      "location": "Bangalore, Karnataka, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000158473789",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-10-29",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "servicenow-customer-success-executive-mumbai",
+      "company": "ServiceNow",
+      "role": "Customer Success Executive",
+      "location": "Mumbai, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000152903630",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-10-01",
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "cognizant-work-from-home-cognizant-work-from-home-jobs-2026-news-analyst-remote-",
+      "company": "Cognizant Work From Home",
+      "role": "Cognizant Work From Home Jobs 2026 | News Analyst | Remote – Apply Now",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://freshershunt.in/cognizant-work-from-home-jobs-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:freshershunt",
+      "postedOn": "2026-11-01",
+      "salary": {
+        "min": 25.0,
+        "max": 25.0,
+        "estimated": false,
+        "text": "₹25 LPA"
+      },
+      "foundOn": "1 Nov",
+      "isNew": true,
+      "companyType": "service",
+      "similar": 0
+    },
     {
       "id": "salesforce-assurance-engineering-platform-developer-smts-lmts-2-locations",
       "company": "Salesforce",
@@ -45,7 +455,7 @@
       "postedOn": "2026-11-01",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -82,52 +492,13 @@
       "postedOn": "2026-10-13",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "rubrik-software-engineer-cloud-azure-bangalore",
-      "company": "Rubrik",
-      "role": "Software Engineer - Cloud: Azure",
-      "location": "Bangalore",
-      "experience": "0-2 years",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps"
-      ],
-      "keywords": [
-        "Java",
-        "Python",
-        "C++",
-        "Go",
-        "Scala",
-        "AWS",
-        "Azure",
-        "GCP",
-        "Docker",
-        "Kubernetes",
-        "Communication"
-      ],
-      "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8258200?gh_jid=8258200",
-      "sourceType": "official",
-      "source": "greenhouse",
-      "postedOn": "2026-10-07",
-      "foundOn": "1 Nov",
-      "isNew": true,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
       },
       "similar": 0
     },
@@ -147,7 +518,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-05",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -173,7 +544,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-24",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -207,7 +578,7 @@
       "postedOn": "2026-10-14",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -236,7 +607,7 @@
       "postedOn": "2026-10-16",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -271,7 +642,7 @@
       "postedOn": "2026-10-06",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -301,7 +672,7 @@
       "postedOn": "2026-10-09",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -327,33 +698,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-09-24",
       "foundOn": "1 Nov",
-      "isNew": true,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "servicenow-customer-success-executive-strategic-accounts-mumbai",
-      "company": "ServiceNow",
-      "role": "Customer Success Executive, Strategic Accounts",
-      "location": "Mumbai, India",
-      "experience": "Entry level",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000149814859",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-09-16",
-      "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -379,7 +724,7 @@
       "source": "rss:freshershunt",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": null,
@@ -405,7 +750,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -435,7 +780,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -461,7 +806,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -489,7 +834,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -515,7 +860,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -541,7 +886,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 3,
@@ -567,7 +912,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
@@ -593,7 +938,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-01",
       "foundOn": "1 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 2.5,
@@ -1769,32 +2114,6 @@
       "similar": 0
     },
     {
-      "id": "bosch-in-rbai-senior-process-engineer-pick-and-place-bangalore",
-      "company": "Bosch",
-      "role": "IN_RBAI_Senior Process Engineer Pick and Place",
-      "location": "Bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000155907509",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-10-16",
-      "foundOn": "31 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "nvidia-research-scientist-nemotron-india-3-locations",
       "company": "NVIDIA",
       "role": "Research Scientist - Nemotron India",
@@ -2954,35 +3273,6 @@
       "source": "amazon",
       "postedOn": "2026-09-30",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "30 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "dbs-tech-india-associate-treasures-bancassurance-specialist-consumer-banking-gro",
-      "company": "DBS Tech India",
-      "role": "Associate , Treasures Bancassurance Specialist , Consumer Banking Group",
-      "location": "Coimbatore-DBIL",
-      "experience": "Entry level",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "CSS"
-      ],
-      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Coimbatore-DBIL/Associate---Treasures-Bancassurance-Specialist---Consumer-Banking-Group_WD89978",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-23",
-      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "30 Oct",
       "isNew": false,
       "companyType": "product",
@@ -4743,7 +5033,7 @@
         "estimated": true,
         "text": "₹15–35 LPA (est.)"
       },
-      "similar": 0
+      "similar": 1
     },
     {
       "id": "intel-lab-engineer-india",
@@ -5654,47 +5944,6 @@
       "similar": 0
     },
     {
-      "id": "paypal-site-reliability-engineer-chennai",
-      "company": "PayPal",
-      "role": "Site Reliability Engineer",
-      "location": "Chennai, Tamil Nadu, India",
-      "experience": "1+ yrs",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps"
-      ],
-      "keywords": [
-        "Microservices",
-        "AWS",
-        "Azure",
-        "GCP",
-        "Docker",
-        "Kubernetes",
-        "Terraform",
-        "CI/CD",
-        "Prometheus",
-        "Grafana",
-        "Networking",
-        "Communication"
-      ],
-      "applyUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Chennai-Tamil-Nadu-India/Site-Reliability-Engineer_R0138209-1",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-26",
-      "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "mongodb-software-engineer-3-gurugram",
       "company": "MongoDB",
       "role": "Software Engineer 3",
@@ -6266,259 +6515,6 @@
         "max": 10,
         "estimated": true,
         "text": "₹4–10 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "1-club-1-club-recruitment-2026-sde-i-backend-engineer-india",
-      "company": "1% Club",
-      "role": "1% Club Recruitment 2026: SDE-I Backend Engineer",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Go",
-        "Golang"
-      ],
-      "applyUrl": "https://offcampusjobs4u.com/1-percent-club-recruitment-2026-sde-i-backend/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "agilon-health-agilon-health-recruitment-2026-associate-software-engineer-india",
-      "company": "Agilon Health",
-      "role": "Agilon Health Recruitment 2026: Associate Software Engineer",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps",
-        "Python"
-      ],
-      "keywords": [
-        "SQL"
-      ],
-      "applyUrl": "https://offcampusjobs4u.com/agilon-health-recruitment-2026-associate-software-engineer-gurugram/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "dtcc-dtcc-recruitment-2026-software-engineering-associate-india",
-      "company": "DTCC",
-      "role": "DTCC Recruitment 2026: Software Engineering Associate",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/dtcc-recruitment-2026-software-engineering-associate-hyderabad/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "ibm-ibm-internship-2026-research-software-intern-summer-2027-india",
-      "company": "IBM",
-      "role": "IBM Internship 2026: Research Software Intern – Summer 2027",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "AI/ML"
-      ],
-      "keywords": [
-        "Algorithms"
-      ],
-      "applyUrl": "https://offcampusjobs4u.com/ibm-internship-2026-research-software-intern/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "service",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "amazon-amazon-internship-2026-sde-i-intern-2027-batch-india",
-      "company": "Amazon",
-      "role": "Amazon Internship 2026: SDE I Intern – 2027 Batch",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/amazon-internship-2026-sde-i-intern-2027-batch/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": null,
-        "max": null,
-        "estimated": true,
-        "text": "Stipend (internship)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "accenture-accenture-off-campus-drive-2026-data-science-associate-genai-python-in",
-      "company": "Accenture",
-      "role": "Accenture Off Campus Drive 2026 – Data Science Associate | GenAI & Python",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "AI/ML",
-        "Python"
-      ],
-      "keywords": [
-        "Python",
-        "GenAI"
-      ],
-      "applyUrl": "https://offcampusjobs4u.com/accenture-off-campus-drive-2026-data-science-associate/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "service",
-      "salary": {
-        "min": 3.5,
-        "max": 7,
-        "estimated": true,
-        "text": "₹3.5–7 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "wipro-associate-analyst-wipro-associate-analyst-2026-retail-banking-support-pune",
-      "company": "Wipro Associate Analyst",
-      "role": "Wipro Associate Analyst 2026 | Retail Banking Support | Pune — Apply Now",
-      "location": "Pune",
-      "experience": "Freshers",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://freshershunt.in/wipro-associate-analyst-2026/",
-      "sourceType": "aggregator",
-      "source": "rss:freshershunt",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "service",
-      "salary": {
-        "min": 2.5,
-        "max": 5,
-        "estimated": true,
-        "text": "₹2.5–5 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "india-india-job-market-today-qualcomm-warning-fresher-rebound-26-oct-2026-india",
-      "company": "India",
-      "role": "India Job Market Today: Qualcomm Warning, Fresher Rebound — 26 Oct 2026",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-26-oct-2026/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-26",
-      "foundOn": "26 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 3,
-        "max": 6,
-        "estimated": true,
-        "text": "₹3–6 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "amazon-software-development-engineer-time-pay-innovation-job-10561005-hyderabad",
-      "company": "Amazon",
-      "role": "Software Development Engineer, Time & Pay Innovation (Job 10561005)",
-      "location": "Hyderabad, Telangana, IND",
-      "experience": "1+ yrs",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Java",
-        "C++",
-        "C#"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10561005/software-development-engineer-time-pay-innovation",
-      "sourceType": "official",
-      "source": "amazon",
-      "postedOn": "2026-09-26",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "25 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
       },
       "similar": 0
     }
