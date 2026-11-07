@@ -1,7 +1,225 @@
 {
-  "refreshedAt": "2026-11-07T01:30:35+05:30",
-  "nextRefreshAt": "2026-11-07T06:57:00+05:30",
+  "refreshedAt": "2026-11-07T12:50:44+05:30",
+  "nextRefreshAt": "2026-11-07T18:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-system-development-engineer-i-amazon-job-10576573-chennai",
+      "company": "Amazon",
+      "role": "System Development Engineer I, Amazon (Job 10576573)",
+      "location": "Chennai, Tamil Nadu, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps",
+        "Python",
+        "Java"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "C++",
+        "C#",
+        "Golang",
+        "Rust",
+        "Linux",
+        "Algorithms"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10576573/system-development-engineer-i-amazon",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-13",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "7 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "databricks-software-engineer-infrastructure-bengaluru",
+      "company": "Databricks",
+      "role": "Software Engineer, Infrastructure",
+      "location": "Bengaluru, India",
+      "experience": "3–5 years",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "keywords": [
+        "Python",
+        "Databricks",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "GitHub Actions",
+        "CI/CD",
+        "Excel",
+        "Prometheus",
+        "Grafana"
+      ],
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-09-30",
+      "foundOn": "7 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "rubrik-industrial-trainee-bangalore",
+      "company": "Rubrik",
+      "role": "Industrial Trainee",
+      "location": "Bangalore",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Communication"
+      ],
+      "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-13",
+      "foundOn": "7 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "mongodb-employer-brand-analyst-gurugram",
+      "company": "MongoDB",
+      "role": "Employer Brand Analyst",
+      "location": "Gurugram",
+      "experience": "2+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "MongoDB",
+        "AWS",
+        "Azure"
+      ],
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8264146",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-08",
+      "foundOn": "7 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "swiggy-executive-videographer-chandigarh",
+      "company": "Swiggy",
+      "role": "Executive  - Videographer",
+      "location": "Chandigarh, CH, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/SWIGGY/6000000001538408",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-10-30",
+      "foundOn": "7 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-in-rbai-ai-ml-expert-in-2026-bengaluru",
+      "company": "Bosch",
+      "role": "IN_RBAI_AI_ML_Expert_IN_2026",
+      "location": "Bengaluru, KA, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160380993",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-07",
+      "foundOn": "7 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "india-india-job-market-today-servicenow-cuts-jobs-in-india-7-nov-2026-india",
+      "company": "India",
+      "role": "India Job Market Today: ServiceNow cuts jobs in India — 7 Nov 2026",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "ServiceNow"
+      ],
+      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-7-nov-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-11-07",
+      "foundOn": "7 Nov",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 4,
+        "max": 10,
+        "estimated": true,
+        "text": "₹4–10 LPA (est.)"
+      },
+      "similar": 0
+    },
     {
       "id": "target-engineer-tower-02",
       "company": "Target",
@@ -24,7 +242,7 @@
       "postedOn": "2026-11-07",
       "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -50,7 +268,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-30",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -81,7 +299,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-30",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -109,7 +327,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-28",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -140,7 +358,7 @@
       "postedOn": "2026-11-07",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -175,7 +393,7 @@
       "postedOn": "2026-11-07",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -205,7 +423,7 @@
       "postedOn": "2026-11-07",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -235,33 +453,7 @@
       "source": "greenhouse",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "swiggy-executive-graphic-designer-mumbai",
-      "company": "Swiggy",
-      "role": "Executive - Graphic Designer",
-      "location": "Mumbai, MH, India",
-      "experience": "Entry level",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/SWIGGY/6000000001557411",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-06",
-      "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -287,7 +479,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
@@ -315,7 +507,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -343,7 +535,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -369,7 +561,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": null,
@@ -395,7 +587,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -421,7 +613,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -449,7 +641,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-06",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -478,7 +670,7 @@
       "source": "rss:freshershunt",
       "postedOn": "2026-11-07",
       "foundOn": "7 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 3,
@@ -958,36 +1150,6 @@
         "text": "₹15–35 LPA (est.)"
       },
       "similar": 1
-    },
-    {
-      "id": "visa-associate-technical-program-analyst-3-4-years-of-experience-in-project-mana",
-      "company": "Visa",
-      "role": "Associate Technical Program Analyst (3-4 years of experience in Project Management, Workplace Portfolio, Stakeholder Mgt.)",
-      "location": "IN - Bengaluru, India",
-      "experience": "3-4 years",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Agile",
-        "Communication"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Associate-Technical-Program-Analyst_REF084974W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-06",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "6 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
     },
     {
       "id": "altera-design-engineer-bengaluru",
@@ -3314,41 +3476,6 @@
         "max": null,
         "estimated": true,
         "text": "Stipend (internship)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "visa-sales-excellence-analyst-in-bengaluru",
-      "company": "Visa",
-      "role": "Sales Excellence Analyst",
-      "location": "IN - Bengaluru, India",
-      "experience": "1 to 3 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Python",
-        "SQL",
-        "GenAI",
-        "Power BI",
-        "Tableau",
-        "Excel",
-        "Communication"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Sales-Excellence-Analyst_REF089635W-1",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-04",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "4 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
       },
       "similar": 0
     },
@@ -5997,44 +6124,6 @@
       "similar": 3
     },
     {
-      "id": "visa-analyst-client-consulting-ai-in-mumbai",
-      "company": "Visa",
-      "role": "Analyst, Client Consulting - AI",
-      "location": "IN - Mumbai, India",
-      "experience": "2+ yrs",
-      "category": "technical",
-      "tracks": [
-        "AI/ML"
-      ],
-      "keywords": [
-        "Python",
-        "SQL",
-        "Spark",
-        "Hadoop",
-        "Git",
-        "Agile",
-        "Power BI",
-        "Tableau",
-        "Excel",
-        "Communication"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Mumbai-India/Analyst--Client-Consulting---AI_REF089295W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-15",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "31 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "kla-engineer-product-applications-chennai",
       "company": "KLA",
       "role": "Engineer, Product Applications",
@@ -6061,69 +6150,6 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "visa-analyst-client-success-api-payments-nps-csat-in-bengaluru",
-      "company": "Visa",
-      "role": "Analyst, Client Success (API, Payments, NPS, CSAT)",
-      "location": "IN - Bengaluru, India",
-      "experience": "3+ yrs",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Communication",
-        "Stakeholder management"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Analyst--Client-Success_REF089066W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-23",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "31 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "visa-portfolio-specialist-in-bengaluru",
-      "company": "Visa",
-      "role": "Portfolio Specialist",
-      "location": "IN - Bengaluru, India",
-      "experience": "2-5 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Power BI",
-        "Tableau",
-        "Excel",
-        "Communication",
-        "Stakeholder management"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Portfolio-Specialist_REF089167W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-14",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "31 Oct",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
       },
       "similar": 0
     },
@@ -6451,32 +6477,6 @@
         "max": 7,
         "estimated": true,
         "text": "₹3.5–7 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "accuris-accuris-recruitment-2026-associate-developer-bangalore-bangalore",
-      "company": "Accuris",
-      "role": "Accuris Recruitment 2026 – Associate Developer Bangalore",
-      "location": "Bangalore",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/accuris-recruitment-2026-associate-developer-bangalore/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-10-31",
-      "foundOn": "31 Oct",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 4,
-        "max": 10,
-        "estimated": true,
-        "text": "₹4–10 LPA (est.)"
       },
       "similar": 0
     }
