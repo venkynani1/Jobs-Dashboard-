@@ -1,7 +1,289 @@
 {
-  "refreshedAt": "2026-11-08T23:55:25+05:30",
-  "nextRefreshAt": "2026-11-09T06:57:00+05:30",
+  "refreshedAt": "2026-11-09T13:38:39+05:30",
+  "nextRefreshAt": "2026-11-09T18:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-controls-engineer-controls-deployment-and-service-job-10599642-mumbai",
+      "company": "Amazon",
+      "role": "Controls Engineer, Controls Deployment and Service (Job 10599642)",
+      "location": "Mumbai, Maharashtra, IND",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps"
+      ],
+      "keywords": [
+        "AWS",
+        "Excel"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10599642/controls-engineer-controls-deployment-and-service",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-11-09",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-sap-cph-consultant-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "SAP CPH Consultant",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "SAP"
+      ],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160533179",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-it-operation-specialist-bangalore",
+      "company": "Bosch",
+      "role": "IT Operation Specialist",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160532825",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-public-cloud-migration-build-specialist-hyderabad",
+      "company": "Bosch",
+      "role": "Public Cloud Migration/Build Specialist",
+      "location": "Hyderabad, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "DevOps"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160532669",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "dbs-tech-india-officer-customer-service-consumer-banking-group-regional-office-c",
+      "company": "DBS Tech India",
+      "role": "Officer, Customer Service, Consumer Banking Group",
+      "location": "Regional Office Chennai",
+      "experience": "2-4 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Communication"
+      ],
+      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Regional-Office-Chennai/Officer--Customer-Service--Consumer-Banking-Group_WD90486",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-11-09",
+      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "twilio-people-generalist-remote-india",
+      "company": "Twilio",
+      "role": "People Generalist",
+      "location": "Remote - India",
+      "experience": "3+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "ServiceNow",
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8256431",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-09",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-bengaluru-bengaluru",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Bengaluru",
+      "location": "Bengaluru, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8003027?gh_jid=8003027",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "okta-enterprise-account-executive-delhi-new-delhi",
+      "company": "Okta",
+      "role": "Enterprise Account Executive, Delhi",
+      "location": "New Delhi, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "HTML",
+        "Machine Learning",
+        "Communication"
+      ],
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8248830?gh_jid=8248830",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-02",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "capgemini-capgemini-off-campus-drive-2026-associate-quality-engineer-0-5-yrs-ben",
+      "company": "Capgemini",
+      "role": "Capgemini Off Campus Drive 2026 | Associate Quality Engineer, 0–5 Yrs | Bengaluru — Apply Now",
+      "location": "Bengaluru",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "keywords": [],
+      "applyUrl": "https://freshershunt.in/capgemini-off-campus-drive-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:freshershunt",
+      "postedOn": "2026-11-09",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "service",
+      "salary": {
+        "min": 3.5,
+        "max": 7,
+        "estimated": true,
+        "text": "₹3.5–7 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "india-india-job-market-today-1-500-indian-bank-apprentice-seats-9-nov-2026-india",
+      "company": "India",
+      "role": "India Job Market Today: 1,500 Indian Bank Apprentice Seats — 9 Nov 2026",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-9-nov-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-11-09",
+      "foundOn": "9 Nov",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 3,
+        "max": 6,
+        "estimated": true,
+        "text": "₹3–6 LPA (est.)"
+      },
+      "similar": 0
+    },
     {
       "id": "amazon-applied-scientist-alexa-sensitive-content-intelligence-asci-job-10578603-",
       "company": "Amazon",
@@ -26,7 +308,7 @@
       "postedOn": "2026-10-14",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "8 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -55,7 +337,7 @@
       "postedOn": "2026-10-16",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "8 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -85,7 +367,7 @@
       "source": "greenhouse",
       "postedOn": "2026-10-02",
       "foundOn": "8 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -111,7 +393,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-29",
       "foundOn": "8 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -137,7 +419,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-10-01",
       "foundOn": "8 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -163,7 +445,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-08",
       "foundOn": "8 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -1375,37 +1657,6 @@
       "similar": 0
     },
     {
-      "id": "salesforce-user-interface-user-experience-designer-india-bangalore",
-      "company": "Salesforce",
-      "role": "User Interface/User Experience Designer",
-      "location": "India - Bangalore",
-      "experience": "3+ yrs",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Agile",
-        "Salesforce",
-        "Communication"
-      ],
-      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/User-Interface-User-Experience-Designer_JR363777",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-06",
-      "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
-      "foundOn": "7 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "salesforce-system-analyst-2-locations",
       "company": "Salesforce",
       "role": "System Analyst",
@@ -2534,7 +2785,7 @@
         "Tableau",
         "Communication"
       ],
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8334053",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8346263",
       "sourceType": "official",
       "source": "greenhouse",
       "postedOn": "2026-11-05",
@@ -2611,32 +2862,6 @@
         "text": "₹8–20 LPA (est.)"
       },
       "similar": 1
-    },
-    {
-      "id": "swiggy-software-dev-engineer-i-bengaluru",
-      "company": "Swiggy",
-      "role": "Software Dev Engineer I",
-      "location": "Bengaluru, KA, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/SWIGGY/6000000001552647",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-05",
-      "foundOn": "5 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
     },
     {
       "id": "bosch-in-rbai-engineer-fa-testing-inspection-maintenance-bengaluru",
@@ -3687,32 +3912,6 @@
       "similar": 0
     },
     {
-      "id": "bosch-public-cloud-migration-build-specialist-hosur-road-bangalore",
-      "company": "Bosch",
-      "role": "Public Cloud Migration/Build Specialist",
-      "location": "hosur road bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "DevOps"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000158023929",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-10-27",
-      "foundOn": "4 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "rubrik-product-management-intern-bangalore",
       "company": "Rubrik",
       "role": "Product Management Intern",
@@ -4527,32 +4726,6 @@
       "sourceType": "official",
       "source": "smartrecruiters",
       "postedOn": "2026-11-03",
-      "foundOn": "4 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-in-rbai-business-analyst-product-controlling-in-bengaluru",
-      "company": "Bosch",
-      "role": "IN_RBAI_Business Analyst - Product Controlling_IN",
-      "location": "Bengaluru, KA, India",
-      "experience": "Entry level",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000158014599",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-10-27",
       "foundOn": "4 Nov",
       "isNew": false,
       "companyType": "product",
@@ -5420,70 +5593,6 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "salesforce-customer-service-representative-india-hyderabad",
-      "company": "Salesforce",
-      "role": "Customer Service Representative",
-      "location": "India - Hyderabad",
-      "experience": "1–3 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Excel",
-        "Salesforce",
-        "Communication"
-      ],
-      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Customer-Service-Representative_JR328615",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-02",
-      "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
-      "foundOn": "3 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "target-analyst-pim-ops-bangalore",
-      "company": "Target",
-      "role": "Analyst PIM Ops",
-      "location": "Bangalore,India",
-      "experience": "3–5 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "SQL",
-        "Power BI",
-        "Excel",
-        "Communication",
-        "Stakeholder management"
-      ],
-      "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Analyst-PIM-Ops_R0000473632",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-09",
-      "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
-      "foundOn": "3 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
       },
       "similar": 0
     },
@@ -6409,132 +6518,6 @@
         "text": "₹15–35 LPA (est.)"
       },
       "similar": 1
-    },
-    {
-      "id": "amazon-data-center-operations-tech-data-center-operations-dco-job-10568655-mumba",
-      "company": "Amazon",
-      "role": "Data Center Operations Tech, Data Center Operations (DCO) (Job 10568655)",
-      "location": "Mumbai, Maharashtra, IND",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "DevOps"
-      ],
-      "keywords": [
-        "AWS"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10568655/data-center-operations-tech-data-center-operations-dco",
-      "sourceType": "official",
-      "source": "amazon",
-      "postedOn": "2026-10-05",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "1 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "amazon-system-development-engineer-edgeai-hw-compute-group-job-10573481-bengalur",
-      "company": "Amazon",
-      "role": "System Development Engineer - EdgeAI, HW Compute Group (Job 10573481)",
-      "location": "Bengaluru, Karnataka, IND",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "AI/ML",
-        "DevOps",
-        "Python"
-      ],
-      "keywords": [
-        "Python",
-        "C++",
-        "CI/CD",
-        "Linux"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10573481/system-development-engineer-edgeai-hw-compute-group",
-      "sourceType": "official",
-      "source": "amazon",
-      "postedOn": "2026-10-08",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "1 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "gitlab-benefits-analyst-bangalore",
-      "company": "GitLab",
-      "role": "Benefits Analyst",
-      "location": "Bangalore, India",
-      "experience": "Entry level",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Go",
-        "Excel",
-        "Communication"
-      ],
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8864819002",
-      "sourceType": "official",
-      "source": "greenhouse",
-      "postedOn": "2026-10-09",
-      "foundOn": "1 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "elastic-marketing-coordinators-amer-fixed-term-bangalore",
-      "company": "Elastic",
-      "role": "Marketing Coordinators, AMER (Fixed Term)",
-      "location": "Bangalore, India",
-      "experience": "2-3 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "CSS",
-        "Elasticsearch",
-        "Tableau",
-        "Salesforce",
-        "Communication"
-      ],
-      "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8263255&gh_jid=8263255",
-      "sourceType": "official",
-      "source": "greenhouse",
-      "postedOn": "2026-10-08",
-      "foundOn": "1 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
     }
   ]
 }
