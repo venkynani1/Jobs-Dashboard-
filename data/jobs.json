@@ -1,7 +1,547 @@
 {
-  "refreshedAt": "2026-11-16T00:55:34+05:30",
-  "nextRefreshAt": "2026-11-16T06:57:00+05:30",
+  "refreshedAt": "2026-11-16T13:34:57+05:30",
+  "nextRefreshAt": "2026-11-16T18:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-data-engineer-i-business-data-technologies-job-10602774-hyderabad",
+      "company": "Amazon",
+      "role": "Data Engineer I, Business Data Technologies (Job 10602774)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "ETL",
+        "AWS"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10602774/data-engineer-i-business-data-technologies",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-11-11",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "intel-android-hal-camera-domain-engineer-india",
+      "company": "Intel",
+      "role": "Android HAL Camera Domain Engineer",
+      "location": "India, Bangalore",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "DevOps",
+        "Java"
+      ],
+      "keywords": [
+        "C++",
+        "Linux"
+      ],
+      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Android-HAL-Camera-Domain-Engineer_JR0289181",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-11-16",
+      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-hw-design-engineer-bangalore",
+      "company": "Bosch",
+      "role": "HW Design Engineer",
+      "location": "bangalore, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000161725418",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-16",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "micron-technology-pde-cem-graduate-engineering-technician-sanand-303a-at-ssd-mod",
+      "company": "Micron Technology",
+      "role": "PDE CEM Graduate Engineering Technician",
+      "location": "Sanand - 303A - AT/SSD/MOD, India",
+      "experience": "0–3 years",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Python",
+        "SQL",
+        "Jira",
+        "Machine Learning",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Sanand---303A---ATSSDMOD-India/PDE-CEM-Graduate-Engineering-Technician_JR105741",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-11-09",
+      "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "kla-engr-software-chennai",
+      "company": "KLA",
+      "role": "Engr, Software",
+      "location": "Chennai, India",
+      "experience": "Entry level",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "C++",
+        "C#",
+        "Machine Learning"
+      ],
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Engr--Software_2643217",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-11-16",
+      "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "motorola-solutions-software-engineer-bangalore",
+      "company": "Motorola Solutions",
+      "role": "Software Engineer",
+      "location": "Bangalore, India",
+      "experience": "2+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Python",
+        "TypeScript",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Git",
+        "RAG",
+        "Data Structures",
+        "Algorithms"
+      ],
+      "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer_R69470",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-11-16",
+      "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "motorola-solutions-field-engineer-mumbai",
+      "company": "Motorola Solutions",
+      "role": "Field Engineer",
+      "location": "Mumbai, India (ZIN119)",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "System Design",
+        "Networking",
+        "SAP",
+        "Communication"
+      ],
+      "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Mumbai-India-ZIN119/Field-Engineer_R70723-1",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-11-16",
+      "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "motorola-solutions-field-engineer-location-name-kolkata",
+      "company": "Motorola Solutions",
+      "role": "Field Engineer",
+      "location": "Location Name Kolkata, India",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "System Design",
+        "Networking",
+        "SAP",
+        "Communication"
+      ],
+      "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Location-Name-Kolkata-India/Field-Engineer_R70722",
+      "sourceType": "official",
+      "source": "workday",
+      "postedOn": "2026-11-16",
+      "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "twilio-software-engineer-l1-remote-india",
+      "company": "Twilio",
+      "role": "Software Engineer (L1)",
+      "location": "Remote - India",
+      "experience": "1-2 years",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "Go",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Prometheus",
+        "Grafana",
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8319442",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-11-16",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-vehicle-diagnostic-content-author-hosur-road-bangalore",
+      "company": "Bosch",
+      "role": "Vehicle Diagnostic Content Author",
+      "location": "hosur road bangalore, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160673919",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-d365-f-o-scm-consultant-telengana",
+      "company": "Bosch",
+      "role": "D365 F&O SCM Consultant",
+      "location": "telengana, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160600567",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-bgsw-2026-windchill-plm-support-pune",
+      "company": "Bosch",
+      "role": "BGSW_2026_Windchill PLM Support",
+      "location": "pune, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160601748",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-bgsw-2026-ptc-workgroup-manager-pune",
+      "company": "Bosch",
+      "role": "BGSW_2026_PTC_Workgroup_Manager",
+      "location": "pune, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160601518",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "bosch-bgsw-2026-solidworks-process-management-pune",
+      "company": "Bosch",
+      "role": "BGSW_2026_Solidworks_Process management",
+      "location": "pune, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160601208",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-09",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "gitlab-benefits-analyst-bangalore",
+      "company": "GitLab",
+      "role": "Benefits Analyst",
+      "location": "Bangalore, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Go",
+        "Excel",
+        "Communication"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8864819002",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-09",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "elastic-marketing-coordinators-amer-fixed-term-bangalore",
+      "company": "Elastic",
+      "role": "Marketing Coordinators, AMER (Fixed Term)",
+      "location": "Bangalore, India",
+      "experience": "2-3 years",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "CSS",
+        "Elasticsearch",
+        "Tableau",
+        "Salesforce",
+        "Communication"
+      ],
+      "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8263255&gh_jid=8263255",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-10-08",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "state-street-state-street-internship-2027-technology-early-career-entry-program-",
+      "company": "State Street",
+      "role": "State Street Internship 2027 | Technology Early Career Entry Program | Bangalore & Hyderabad — Apply Now",
+      "location": "Bangalore / Hyderabad",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://freshershunt.in/state-street-internship-2027/",
+      "sourceType": "aggregator",
+      "source": "rss:freshershunt",
+      "postedOn": "2026-11-16",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": null,
+        "max": null,
+        "estimated": true,
+        "text": "Stipend (internship)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "india-india-job-market-today-3-144-government-posts-open-16-nov-2026-india",
+      "company": "India",
+      "role": "India Job Market Today: 3,144 Government Posts Open — 16 Nov 2026",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-16-nov-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-11-16",
+      "foundOn": "16 Nov",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 3,
+        "max": 6,
+        "estimated": true,
+        "text": "₹3–6 LPA (est.)"
+      },
+      "similar": 0
+    },
     {
       "id": "amazon-controls-engineer-controls-deployment-and-service-job-10599642-mumbai",
       "company": "Amazon",
@@ -23,7 +563,7 @@
       "postedOn": "2026-11-09",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -49,10 +589,10 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Systems-Engineering-Associate_JR368441",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-16",
+      "postedOn": "2026-11-15",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -80,10 +620,10 @@
       "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/BIOS-Firmware-Development-Engineer_JR0288239",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-22",
+      "postedOn": "2026-10-21",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -111,7 +651,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -137,7 +677,7 @@
       "source": "rss:freshershunt",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -169,7 +709,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -198,7 +738,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -227,7 +767,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -256,7 +796,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -287,7 +827,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -313,7 +853,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -339,7 +879,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -365,7 +905,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-15",
       "foundOn": "16 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
@@ -404,7 +944,7 @@
       "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Cloud-Software-Development-Engineer_JR0287692",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-04",
+      "postedOn": "2026-11-03",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -446,7 +986,7 @@
       "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/AI-Model-Optimization-Engineer_JR0288104-1",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-03",
+      "postedOn": "2026-11-02",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -477,7 +1017,7 @@
       "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/OS-Development-Engineer_JR0288723",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-04",
+      "postedOn": "2026-11-03",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -514,34 +1054,7 @@
       "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Diagnostics-Firmware-Engineer_JR0287984",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-22",
-      "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
-      "foundOn": "15 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "intel-lab-engineer-india",
-      "company": "Intel",
-      "role": "Lab Engineer",
-      "location": "India, Bangalore",
-      "experience": "2-3yrs",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Lab-Engineer_JR0288179",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-20",
+      "postedOn": "2026-10-21",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -568,7 +1081,7 @@
       "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Memory-Electrical-Validation-Engineer_JR0287714",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-13",
+      "postedOn": "2026-11-12",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -598,7 +1111,7 @@
       "applyUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Signal-Integrity-Engineer_JR0287938",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-23",
+      "postedOn": "2026-10-22",
       "careersUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -813,7 +1326,7 @@
       "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Associate-Technical-Program-Analyst_REF084974W",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-06",
+      "postedOn": "2026-11-05",
       "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -848,7 +1361,7 @@
       "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Software-Configuration-Management-Engineer---Hardware_JR2019717",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-31",
+      "postedOn": "2026-10-30",
       "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -880,7 +1393,7 @@
       "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Gurgaon-India/Analyst--Analytics---Metrics_R-280868",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-24",
+      "postedOn": "2026-10-23",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -971,7 +1484,7 @@
       "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/WFP-Analyst_REF090166W",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-14",
+      "postedOn": "2026-11-13",
       "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -1001,7 +1514,7 @@
       "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Analyst--Client-Success_REF089066W",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-23",
+      "postedOn": "2026-10-22",
       "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
       "foundOn": "15 Nov",
       "isNew": false,
@@ -1037,37 +1550,8 @@
       "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Research-Scientist---Nemotron-India_JR2028483",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-25",
+      "postedOn": "2026-10-24",
       "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
-      "foundOn": "15 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "mastercard-associate-specialist-implementation-pune",
-      "company": "Mastercard",
-      "role": "Associate Specialist, Implementation",
-      "location": "Pune, India",
-      "experience": "1 to 2 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Communication"
-      ],
-      "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Associate-Specialist--Implementation_R-292849",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-17",
-      "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "15 Nov",
       "isNew": false,
       "companyType": "product",
@@ -1582,7 +2066,7 @@
       "applyUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer_R0138600",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-14",
+      "postedOn": "2026-11-13",
       "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
       "foundOn": "14 Nov",
       "isNew": false,
@@ -1621,7 +2105,7 @@
       "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer-I_R69349",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-14",
+      "postedOn": "2026-11-13",
       "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
       "foundOn": "14 Nov",
       "isNew": false,
@@ -1650,7 +2134,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Business-Development-Representative_JR351752",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-14",
+      "postedOn": "2026-11-13",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "14 Nov",
       "isNew": false,
@@ -1679,7 +2163,7 @@
       "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Regional-Office-Chennai/Officer--Customer-Service--Consumer-Banking-Group_WD90486",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-10",
+      "postedOn": "2026-11-09",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "14 Nov",
       "isNew": false,
@@ -2152,7 +2636,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Assurance-Engineering-Platform-Developer-SMTS---LMTS_JR366292",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-14",
+      "postedOn": "2026-11-13",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2182,7 +2666,7 @@
       "applyUrl": "https://altera.wd1.myworkdayjobs.com/en-US/Altera/job/Bengaluru-Karnataka-India/Design-Engineer_R03282",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-31",
+      "postedOn": "2026-10-30",
       "careersUrl": "https://altera.wd1.myworkdayjobs.com/en-US/Altera",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2273,7 +2757,7 @@
       "applyUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore-Nova/Cyber-Detection-Engineer_R266699",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-24",
+      "postedOn": "2026-10-23",
       "careersUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2307,7 +2791,7 @@
       "applyUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore-Nova/Cyber-Threat-Intelligence-Analyst_R266701",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-24",
+      "postedOn": "2026-10-23",
       "careersUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2346,7 +2830,7 @@
       "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Hyderabad---Phoenix-Aquila-India/Software-Engineer---IT-Enterprise-Applications_JR112270",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-07",
+      "postedOn": "2026-11-06",
       "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2405,7 +2889,7 @@
       "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Analyst--Risk-Management_R-294790",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-31",
+      "postedOn": "2026-10-30",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2437,7 +2921,7 @@
       "applyUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/India-Gandhinagar/Associate-Buyer--Procurement_R267456",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-24",
+      "postedOn": "2026-10-23",
       "careersUrl": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2804,7 +3288,7 @@
       "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Data-Analyst_R0000431066",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-13",
+      "postedOn": "2026-11-12",
       "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2839,7 +3323,7 @@
       "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/BangaloreIndia/Analyst---Facility-Engineering---Asset-Management_R0000480538",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-13",
+      "postedOn": "2026-11-12",
       "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -2952,7 +3436,7 @@
       "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Software-Engineer_2643047",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-06",
+      "postedOn": "2026-11-05",
       "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -3001,7 +3485,7 @@
       "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/AI-Engineer---Developer--Cloud---Communications-_R70675",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-13",
+      "postedOn": "2026-11-12",
       "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -3032,7 +3516,7 @@
       "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Business-Systems-Analyst_R69563",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-23",
+      "postedOn": "2026-10-22",
       "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -3122,7 +3606,7 @@
       "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Gurgaon-India/Associate-Analyst--Insights---Enablement_R-293097",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-06",
+      "postedOn": "2026-11-05",
       "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -3151,7 +3635,7 @@
       "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Chennai-DBIL/Officer--Enterprise-Wise-Screening-and-Services--Consumer-Banking-Group_WD90654",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-13",
+      "postedOn": "2026-11-12",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -3271,7 +3755,7 @@
       "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Analyst--Algorithm-Research---Development_2638559",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-06",
+      "postedOn": "2026-11-05",
       "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -3305,7 +3789,7 @@
       "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Global-Trade-Compliance-Analyst_2641290",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-30",
+      "postedOn": "2026-10-29",
       "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
       "foundOn": "13 Nov",
       "isNew": false,
@@ -3484,7 +3968,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Marketing-Technology-Operations-Specialist_JR365028-1",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-05",
+      "postedOn": "2026-11-04",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -3727,32 +4211,6 @@
       "similar": 0
     },
     {
-      "id": "bosch-in-rbin-senior-engineer-product-development-ps-cc-bengaluru",
-      "company": "Bosch",
-      "role": "IN_RBIN_Senior Engineer_Product Development_PS-CC",
-      "location": "Bengaluru, KA, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000159544369",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-04",
-      "foundOn": "12 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "amazon-support-ops-specialist-support-operations-level-3-job-10575503-bengaluru",
       "company": "Amazon",
       "role": "Support Ops Specialist, Support Operations (Level 3) (Job 10575503)",
@@ -3794,7 +4252,7 @@
       "keywords": [
         "Salesforce"
       ],
-      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Business-Development-Representative_JR351732",
+      "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Business-Development-Representative_JR362074",
       "sourceType": "official",
       "source": "workday",
       "postedOn": "2026-11-16",
@@ -3832,7 +4290,7 @@
       "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Global-Trade-Compliance-Analyst_JR2028679",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-05",
+      "postedOn": "2026-11-04",
       "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -3861,7 +4319,7 @@
       "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Pune/Associate--Specialist--Credit-Analysis--Corporate-Banking_WD87967",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-05",
+      "postedOn": "2026-11-04",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -3890,7 +4348,7 @@
       "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Mumbai/Associate--Specialist--Credit-Analyst--Institutional-Banking-Group_WD89531",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-05",
+      "postedOn": "2026-11-04",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -4393,47 +4851,8 @@
       "applyUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/Tower-02-Manyata-Embassy-Business-Park-Racenahali--Nagawara-Villages-Outer-Ring-Rd-Bangalore-540065/Engineer---Target-India_R0000453035",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-12",
+      "postedOn": "2026-11-11",
       "careersUrl": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
-      "foundOn": "12 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "mastercard-associate-analyst-analytics-metrics-navi-mumbai",
-      "company": "Mastercard",
-      "role": "Associate Analyst, Analytics & Metrics",
-      "location": "Navi Mumbai, India (Finicity)",
-      "experience": "3-4 years",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Python",
-        "SQL",
-        "Spark",
-        "Databricks",
-        "Git",
-        "pandas",
-        "NumPy",
-        "Power BI",
-        "Tableau",
-        "Excel",
-        "Communication"
-      ],
-      "applyUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Associate-Analyst--Analytics---Metrics_R-293135",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-10-17",
-      "careersUrl": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers",
       "foundOn": "12 Nov",
       "isNew": false,
       "companyType": "product",
@@ -4550,10 +4969,10 @@
         "AI/ML"
       ],
       "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000161066448",
+      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000161724733",
       "sourceType": "official",
       "source": "smartrecruiters",
-      "postedOn": "2026-11-11",
+      "postedOn": "2026-11-16",
       "foundOn": "12 Nov",
       "isNew": false,
       "companyType": "product",
@@ -4608,7 +5027,7 @@
       "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Hyderabad---Phoenix-Aquila-India/AI-Ops-Solution-Intake---Feasibility-Analyst_JR114208",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-28",
+      "postedOn": "2026-10-27",
       "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -4652,7 +5071,7 @@
       "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Software-Engineer--Full-Stack-_2636690",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-28",
+      "postedOn": "2026-10-27",
       "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -4817,35 +5236,8 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Social-Experience-Analyst_JR367933",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-12",
+      "postedOn": "2026-11-11",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
-      "foundOn": "12 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "dbs-tech-india-associate-specialist-digital-marketing-group-marketing-and-commun",
-      "company": "DBS Tech India",
-      "role": "Associate, Specialist, Digital Marketing, Group Marketing and Communications",
-      "location": "Mumbai",
-      "experience": "Entry level",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Mumbai/Associate--Specialist--Digital-Marketing--Group-Marketing-and-Communications_WD90114",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-04",
-      "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "12 Nov",
       "isNew": false,
       "companyType": "product",
@@ -4957,7 +5349,7 @@
       "applyUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/XMLNAME-2027-Intern---Research-PhD-Intern_R173016",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-20",
+      "postedOn": "2026-10-19",
       "careersUrl": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -4984,7 +5376,7 @@
       "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Finance-Intern_R69750",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-28",
+      "postedOn": "2026-10-27",
       "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -5015,7 +5407,7 @@
       "applyUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Bengaluru-India/Validation-Analyst_R-01368226",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-21",
+      "postedOn": "2026-10-20",
       "careersUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers",
       "foundOn": "12 Nov",
       "isNew": false,
@@ -5105,7 +5497,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Technical-Business-Analyst--Product---Pricing-Operations_JR366420",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-14",
+      "postedOn": "2026-11-13",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "11 Nov",
       "isNew": false,
@@ -5197,7 +5589,7 @@
       "applyUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Chennai-India/Specialist--Technology---Software_2641137",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-10-24",
+      "postedOn": "2026-10-23",
       "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
       "foundOn": "11 Nov",
       "isNew": false,
@@ -5238,7 +5630,7 @@
       "applyUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer-Golang-Java-Data-Structures-Algorithms_R68250",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-04",
+      "postedOn": "2026-11-03",
       "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers",
       "foundOn": "11 Nov",
       "isNew": false,
@@ -5683,7 +6075,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Systems-Engineer----Workday-Platform_JR364391",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-11",
+      "postedOn": "2026-11-10",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "11 Nov",
       "isNew": false,
@@ -5720,7 +6112,7 @@
       "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Hyderabad---Phoenix-Aquila-India/Associate-Engineer--IT-Eng-System-Mgr_JR112672",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-11",
+      "postedOn": "2026-11-10",
       "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "11 Nov",
       "isNew": false,
@@ -5750,7 +6142,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Global-Support-Contract-Specialist--PST-Time-Zone-_JR355394",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-11",
+      "postedOn": "2026-11-10",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "11 Nov",
       "isNew": false,
@@ -5993,7 +6385,7 @@
       "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Hyderabad---DTI-Skyview-SEZ/Analyst--Fullstack-develoeper_WD89699",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-11",
+      "postedOn": "2026-11-10",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "10 Nov",
       "isNew": false,
@@ -6114,7 +6506,7 @@
       "applyUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Hyderabad---Phoenix-Aquila-India/Engineer--IT--AI-Enablement_JR115271",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-03",
+      "postedOn": "2026-11-02",
       "careersUrl": "https://micron.wd1.myworkdayjobs.com/en-US/External",
       "foundOn": "10 Nov",
       "isNew": false,
@@ -6144,7 +6536,7 @@
       "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Mumbai/Analyst--Generalist--Business-Management-Support--Global-Financial-Markets_WD89475",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-11",
+      "postedOn": "2026-11-10",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "10 Nov",
       "isNew": false,
@@ -6173,7 +6565,7 @@
       "applyUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Bangalore/Officer--Personal-Banker--Corporate-Salary--Consumer-Banking-Group_WD90461",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-11",
+      "postedOn": "2026-11-10",
       "careersUrl": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers",
       "foundOn": "10 Nov",
       "isNew": false,
@@ -6183,375 +6575,6 @@
         "max": 9,
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "thermo-fisher-scientific-customer-service-representative-ii-bangalore",
-      "company": "Thermo Fisher Scientific",
-      "role": "Customer Service Representative II",
-      "location": "Bangalore, India",
-      "experience": "2-3years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Oracle",
-        "SAP",
-        "Communication"
-      ],
-      "applyUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Bangalore-India/Customer-Service-Representative-II_R-01373615-1",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-03",
-      "careersUrl": "https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "okta-payroll-accountant-bengaluru",
-      "company": "Okta",
-      "role": "Payroll Accountant",
-      "location": "Bengaluru, India",
-      "experience": "2-4 years",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "HTML",
-        "Machine Learning",
-        "Excel",
-        "Communication"
-      ],
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8323989?gh_jid=8323989",
-      "sourceType": "official",
-      "source": "greenhouse",
-      "postedOn": "2026-11-02",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "india-india-job-market-today-j-k-bank-opens-1-356-posts-10-nov-2026-india",
-      "company": "India",
-      "role": "India Job Market Today: J&K Bank opens 1,356 posts — 10 Nov 2026",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-10-nov-2026/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-11-10",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "unknown",
-      "salary": {
-        "min": 3,
-        "max": 6,
-        "estimated": true,
-        "text": "₹3–6 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "amazon-data-center-operations-tech-data-center-operations-dco-job-10568655-mumba",
-      "company": "Amazon",
-      "role": "Data Center Operations Tech, Data Center Operations (DCO) (Job 10568655)",
-      "location": "Mumbai, Maharashtra, IND",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "DevOps"
-      ],
-      "keywords": [
-        "AWS"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10568655/data-center-operations-tech-data-center-operations-dco",
-      "sourceType": "official",
-      "source": "amazon",
-      "postedOn": "2026-10-05",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "amazon-system-development-engineer-edgeai-hw-compute-group-job-10573481-bengalur",
-      "company": "Amazon",
-      "role": "System Development Engineer - EdgeAI, HW Compute Group (Job 10573481)",
-      "location": "Bengaluru, Karnataka, IND",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "AI/ML",
-        "DevOps",
-        "Python"
-      ],
-      "keywords": [
-        "Python",
-        "C++",
-        "CI/CD",
-        "Linux"
-      ],
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10573481/system-development-engineer-edgeai-hw-compute-group",
-      "sourceType": "official",
-      "source": "amazon",
-      "postedOn": "2026-10-08",
-      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-automotive-diagnostic-and-troubleshooting-engineer-for-ev-hev-systems-ban-",
-      "company": "Bosch",
-      "role": "Automotive Diagnostic and troubleshooting Engineer for EV & HEV Systems - BAN",
-      "location": "bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160675170",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-embedded-linux-ect-coimbatore",
-      "company": "Bosch",
-      "role": "Embedded_Linux_ECT",
-      "location": "coimbatore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Linux"
-      ],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160677639",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-automotive-systems-diagnostic-and-troubleshooting-engineer-grade-x-otx-odx",
-      "company": "Bosch",
-      "role": "Automotive Systems Diagnostic and troubleshooting Engineer (Grade X & OTX/ODX)",
-      "location": "bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160675673",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-typhoon-hil-testing-engineer-bangalore",
-      "company": "Bosch",
-      "role": "Typhoon HIL Testing Engineer",
-      "location": "bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160603558",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-linux-infrastructure-automation-engineer-ansible-bangalore",
-      "company": "Bosch",
-      "role": "Linux Infrastructure Automation Engineer (Ansible)",
-      "location": "bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps",
-        "Python"
-      ],
-      "keywords": [
-        "Ansible",
-        "Linux"
-      ],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160603388",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-technical-illustrator-pune",
-      "company": "Bosch",
-      "role": "Technical Illustrator",
-      "location": "pune, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160601710",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-full-stack-developer-bangalore",
-      "company": "Bosch",
-      "role": "Full Stack Developer",
-      "location": "bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160600719",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "bosch-bgsw-2026-sap-hcm-payroll-time-bangalore",
-      "company": "Bosch",
-      "role": "BGSW_2026_SAP_HCM_Payroll&Time",
-      "location": "bangalore, India",
-      "experience": "Entry level",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "SAP"
-      ],
-      "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000160601968",
-      "sourceType": "official",
-      "source": "smartrecruiters",
-      "postedOn": "2026-11-09",
-      "foundOn": "10 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
       },
       "similar": 0
     }
