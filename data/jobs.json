@@ -1,7 +1,241 @@
 {
-  "refreshedAt": "2026-11-21T02:54:34+05:30",
-  "nextRefreshAt": "2026-11-21T06:57:00+05:30",
+  "refreshedAt": "2026-11-21T13:52:13+05:30",
+  "nextRefreshAt": "2026-11-21T18:57:00+05:30",
   "jobs": [
+    {
+      "id": "amazon-software-development-engineer-finance-technology-job-10585542-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer, Finance Technology (Job 10585542)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Java",
+        "C++",
+        "C#"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10585542/software-development-engineer-finance-technology",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-23",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "amazon-software-development-engineer-finance-technology-job-10583673-hyderabad",
+      "company": "Amazon",
+      "role": "Software Development Engineer, Finance Technology (Job 10583673)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Java",
+        "C++",
+        "C#"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10583673/software-development-engineer-finance-technology",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-23",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "amazon-data-engineer-i-spiv-data-engineering-job-10597397-bengaluru",
+      "company": "Amazon",
+      "role": "Data Engineer I, SPIV Data Engineering (Job 10597397)",
+      "location": "Bengaluru, Karnataka, IND",
+      "experience": "1+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE",
+        "Python"
+      ],
+      "keywords": [
+        "Python",
+        "Scala",
+        "SQL",
+        "PL/SQL",
+        "ETL"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10597397/data-engineer-i-spiv-data-engineering",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-11-05",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 15,
+        "max": 35,
+        "estimated": true,
+        "text": "₹15–35 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "twilio-technical-support-engineer-2-remote-india",
+      "company": "Twilio",
+      "role": "Technical Support Engineer 2",
+      "location": "Remote - India",
+      "experience": "3+ yrs",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "REST",
+        "Jira"
+      ],
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8028473",
+      "sourceType": "official",
+      "source": "greenhouse",
+      "postedOn": "2026-11-05",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 8,
+        "max": 20,
+        "estimated": true,
+        "text": "₹8–20 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "amazon-support-ops-specialist-support-operations-level-3-job-10575489-hyderabad",
+      "company": "Amazon",
+      "role": "Support Ops Specialist, Support Operations (Level 3) (Job 10575489)",
+      "location": "Hyderabad, Telangana, IND",
+      "experience": "1+ yrs",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [
+        "Machine Learning"
+      ],
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10575489/support-ops-specialist-support-operations-level-3",
+      "sourceType": "official",
+      "source": "amazon",
+      "postedOn": "2026-10-12",
+      "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 1
+    },
+    {
+      "id": "servicenow-solution-sales-executive-bangalore",
+      "company": "ServiceNow",
+      "role": "Solution Sales Executive",
+      "location": "Bangalore, Karnataka, India",
+      "experience": "Entry level",
+      "category": "non-technical",
+      "tracks": [
+        "Non-tech"
+      ],
+      "keywords": [],
+      "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000162953394",
+      "sourceType": "official",
+      "source": "smartrecruiters",
+      "postedOn": "2026-11-21",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "product",
+      "salary": {
+        "min": 4,
+        "max": 9,
+        "estimated": true,
+        "text": "₹4–9 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "genesys-genesys-off-campus-drive-2027-associate-application-developer-salesforce",
+      "company": "Genesys",
+      "role": "Genesys Off Campus Drive 2027 | Associate Application Developer – Salesforce | Chennai — Apply Now",
+      "location": "Chennai",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [
+        "Salesforce"
+      ],
+      "applyUrl": "https://freshershunt.in/genesys-off-campus-drive-2027/",
+      "sourceType": "aggregator",
+      "source": "rss:freshershunt",
+      "postedOn": "2026-11-21",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 4,
+        "max": 10,
+        "estimated": true,
+        "text": "₹4–10 LPA (est.)"
+      },
+      "similar": 0
+    },
+    {
+      "id": "india-india-job-market-today-tcs-nqt-test-on-25-december-21-nov-2026-india",
+      "company": "India",
+      "role": "India Job Market Today: TCS NQT Test on 25 December — 21 Nov 2026",
+      "location": "India",
+      "experience": "Freshers",
+      "category": "technical",
+      "tracks": [
+        "SDE"
+      ],
+      "keywords": [],
+      "applyUrl": "https://offcampusjobs4u.com/india-job-market-today-21-nov-2026/",
+      "sourceType": "aggregator",
+      "source": "rss:offcampusjobs4u",
+      "postedOn": "2026-11-21",
+      "foundOn": "21 Nov",
+      "isNew": true,
+      "companyType": "unknown",
+      "salary": {
+        "min": 4,
+        "max": 10,
+        "estimated": true,
+        "text": "₹4–10 LPA (est.)"
+      },
+      "similar": 0
+    },
     {
       "id": "amazon-data-scientist-ii-aws-quick-job-10602065-chennai",
       "company": "Amazon",
@@ -27,39 +261,7 @@
       "postedOn": "2026-11-12",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "21 Nov",
-      "isNew": true,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "visa-analyst-data-production-in-bengaluru",
-      "company": "Visa",
-      "role": "Analyst, Data Production",
-      "location": "IN - Bengaluru, India",
-      "experience": "2+ yrs",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "SQL",
-        "Hadoop",
-        "Agile",
-        "Communication"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Analyst--Data-Production_REF090285W-1",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-21",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -87,10 +289,10 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Marketing-Technology-Operations-Specialist_JR365028-1",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-05",
+      "postedOn": "2026-11-04",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -131,7 +333,7 @@
       "postedOn": "2026-11-21",
       "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -170,7 +372,7 @@
       "source": "greenhouse",
       "postedOn": "2026-11-12",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -209,7 +411,7 @@
       "source": "greenhouse",
       "postedOn": "2026-10-21",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -246,7 +448,7 @@
       "source": "lever",
       "postedOn": "2026-11-18",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -272,7 +474,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -300,7 +502,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -326,7 +528,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -352,7 +554,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -381,7 +583,7 @@
       "postedOn": "2026-10-12",
       "careersUrl": "https://www.amazon.jobs/en/search?base_query=software+development+engineer&country=IND",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -389,7 +591,7 @@
         "estimated": true,
         "text": "₹4–9 LPA (est.)"
       },
-      "similar": 0
+      "similar": 1
     },
     {
       "id": "nvidia-global-trade-compliance-analyst-india",
@@ -416,7 +618,7 @@
       "postedOn": "2026-11-05",
       "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -447,7 +649,7 @@
       "postedOn": "2026-11-21",
       "careersUrl": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -475,7 +677,7 @@
       "source": "greenhouse",
       "postedOn": "2026-11-04",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": null,
@@ -505,7 +707,7 @@
       "source": "greenhouse",
       "postedOn": "2026-11-12",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -534,7 +736,7 @@
       "source": "lever",
       "postedOn": "2026-11-11",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -560,7 +762,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-11-05",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -598,7 +800,7 @@
       "postedOn": "2026-11-06",
       "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -632,7 +834,7 @@
       "postedOn": "2026-10-30",
       "careersUrl": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -661,7 +863,7 @@
       "source": "greenhouse",
       "postedOn": "2026-10-28",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -686,12 +888,12 @@
         "Tableau",
         "Communication"
       ],
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8346263",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8334053",
       "sourceType": "official",
       "source": "greenhouse",
       "postedOn": "2026-11-05",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -721,7 +923,7 @@
       "source": "greenhouse",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -747,7 +949,7 @@
       "source": "smartrecruiters",
       "postedOn": "2026-11-05",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 4,
@@ -779,7 +981,7 @@
       "source": "rss:freshershunt",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -805,7 +1007,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -831,7 +1033,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -861,7 +1063,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -887,7 +1089,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 15,
@@ -913,7 +1115,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -939,7 +1141,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -966,7 +1168,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "service",
       "salary": {
         "min": 3.5,
@@ -992,7 +1194,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "unknown",
       "salary": {
         "min": 4,
@@ -1018,7 +1220,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -1046,7 +1248,7 @@
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-20",
       "foundOn": "21 Nov",
-      "isNew": true,
+      "isNew": false,
       "companyType": "product",
       "salary": {
         "min": 8,
@@ -1206,7 +1408,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Associate-Technical-Support-Engineer_JR356515",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-21",
+      "postedOn": "2026-11-20",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "20 Nov",
       "isNew": false,
@@ -1626,33 +1828,6 @@
       "similar": 0
     },
     {
-      "id": "visa-financial-analyst-in-bengaluru",
-      "company": "Visa",
-      "role": "Financial Analyst",
-      "location": "IN - Bengaluru, India",
-      "experience": "2+ yrs",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Financial-Analyst_REF090735W-1",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-21",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "20 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "salesforce-social-experience-analyst-india-hyderabad",
       "company": "Salesforce",
       "role": "Social Experience Analyst",
@@ -1670,7 +1845,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Social-Experience-Analyst_JR367933",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-12",
+      "postedOn": "2026-11-11",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "20 Nov",
       "isNew": false,
@@ -1929,7 +2104,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Technical-Business-Analyst--Product---Pricing-Operations_JR366420",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-14",
+      "postedOn": "2026-11-13",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "20 Nov",
       "isNew": false,
@@ -3425,7 +3600,7 @@
       "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Global-Support-Contract-Specialist--PST-Time-Zone-_JR355394",
       "sourceType": "official",
       "source": "workday",
-      "postedOn": "2026-11-19",
+      "postedOn": "2026-11-18",
       "careersUrl": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
       "foundOn": "18 Nov",
       "isNew": false,
@@ -4400,50 +4575,6 @@
       "similar": 0
     },
     {
-      "id": "visa-sw-engineer-python-product-reliability-db-reliability-eng-1-to-2-years-exp-",
-      "company": "Visa",
-      "role": "SW Engineer (Python, Product Reliability / DB Reliability Eng - 1 to 2 years' exp only)",
-      "location": "IN - Bengaluru, India",
-      "experience": "1 to 2 years",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "Python"
-      ],
-      "keywords": [
-        "Java",
-        "Python",
-        "JavaScript",
-        "HTML",
-        "C++",
-        "SQL",
-        "MySQL",
-        "Ansible",
-        "Jenkins",
-        "CI/CD",
-        "Linux",
-        "Shell scripting",
-        "System Design",
-        "Prometheus",
-        "Grafana"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/SW-Engineer--Python--Product-Reliability---DB-Reliability-Eng---1-to-2-years--exp-only-_REF089081W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-17",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "17 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "bosch-mech-design-engineer-specialist-machine-building-station-design-industrial",
       "company": "Bosch",
       "role": "Mech Design Engineer (Specialist)- Machine Building, Station Design & Industrial Conveyors",
@@ -4518,36 +4649,6 @@
         "max": 20,
         "estimated": true,
         "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "visa-product-analyst-in-bengaluru",
-      "company": "Visa",
-      "role": "Product Analyst",
-      "location": "IN - Bengaluru, India",
-      "experience": "2+ yrs",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Communication",
-        "Stakeholder management"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Product-Analyst_REF090603W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-18",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "17 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
       },
       "similar": 0
     },
@@ -5039,36 +5140,6 @@
         "text": "₹8–20 LPA (est.)"
       },
       "similar": 1
-    },
-    {
-      "id": "gitlab-benefits-analyst-bangalore",
-      "company": "GitLab",
-      "role": "Benefits Analyst",
-      "location": "Bangalore, India",
-      "experience": "Entry level",
-      "category": "non-technical",
-      "tracks": [
-        "Non-tech"
-      ],
-      "keywords": [
-        "Go",
-        "Excel",
-        "Communication"
-      ],
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8864819002",
-      "sourceType": "official",
-      "source": "greenhouse",
-      "postedOn": "2026-10-09",
-      "foundOn": "16 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 4,
-        "max": 9,
-        "estimated": true,
-        "text": "₹4–9 LPA (est.)"
-      },
-      "similar": 0
     },
     {
       "id": "elastic-marketing-coordinators-amer-fixed-term-bangalore",
@@ -5780,36 +5851,6 @@
       "similar": 0
     },
     {
-      "id": "visa-associate-technical-program-analyst-3-4-years-of-experience-in-project-mana",
-      "company": "Visa",
-      "role": "Associate Technical Program Analyst (3-4 years of experience in Project Management, Workplace Portfolio, Stakeholder Mgt.)",
-      "location": "IN - Bengaluru, India",
-      "experience": "3-4 years",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Agile",
-        "Communication"
-      ],
-      "applyUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/IN---Bengaluru-India/Associate-Technical-Program-Analyst_REF084974W",
-      "sourceType": "official",
-      "source": "workday",
-      "postedOn": "2026-11-06",
-      "careersUrl": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
-      "foundOn": "15 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
       "id": "nvidia-software-configuration-management-engineer-hardware-india",
       "company": "NVIDIA",
       "role": "Software Configuration Management Engineer – Hardware",
@@ -6469,63 +6510,6 @@
       ],
       "keywords": [],
       "applyUrl": "https://offcampusjobs4u.com/hpe-technical-support-engineer-associate/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-11-13",
-      "foundOn": "14 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 8,
-        "max": 20,
-        "estimated": true,
-        "text": "₹8–20 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "rubrik-rubrik-recruitment-2026-software-engineer-cloud-azure-india",
-      "company": "Rubrik",
-      "role": "Rubrik Recruitment 2026 – Software Engineer Cloud Azure",
-      "location": "India",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE",
-        "DevOps"
-      ],
-      "keywords": [
-        "Azure"
-      ],
-      "applyUrl": "https://offcampusjobs4u.com/rubrik-recruitment-2026-software-engineer-cloud-azure/",
-      "sourceType": "aggregator",
-      "source": "rss:offcampusjobs4u",
-      "postedOn": "2026-11-13",
-      "foundOn": "14 Nov",
-      "isNew": false,
-      "companyType": "product",
-      "salary": {
-        "min": 15,
-        "max": 35,
-        "estimated": true,
-        "text": "₹15–35 LPA (est.)"
-      },
-      "similar": 0
-    },
-    {
-      "id": "american-express-american-express-recruitment-2026-software-engineer-i-chennai-c",
-      "company": "American Express",
-      "role": "American Express Recruitment 2026 | Software Engineer I | Chennai",
-      "location": "Chennai",
-      "experience": "Freshers",
-      "category": "technical",
-      "tracks": [
-        "SDE"
-      ],
-      "keywords": [
-        "Express"
-      ],
-      "applyUrl": "https://offcampusjobs4u.com/american-express-recruitment-2026-software-engineer-i-chennai/",
       "sourceType": "aggregator",
       "source": "rss:offcampusjobs4u",
       "postedOn": "2026-11-13",
